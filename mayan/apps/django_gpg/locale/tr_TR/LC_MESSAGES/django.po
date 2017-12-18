@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Nurgül Özkan <nurgulozkan@hotmail.com>, 2017
+# serhatcan77 <serhat_can@yahoo.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-06-22 19:40+0000\n"
+"Last-Translator: serhatcan77 <serhat_can@yahoo.com>\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/rosarior/mayan-edms/language/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:31
+msgid "Django GPG"
+msgstr "Django GPG"
+
+#: apps.py:47 apps.py:50 forms.py:17
+msgid "Key ID"
+msgstr "Anahtar Kimliği"
+
+#: apps.py:48 apps.py:61 forms.py:19 models.py:52
+msgid "User ID"
+msgstr "Kullanıcı adı"
+
+#: apps.py:51 forms.py:34 models.py:55
+msgid "Type"
+msgstr "Tip"
+
+#: apps.py:53 forms.py:23 models.py:36
+msgid "Creation date"
+msgstr "Oluşturulma tarihi"
+
+#: apps.py:56 forms.py:27 models.py:40
+msgid "Expiration date"
+msgstr "Son kullanma tarihi"
+
+#: apps.py:57
+msgid "No expiration"
+msgstr "Süresiz"
+
+#: apps.py:59 forms.py:32 models.py:47
+msgid "Length"
+msgstr "Uzunluk"
+
+#: forms.py:28
+msgid "None"
+msgstr "Yok"
+
+#: forms.py:31 models.py:44
+msgid "Fingerprint"
+msgstr "Parmak izi"
+
+#: forms.py:33 models.py:50
+msgid "Algorithm"
+msgstr "Algoritma"
+
+#: forms.py:47
+msgid "Term"
+msgstr "Terim"
+
+#: forms.py:48
+msgid "Name, e-mail, key ID or key fingerprint to look for."
+msgstr "İsim, e-posta, anahtar kimliği veya anahtar parmak izi arayın."
+
+#: links.py:13
+msgid "Delete"
+msgstr "Sil"
+
+#: links.py:17
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: links.py:21
+msgid "Download"
+msgstr "İndir"
+
+#: links.py:25 permissions.py:28
+msgid "Query keyservers"
+msgstr "Sorgu anahtar sunucuları"
+
+#: links.py:29
+msgid "Import"
+msgstr "İçeri Al"
+
+#: links.py:34 permissions.py:7
+msgid "Key management"
+msgstr "Anahtar yönetimi"
+
+#: links.py:37
+msgid "Upload key"
+msgstr "Yükleme anahtarı"
+
+#: links.py:41 views.py:160
+msgid "Private keys"
+msgstr "Özel anahtarlar"
+
+#: links.py:45 views.py:149
+msgid "Public keys"
+msgstr "Genel anahtarlar"
+
+#: literals.py:6 literals.py:14
+msgid "Public"
+msgstr "Herkese açık"
+
+#: literals.py:7 literals.py:15
+msgid "Secret"
+msgstr "Gizli"
+
+#: literals.py:23 literals.py:28
+msgid "RSA"
+msgstr "RSA"
+
+#: literals.py:24
+msgid "DSA"
+msgstr "DSA"
+
+#: literals.py:29
+msgid "Elgamal"
+msgstr "Elgamal"
+
+#: literals.py:43
+msgid "Bad signature."
+msgstr "Kötü imza."
+
+#: literals.py:46
+msgid "Document not signed or invalid signature."
+msgstr "Belge imzalanmamış veya geçersiz imza."
+
+#: literals.py:49
+msgid "Signature error."
+msgstr "İmza hatası."
+
+#: literals.py:53
+msgid "Document is signed but no public key is available for verification."
+msgstr "Belge imzalanmış ancak doğrulama için genel anahtar bulunmamaktadır."
+
+#: literals.py:58
+msgid "Document is signed, and signature is good."
+msgstr "Belge imzalanmış ve imza iyi."
+
+#: literals.py:61
+msgid "Document is signed with a valid signature."
+msgstr "Belge geçerli bir imza ile imzalanmıştır."
+
+#: models.py:32
+msgid "ASCII armored version of the key."
+msgstr "Anahtarın ASCII şifreli versiyonu."
+
+#: models.py:33
+msgid "Key data"
+msgstr "Anahtar verisi"
+
+#: models.py:61
+msgid "Key"
+msgstr "Anahtar"
+
+#: models.py:62
+msgid "Keys"
+msgstr "Anahtarlar"
+
+#: models.py:68
+msgid "Invalid key data"
+msgstr "Geçersiz anahtar verileri"
+
+#: models.py:71
+msgid "Key already exists."
+msgstr "Anahtar zaten var."
+
+#: permissions.py:10
+msgid "Delete keys"
+msgstr "Tuşları sil"
+
+#: permissions.py:13
+msgid "Download keys"
+msgstr "Tuşları indir"
+
+#: permissions.py:16
+msgid "Import keys from keyservers"
+msgstr "Anahtarları sunuculardan içe aktarma"
+
+#: permissions.py:19
+msgid "Use keys to sign content"
+msgstr "İçeriği imzalamak için anahtarları kullanın"
+
+#: permissions.py:22
+msgid "Upload keys"
+msgstr "Anahtarları yükle"
+
+#: permissions.py:25
+msgid "View keys"
+msgstr "Anahtarları görüntüle"
+
+#: settings.py:10
+msgid "Signatures"
+msgstr "İmzalar"
+
+#: settings.py:15
+msgid "Home directory used to store keys as well as configuration files."
+msgstr "Tuşları ve yapılandırma dosyalarını depolamak için kullanılan giriş dizini."
+
+#: settings.py:21
+msgid "Path to the GPG binary."
+msgstr "GPG ikili yolu."
+
+#: settings.py:25
+msgid "Keyserver used to query for keys."
+msgstr "Anahtar sunucusu anahtarları sorgulamak için kullanılır."
+
+#: views.py:38
+#, python-format
+msgid "Delete key: %s"
+msgstr "%s anahtarını sil"
+
+#: views.py:48
+#, python-format
+msgid "Details for key: %s"
+msgstr "%s Anahtarın ayrıntıları: "
+
+#: views.py:68
+#, python-format
+msgid "Import key ID: %s?"
+msgstr "Anahtar kimliğini içe aktar: %s?"
+
+#: views.py:69
+msgid "Import key"
+msgstr "Anahtarı içe aktar"
+
+#: views.py:78
+#, python-format
+msgid "Unable to import key: %(key_id)s; %(error)s"
+msgstr "Anahtar içe aktarılamıyor: %(key_id)s; %(error)s"
+
+#: views.py:85
+#, python-format
+msgid "Successfully received key: %(key_id)s"
+msgstr "Anahtar başarıyla alındı: %(key_id)s"
+
+#: views.py:107
+msgid "Search"
+msgstr "Arama"
+
+#: views.py:109
+msgid "Query key server"
+msgstr "Anahtar sorgulama sunucusu"
+
+#: views.py:119
+msgid "Key query results"
+msgstr "Anahtar sorgu sonuçları"
+
+#: views.py:138
+msgid "Upload new key"
+msgstr "Yeni anahtar yükle"

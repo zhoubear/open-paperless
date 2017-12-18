@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2017
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2014-2015
+# Pierre Lhoste <inactive+peterhost@transifex.com>, 2012
+# SadE54 <yannsuisini@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-07-24 19:52+0000\n"
+"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/rosarior/mayan-edms/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:16
+msgid "Dynamic search"
+msgstr "Recherche dynamique"
+
+#: classes.py:27
+msgid "No search model matching the query"
+msgstr "Aucun modèle de recherche correspondant à la requête"
+
+#: forms.py:9
+msgid "Match all"
+msgstr "Correspond à tous"
+
+#: forms.py:10
+msgid ""
+"When checked, only results that match all fields will be returned. When "
+"unchecked results that match at least one field will be returned."
+msgstr "Lorsqu'il est vérifié, seuls les résultats correspondant à tous les champs seront renvoyés. Lorsque les résultats non vérifiés qui correspondent à au moins un champ seront retournés."
+
+#: forms.py:29
+msgid "Search terms"
+msgstr "Termes de recherche"
+
+#: links.py:8 settings.py:8 views.py:52 views.py:63
+msgid "Search"
+msgstr "Recherche"
+
+#: links.py:11 views.py:77
+msgid "Advanced search"
+msgstr "Recherche avancée"
+
+#: links.py:15
+msgid "Search again"
+msgstr "Rechercher à nouveau"
+
+#: settings.py:11
+msgid "Maximum amount search hits to fetch and display."
+msgstr "Nombre maximum de résultats de recherche à traiter et afficher."
+
+#: views.py:25
+#, python-format
+msgid "Search results for: %s"
+msgstr "Résultats de recherche pour: %s"
+
+#: views.py:65
+#, python-format
+msgid "Search for: %s"
+msgstr "Recherche pour: %s"

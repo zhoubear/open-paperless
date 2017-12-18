@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2016-2017
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-08-27 16:32+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: French (http://www.transifex.com/rosarior/mayan-edms/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:15 links.py:35 links.py:39
+msgid "ACLs"
+msgstr "Droits"
+
+#: apps.py:25 links.py:48 models.py:43 workflow_actions.py:48
+msgid "Permissions"
+msgstr "Permissions"
+
+#: apps.py:29 models.py:47
+msgid "Role"
+msgstr "Rôle"
+
+#: links.py:31
+msgid "Delete"
+msgstr "Suppression"
+
+#: links.py:43
+msgid "New ACL"
+msgstr "Nouveau droit"
+
+#: managers.py:57 managers.py:86
+#, python-format
+msgid "Insufficient access for: %s"
+msgstr ""
+
+#: models.py:54
+msgid "Access entry"
+msgstr "Entrée d'accès"
+
+#: models.py:55
+msgid "Access entries"
+msgstr "Entrées d'accès"
+
+#: models.py:59
+#, python-format
+msgid "Permissions \"%(permissions)s\" to role \"%(role)s\" for \"%(object)s\""
+msgstr "Permissions \"%(permissions)s\" du rôle \"%(role)s\" pour \"%(object)s\""
+
+#: models.py:76
+msgid "None"
+msgstr "Aucun"
+
+#: permissions.py:7
+msgid "Access control lists"
+msgstr "Liste de contrôle des accès"
+
+#: permissions.py:10
+msgid "Edit ACLs"
+msgstr "Editer les droits"
+
+#: permissions.py:13
+msgid "View ACLs"
+msgstr "voir les droits d'accès"
+
+#: serializers.py:24 serializers.py:132
+msgid ""
+"API URL pointing to the list of permissions for this access control list."
+msgstr "URL de l'API indiquant la liste des autorisations pour cette liste de contrôle d'accès."
+
+#: serializers.py:57
+msgid ""
+"API URL pointing to a permission in relation to the access control list to "
+"which it is attached. This URL is different than the canonical workflow URL."
+msgstr "URL de l'API pointant vers une autorisation en relation avec la liste de contrôle d'accès à laquelle elle est attachée. Cette URL est différente de l'URL du flux de travail canonique."
+
+#: serializers.py:87
+msgid "Primary key of the new permission to grant to the access control list."
+msgstr "Clé principale de la nouvelle autorisation pour autoriser à la liste de contrôle d'accès."
+
+#: serializers.py:111 serializers.py:187
+#, python-format
+msgid "No such permission: %s"
+msgstr "Aucune autorisation de ce genre: %s"
+
+#: serializers.py:126
+msgid ""
+"Comma separated list of permission primary keys to grant to this access "
+"control list."
+msgstr "Liste séparée par des virgules des clés primaires d'autorisation pour autoriser à cette liste de contrôle d'accès."
+
+#: serializers.py:138
+msgid "Primary keys of the role to which this access control list binds to."
+msgstr "Clés primaires du rôle auquel cette liste de contrôle d'accès se rattache."
+
+#: views.py:74
+#, python-format
+msgid "New access control lists for: %s"
+msgstr "Nouvelle liste de contrôle d'accès pour: %s"
+
+#: views.py:101
+#, python-format
+msgid "Delete ACL: %s"
+msgstr "Supprimer le droit: %s"
+
+#: views.py:139
+#, python-format
+msgid "Access control lists for: %s"
+msgstr "Liste des contrôle d'accès pour: %s"
+
+#: views.py:151
+msgid "Available permissions"
+msgstr "Permissions disponibles"
+
+#: views.py:152
+msgid "Granted permissions"
+msgstr "Permissions autorisées"
+
+#: views.py:207
+#, python-format
+msgid "Role \"%(role)s\" permission's for \"%(object)s\""
+msgstr "Permission du rôle \"%(role)s\" pour \"%(object)s\"@"
+
+#: views.py:227
+msgid "Disabled permissions are inherited from a parent object."
+msgstr "La désactivation de permission est hérité de l'objet parent"
+
+#: workflow_actions.py:25
+msgid "Object type"
+msgstr ""
+
+#: workflow_actions.py:28
+msgid "Type of the object for which the access will be modified."
+msgstr ""
+
+#: workflow_actions.py:34
+msgid "Object ID"
+msgstr ""
+
+#: workflow_actions.py:37
+msgid ""
+"Numeric identifier of the object for which the access will be modified."
+msgstr ""
+
+#: workflow_actions.py:42
+msgid "Roles"
+msgstr "Rôles"
+
+#: workflow_actions.py:44
+msgid "Roles whose access will be modified."
+msgstr ""
+
+#: workflow_actions.py:51
+msgid ""
+"Permissions to grant/revoke to/from the role for the object selected above."
+msgstr ""
+
+#: workflow_actions.py:59
+msgid "Grant access"
+msgstr ""
+
+#: workflow_actions.py:129
+msgid "Revoke access"
+msgstr ""

@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Nurgül Özkan <nurgulozkan@hotmail.com>, 2017
+# serhatcan77 <serhat_can@yahoo.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-07-31 19:17+0000\n"
+"Last-Translator: serhatcan77 <serhat_can@yahoo.com>\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/rosarior/mayan-edms/language/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:20 permissions.py:7 settings.py:12
+msgid "Converter"
+msgstr "Dönüştürücü"
+
+#: apps.py:27 models.py:40
+msgid "Order"
+msgstr "Sipariş"
+
+#: apps.py:29 models.py:70
+msgid "Transformation"
+msgstr "Transformasyon"
+
+#: apps.py:33 models.py:50
+msgid "Arguments"
+msgstr "Argümanlar"
+
+#: backends/python.py:181 backends/python.py:187
+#, python-format
+msgid "Exception determining PDF page count; %s"
+msgstr "PDF sayfa sayısını belirleyen istisna; %s"
+
+#: backends/python.py:201
+#, python-format
+msgid "Exception determining page count using Pillow; %s"
+msgstr "Yastık kullanarak sayfa sayımını belirleyen istisna; %s"
+
+#: classes.py:102
+msgid "Not an office file format."
+msgstr "Ofis dosyası biçimi değil."
+
+#: classes.py:123
+msgid "LibreOffice not installed or not found."
+msgstr "LibreOffice kurulu değil veya bulunamadı."
+
+#: classes.py:312
+msgid "Crop"
+msgstr "Ekin"
+
+#: classes.py:325
+msgid "Flip"
+msgstr "Fiske"
+
+#: classes.py:336
+msgid "Gaussian blur"
+msgstr "Gauss bulanıklığı"
+
+#: classes.py:346
+msgid "Line art"
+msgstr "Çizgi resim"
+
+#: classes.py:357
+msgid "Mirror"
+msgstr "Ayna"
+
+#: classes.py:368
+msgid "Resize"
+msgstr "Yeniden boyutlandırma"
+
+#: classes.py:395
+msgid "Rotate"
+msgstr "Döndürme"
+
+#: classes.py:414
+msgid "Rotate 90 degrees"
+msgstr "90 derece döndür"
+
+#: classes.py:425
+msgid "Rotate 180 degrees"
+msgstr "180 derece döndür"
+
+#: classes.py:436
+msgid "Rotate 270 degrees"
+msgstr "270 derece döndür"
+
+#: classes.py:446
+msgid "Unsharp masking"
+msgstr "Keskin olmayan maskeleme"
+
+#: classes.py:462
+msgid "Zoom"
+msgstr "Yakınlaştırma"
+
+#: links.py:35
+msgid "Create new transformation"
+msgstr "Yeni dönüşüm oluştur"
+
+#: links.py:39
+msgid "Delete"
+msgstr "Sil"
+
+#: links.py:43
+msgid "Edit"
+msgstr "Düzenle"
+
+#: links.py:47 models.py:71
+msgid "Transformations"
+msgstr "Dönüşümler"
+
+#: models.py:38
+msgid ""
+"Order in which the transformations will be executed. If left unchanged, an "
+"automatic order value will be assigned."
+msgstr "Dönüşümlerin gerçekleştirileceği sıralama. Eğer değiştirilmeden bırakılırsa, otomatik sipariş değeri verilecektir."
+
+#: models.py:44
+msgid "Name"
+msgstr "İsim"
+
+#: models.py:48
+msgid ""
+"Enter the arguments for the transformation as a YAML dictionary. ie: "
+"{\"degrees\": 180}"
+msgstr "Dönüşüm için argümanları bir YAML sözlüğü olarak girin. Yani: {\"derece\": 180}"
+
+#: permissions.py:10
+msgid "Create new transformations"
+msgstr "Yeni dönüşüm oluştur"
+
+#: permissions.py:13
+msgid "Delete transformations"
+msgstr "Dönüşümleri sil"
+
+#: permissions.py:16
+msgid "Edit transformations"
+msgstr "Dönüşümleri düzenle"
+
+#: permissions.py:19
+msgid "View existing transformations"
+msgstr "Varolan dönüşümleri görüntüle"
+
+#: settings.py:15
+msgid "Graphics conversion backend to use."
+msgstr "Grafik dönüştürme kullanmak için arka uç."
+
+#: settings.py:34
+msgid "Configuration options for the graphics conversion backend."
+msgstr "Grafik dönüştürme arka plan yapılandırma seçenekleri."
+
+#: validators.py:22
+msgid "Enter a valid YAML value."
+msgstr "Geçerli bir YAML değeri girin."
+
+#: views.py:64
+#, python-format
+msgid "Delete transformation \"%(transformation)s\" for: %(content_object)s?"
+msgstr "\"%(transformation)s\" dönüşümünü sil: %(content_object)s?"
+
+#: views.py:116
+#, python-format
+msgid "Create new transformation for: %s"
+msgstr "%s için yeni bir dönüşüm oluştur: "
+
+#: views.py:166
+#, python-format
+msgid "Edit transformation \"%(transformation)s\" for: %(content_object)s"
+msgstr "\"%(transformation)s\" için dönüşüm değiştir: %(content_object)s"
+
+#: views.py:213
+#, python-format
+msgid "Transformations for: %s"
+msgstr "%sIçin dönüşümler: "

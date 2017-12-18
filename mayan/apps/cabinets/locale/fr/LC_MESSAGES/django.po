@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>, 2017\n"
+"Language-Team: French (https://www.transifex.com/rosarior/teams/13584/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:36 apps.py:76 apps.py:84 apps.py:87 forms.py:30 links.py:21
+#: menus.py:8 models.py:38 permissions.py:7 views.py:152
+msgid "Cabinets"
+msgstr "Armoires"
+
+#: links.py:27 links.py:38
+msgid "Remove from cabinets"
+msgstr "Retirer des armoires"
+
+#: links.py:31 links.py:35
+msgid "Add to cabinets"
+msgstr "Ajouter aux armoires"
+
+#: links.py:55
+msgid "Add new level"
+msgstr "Ajouter un nouveau niveau"
+
+#: links.py:60 views.py:38
+msgid "Create cabinet"
+msgstr "Créer une armoire"
+
+#: links.py:64
+msgid "Delete"
+msgstr "Supprimer"
+
+#: links.py:67
+msgid "Edit"
+msgstr "Modifier"
+
+#: links.py:71
+msgid "All"
+msgstr "Tout"
+
+#: links.py:74
+msgid "Details"
+msgstr "Détails"
+
+#: models.py:26 search.py:16
+msgid "Label"
+msgstr "Libellé"
+
+#: models.py:29
+msgid "Documents"
+msgstr "Documents"
+
+#: models.py:37 models.py:87 serializers.py:139
+msgid "Cabinet"
+msgstr "Armoire"
+
+#: models.py:88 serializers.py:140
+msgid "Parent and Label"
+msgstr "Parent et étiquette"
+
+#: models.py:95 serializers.py:146
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr "%(model_name)s avec ce %(field_labels)s existe déjà"
+
+#: models.py:107
+msgid "Document cabinet"
+msgstr "Armoire de document"
+
+#: models.py:108
+msgid "Document cabinets"
+msgstr "Armoires de document"
+
+#: permissions.py:12
+msgid "Add documents to cabinets"
+msgstr "Ajouter des documents à l'armoire"
+
+#: permissions.py:15
+msgid "Create cabinets"
+msgstr "Créer des armoires"
+
+#: permissions.py:18
+msgid "Delete cabinets"
+msgstr "Supprimer des armoires"
+
+#: permissions.py:21
+msgid "Edit cabinets"
+msgstr "Modifier des armoires"
+
+#: permissions.py:24
+msgid "Remove documents from cabinets"
+msgstr "Supprimer des documents de l'armoire"
+
+#: permissions.py:27
+msgid "View cabinets"
+msgstr "Visualiser les armoires"
+
+#: serializers.py:20
+msgid "List of children cabinets."
+msgstr "Liste des armoires enfants."
+
+#: serializers.py:23
+msgid "Number of documents on this cabinet level."
+msgstr "Nombre de documents à ce niveau de l'armoire."
+
+#: serializers.py:27
+msgid "The name of this cabinet level appended to the names of its ancestors."
+msgstr "Le nom de ce niveau d'armoire a été ajouté au nom de ses ancêtres."
+
+#: serializers.py:33
+msgid ""
+"URL of the API endpoint showing the list documents inside this cabinet."
+msgstr ""
+"URL du point de terminaison de l'API montrant la liste des documents à "
+"l'intérieur de cette armoire."
+
+#: serializers.py:69 serializers.py:180
+msgid "Comma separated list of document primary keys to add to this cabinet."
+msgstr ""
+"Liste séparée par des virgules des clés primaires du document à ajouter à "
+"cette armoire."
+
+#: serializers.py:159
+msgid ""
+"API URL pointing to a document in relation to the cabinet storing it. This "
+"URL is different than the canonical document URL."
+msgstr ""
+"URL de l'API indiquant un document par rapport à l'armoire qui l'enregistre."
+" Cette URL est différente de l'URL du document canonique."
+
+#: templates/cabinets/cabinet_details.html:21
+msgid "Navigation:"
+msgstr "Navigation:"
+
+#: views.py:69
+#, python-format
+msgid "Add new level to: %s"
+msgstr "Ajouter un nouveau niveau à: %s"
+
+#: views.py:82
+#, python-format
+msgid "Delete the cabinet: %s?"
+msgstr "Supprimer l'armoire: %s?"
+
+#: views.py:111
+#, python-format
+msgid "Details of cabinet: %s"
+msgstr "Détails de l'armoire: %s"
+
+#: views.py:142
+#, python-format
+msgid "Edit cabinet: %s"
+msgstr "Modifier l'armoire: %s"
+
+#: views.py:176
+#, python-format
+msgid "Cabinets containing document: %s"
+msgstr "Armoires contenant le document: %s"
+
+#: views.py:188
+#, python-format
+msgid "Add to cabinet request performed on %(count)d document"
+msgstr "Demande d'ajout à l'armoire effectuée sur %(count)d document"
+
+#: views.py:191
+#, python-format
+msgid "Add to cabinet request performed on %(count)d documents"
+msgstr "Demande d'ajout à l'armoire effectuée sur %(count)d documents"
+
+#: views.py:198
+msgid "Add"
+msgstr "Ajouter"
+
+#: views.py:213
+#, python-format
+msgid "Add document \"%s\" to cabinets"
+msgstr "Ajouter le document \"%s\" à l'armoire"
+
+#: views.py:224
+msgid "Cabinets to which the selected documents will be added."
+msgstr "Armoires auxquels les documents sélectionnés seront ajoutés."
+
+#: views.py:252
+#, python-format
+msgid "Document: %(document)s is already in cabinet: %(cabinet)s."
+msgstr "Le document: %(document)s est déjà dans l'armoire: %(cabinet)s."
+
+#: views.py:264
+#, python-format
+msgid "Document: %(document)s added to cabinet: %(cabinet)s successfully."
+msgstr ""
+"Le document: %(document)s a été ajouté à l'armoire: %(cabinet)s avec succès."
+
+#: views.py:277
+#, python-format
+msgid "Remove from cabinet request performed on %(count)d document"
+msgstr ""
+"Demande de suppression dans l'armoire effectuée sur %(count)d document"
+
+#: views.py:280
+#, python-format
+msgid "Remove from cabinet request performed on %(count)d documents"
+msgstr ""
+"Demande de suppression dans l'armoire effectuée sur %(count)d documents"
+
+#: views.py:287
+msgid "Remove"
+msgstr "Supprimer"
+
+#: views.py:313
+msgid "Cabinets from which the selected documents will be removed."
+msgstr ""
+"Armoires à partir desquels les documents sélectionnés seront supprimés."
+
+#: views.py:340
+#, python-format
+msgid "Document: %(document)s is not in cabinet: %(cabinet)s."
+msgstr "Le document: %(document)s n'est pas dans l'armoire: %(cabinet)s."
+
+#: views.py:352
+#, python-format
+msgid "Document: %(document)s removed from cabinet: %(cabinet)s."
+msgstr "Le document: %(document)s a été supprimé de l'armoire: %(cabinet)s."

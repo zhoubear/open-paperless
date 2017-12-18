@@ -1,0 +1,14 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% blocktrans %}Page not found{% endblocktrans %}{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <h3 class="title">{% blocktrans %}Page not found{% endblocktrans %}</h3>
+        <div class="inner">
+            <p>{% blocktrans %}Sorry, but the requested page could not be found.{% endblocktrans %}</p>
+        </div>
+    </div>
+{% endblock %}

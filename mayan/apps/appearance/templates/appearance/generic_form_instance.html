@@ -1,0 +1,93 @@
+{% load i18n %}
+
+{% load widget_tweaks %}
+
+{% load appearance_tags %}
+
+{{ form.media|safe }}
+
+{% for group, errors in form.errors.items %}
+    {% for error in errors %}
+        <div class="alert alert-danger" role="alert">
+            {{ error }}
+        </div>
+    {% endfor %}
+{% endfor %}
+
+{% if form_display_mode_table %}
+    {% for field in form.hidden_fields %}
+        {{ field }}
+    {% endfor %}
+    <tr>
+    {% for field in form.visible_fields %}
+        <td title="{% if field.errors %}{% for error in field.errors %}{{ error }}{% if not forloop.last %} | {% endif %}{% endfor %}{% else %}{{ field.help_text }}{% endif %}">
+            {% if field.errors %}<div class="has-error">{% endif %}
+                {% if field|widget_type == 'radioselect' %}
+                    <div class="btn-group" data-toggle="buttons">
+                        {% for option in field %}
+                            <label class="btn btn-default {% if field.value == option.choice_value %}active{% endif %}" for="{{ option.attrs.id }}">
+                                <input type="radio" name="{{ option.name }}" id="{{ option.attrs.id }}" value="{{ option.choice_value }}" {% if field.value == option.choice_value %}checked{% endif %}> {{ option.choice_label }}
+                            </label>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    {% render_field field class+="form-control" %}
+                {% endif %}
+            {% if field.errors %}</div>{% endif %}
+        </td>
+    {% endfor %}
+    </tr>
+{% else %}
+
+    {% for field in form.hidden_fields %}
+        {{ field }}
+    {% endfor %}
+        {% for field in form.visible_fields %}
+            <div class="form-group {% if field.errors %}has-error{% endif %}">
+                {# We display the label then the field for all except checkboxes #}
+                {% if field|widget_type != 'checkboxinput' and not field.field.widget.attrs.hidden %}
+                    {% if not hide_labels %}{{ field.label_tag }}{% if field.field.required and not read_only %} ({% trans 'required' %}){% endif %}{% endif %}
+                {% endif %}
+                {% if field|widget_type == 'checkboxinput' %}
+                    <div class="checkbox">
+                        <label>
+                            <input {% if field.value %}checked="checked"{% endif %} name="{% if form.prefix %}{{ form.prefix }}-{% endif %}{{ field.name }}" type="checkbox">
+                            {% if not hide_labels %}{{ field.label }}{% if field.field.required and not read_only %} ({% trans 'required' %}){% endif %}{% endif %}
+                        </label>
+                    </div>
+                {% elif field|widget_type == 'detailselectmultiple' %}
+                    {% if read_only %}
+                        <input class="form-control" readonly="readonly" type="text" value="{{ field|get_choice_value }}">
+                    {% else %}
+                        {% render_field field class+="form-control" %}
+                    {% endif %}
+                {% elif field|widget_type == 'clearablefileinput' %}
+                    {# Don't add 'form-control' class to filebrowse fields #}
+                    {% if field.errors %}
+                        {% render_field field class+="form-control" %}
+                    {% else %}
+                        {% render_field field class+="" %}
+                    {% endif %}
+                {% elif field|widget_type == 'radioselect' %}
+                    <div class="radio">
+                        {% render_field field %}
+                    </div>
+                {% elif field|widget_type == 'checkboxselectmultiple' %}
+                    {% for option in field %}
+                        <div class="checkbox">
+                            {{ option.render }}
+                        </div>
+                    {% endfor %}
+                {% elif field|widget_type == 'datetimeinput' or field|widget_type == 'dateinput' %}
+                    {% if read_only %}
+                        {{ field.value }}
+                    {% else %}
+                        {% render_field field class+="form-control" %}
+                    {% endif %}
+                {% else %}
+                    {% render_field field class+="form-control" %}
+                {% endif %}
+                {% if field.help_text %}<p class="help-block">{{ field.help_text|safe }}</p>{% endif %}
+            </div>
+        {% endfor %}
+{% endif %}

@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Bruno CAPELETO <bruno.capeleto@abcreseau.com>, 2016
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2015,2017
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2015
+# Pierre Lhoste <inactive+peterhost@transifex.com>, 2012
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-08-25 00:50+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: French (http://www.transifex.com/rosarior/mayan-edms/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:66 apps.py:127 apps.py:131 links.py:14 permissions.py:7 queues.py:7
+#: settings.py:7
+msgid "OCR"
+msgstr "OCR - Reconnaissance de caractères"
+
+#: apps.py:102
+msgid "Document"
+msgstr "Document"
+
+#: apps.py:106
+msgid "Added"
+msgstr "Ajouté"
+
+#: apps.py:110 models.py:57
+msgid "Result"
+msgstr "Résultat"
+
+#: events.py:9
+msgid "Document version submitted for OCR"
+msgstr ""
+
+#: events.py:13
+msgid "Document version OCR finished"
+msgstr ""
+
+#: forms.py:40
+#, python-format
+msgid "Page %(page_number)d"
+msgstr "Page %(page_number)d"
+
+#: forms.py:48
+msgid "Contents"
+msgstr "Contenus"
+
+#: links.py:18 links.py:21
+msgid "Submit for OCR"
+msgstr "Soumettre à l'OCR"
+
+#: links.py:24
+msgid "Setup OCR"
+msgstr "Paramétrage de l'OCR"
+
+#: links.py:29
+msgid "OCR documents per type"
+msgstr "OCR documents par type"
+
+#: links.py:33 links.py:37 views.py:138
+msgid "OCR errors"
+msgstr "Erreurs OCR"
+
+#: links.py:42
+msgid "Download OCR text"
+msgstr "Télécharger le texte de la ROC"
+
+#: models.py:18
+msgid "Document type"
+msgstr "Type de document"
+
+#: models.py:22
+msgid "Automatically queue newly created documents for OCR."
+msgstr "Ajouter automatiquement les nouveaux documents créés à la file d'attente OCR."
+
+#: models.py:26
+msgid "Document type settings"
+msgstr "Paramétrages de type de document"
+
+#: models.py:27
+msgid "Document types settings"
+msgstr "Paramétrages de types de documents"
+
+#: models.py:34
+msgid "Document page"
+msgstr "Pages du document"
+
+#: models.py:36
+msgid "Content"
+msgstr "Contenu"
+
+#: models.py:44
+msgid "Document page OCR content"
+msgstr ""
+
+#: models.py:45
+msgid "Document pages OCR contents"
+msgstr ""
+
+#: models.py:52
+msgid "Document version"
+msgstr "Version du document"
+
+#: models.py:55
+msgid "Date time submitted"
+msgstr "Date et heure de soumission"
+
+#: models.py:64
+msgid "Document version OCR error"
+msgstr ""
+
+#: models.py:65
+msgid "Document version OCR errors"
+msgstr ""
+
+#: permissions.py:10
+msgid "Submit documents for OCR"
+msgstr "Soumettre les documents à l'OCR"
+
+#: permissions.py:14
+msgid "View the transcribed text from document"
+msgstr "Afficher la transcription du texte depuis le document"
+
+#: permissions.py:18
+msgid "Change document type OCR settings"
+msgstr "Modifier les paramétrages OCR du type de document"
+
+#: queues.py:9
+msgid "Document version OCR"
+msgstr "ROC version du document"
+
+#: settings.py:12
+msgid ""
+"File path to poppler's pdftotext program used to extract text from PDF "
+"files."
+msgstr "Chemin vers l'exécutable poppler pdftotext, utilisé pour extraire du texte à partir des fichiers PDF."
+
+#: settings.py:19
+msgid "Full path to the backend to be used to do OCR."
+msgstr "Chemin complet pour l'interface utilisée pour faire de l'OCR"
+
+#: settings.py:24
+msgid "Set new document types to perform OCR automatically by default."
+msgstr "Traiter automatiquement les nouveaux types de document par l'OCR."
+
+#: views.py:43
+#, python-format
+msgid "OCR result for document: %s"
+msgstr "Résultats de l'OCR pour le document: %s"
+
+#: views.py:51
+#, python-format
+msgid "Submit \"%s\" to the OCR queue?"
+msgstr "Soumettre \"%s\" à la file d'attente OCR ?"
+
+#: views.py:72
+#, python-format
+msgid "Document: %(document)s was added to the OCR queue."
+msgstr "Le document : %(document)s a été ajouté à la file d'attente OCR."
+
+#: views.py:86
+msgid "Submit the selected documents to the OCR queue?"
+msgstr "Soumettre les documents sélectionnés à la file d'attente OCR ?"
+
+#: views.py:93
+msgid "Submit all documents of a type for OCR"
+msgstr "Soumettre tous les documents d'un type à l'OCR"
+
+#: views.py:107
+#, python-format
+msgid "%(count)d documents of type \"%(document_type)s\" added to the OCR queue."
+msgstr "%(count)d documents de type \"%(document_type)s\" ajoutés à la file d'attente OCR"
+
+#: views.py:130
+#, python-format
+msgid "Edit OCR settings for document type: %s"
+msgstr "Modifier les paramètres OCR pour le type de document : %s"
+
+#: views.py:156
+#, python-format
+msgid "OCR errors for document: %s"
+msgstr "Erreur OCR pour le document: %s"

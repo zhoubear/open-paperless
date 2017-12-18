@@ -1,0 +1,30 @@
+{% extends 'appearance/base.html' %}
+
+{% load common_tags %}
+
+{% block title %}{% include 'appearance/calculate_form_title.html' with html_title=True %}{% endblock %}
+
+{% block content %}
+    {% if main_title %}
+        <h3>{{ main_title }}</h3>
+        <hr>
+    {% endif %}
+
+    <div class="row">
+        {% for subtemplate in subtemplates_list %}
+            {% if subtemplate.column_class %}
+                <div class="{{ subtemplate.column_class }}">
+            {% else %}
+                <div class="cols-xs-12">
+            {% endif %}
+                {% if subtemplate.form %}
+                    {% render_subtemplate subtemplate.name subtemplate.context as rendered_subtemplate %}
+                        {{ rendered_subtemplate }}
+                {% else %}
+                    {% render_subtemplate subtemplate.name subtemplate.context as rendered_subtemplate %}
+                    {{ rendered_subtemplate }}
+                {% endif %}
+            </div>
+         {% endfor %}
+    </div>
+{% endblock %}

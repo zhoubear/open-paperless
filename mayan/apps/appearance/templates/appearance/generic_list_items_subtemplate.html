@@ -1,0 +1,112 @@
+{% load i18n %}
+{% load static %}
+
+{% load common_tags %}
+{% load navigation_tags %}
+
+<script>
+    'use strict';
+
+    waitForJQuery(function() {
+        $(function() {
+            $('.panel-item').matchHeight({
+                byRow: false,
+            });
+        });
+    });
+</script>
+
+<div class="x_panel">
+    <div class="x_title">
+
+        <form action="{% url 'common:multi_object_action_view' %}" class="pure-form" method="get">
+            <div class="nav navbar-right panel_toolbox">
+                {% if object_list %}
+                    {% if not hide_multi_item_actions %}
+                        {% get_multi_item_links_form object_list %}
+                    {% endif %}
+                    {% if multi_item_actions %}
+                        <fieldset>
+                            <input class="checkbox-check-all-list-item" type="checkbox"/>&nbsp;
+                            {{ multi_item_form }}
+                                {% comment %}
+                                    &nbsp;<button class="btn btn-primary btn-xs" type="submit" name="{{ form.prefix }}-submit">
+                                        {% trans 'Submit' %}
+                                    </button>
+                                {% endcomment %}
+
+                        </fieldset>
+                    {% endif %}
+                {% endif %}
+            </div>
+        <div class="clearfix"></div>
+    </div>
+        <div class="x_content">
+
+            <div class="row">
+                {% for object in object_list %}
+
+                    <div class="col-md-3 col-xs-12 widget widget_tally_box">
+                        <div class="x_panel fixed_height_390 panel-document">
+                            <div class="x_title" style="overflow: hidden; white-space: nowrap;">
+
+                                <label for="id_indexes_0">
+                                    {% if multi_item_actions %}
+                                        {% if multi_select_item_properties %}
+                                            <input class="" type="checkbox" name="properties_{{ object|get_encoded_parameter:multi_select_item_properties }}" value="" />
+                                        {% else %}
+                                            <input class="" type="checkbox" name="pk_{{ object.pk }}" value="" />
+                                        {% endif %}
+                                    {% endif %}
+                                    &nbsp;
+
+                                    {% if not hide_object %}
+                                        {% if main_object %}
+                                            {% with object|object_property:main_object as object %}
+                                                {% if not hide_link %}<a href="{{ object.get_absolute_url }}">{{ object }}</a>{% else %}{{ object }}{% endif %}
+                                            {% endwith %}
+                                        {% else %}
+                                            {% if not hide_link %}<a href="{{ object.get_absolute_url }}">{{ object }}</a>{% else %}{{ object }}{% endif %}
+                                        {% endif %}
+                                    {% endif %}
+
+                                </label>
+
+                            <div class="clearfix"></div>
+                      </div>
+                      <div class="x_content">
+                        {% if not hide_columns %}
+                            {% for column in object|get_source_columns %}
+                                <div class="text-center" style="">{% source_column_resolve column=column %}{{ column_result }}</div>
+                            {% endfor %}
+                        {% endif %}
+
+                        {% for column in extra_columns %}
+                            <div class="text-center"><span class="list-extra-column-label">{{ column.name }}</span>: {{ object|object_property:column.attribute }}</div>
+                        {% endfor %}
+
+                        {% if not hide_links %}
+                            <p class="text-center">
+                                {% get_menu_links 'object menu' source=object as resolved_links %}
+                                {% for object_navigation_links in resolved_links %}
+                                    {% with 'true' as as_dropdown %}
+                                        {% include 'navigation/generic_navigation.html' %}
+                                    {% endwith %}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+                <div class="x_content">
+                    <p class="text-center">{% trans 'No results' %}</p>
+                </div>
+
+            {% endfor %}
+        </div>
+
+    </form>
+        {% include 'pagination/pagination.html' %}
+    </div>
+</div>

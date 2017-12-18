@@ -1,0 +1,23 @@
+{% load i18n %}
+
+<div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="tile-stats">
+        <div class="icon"><i class="{{ widget.icon }}"></i></div>
+        <div class="count">
+            {% if widget.func %}
+                {{ widget.func }}
+            {% else %}
+                {{ widget.queryset.count }}
+            {% endif %}
+        </div>
+        <h3>{{ widget.label }}</h3>
+
+        {% if widget.link %}
+            <p>
+                <a href="{{ widget.link }}">
+                    {% trans 'Click for details' %}</span>
+                </a>
+            </p>
+        {% endif %}
+    </div>
+</div>

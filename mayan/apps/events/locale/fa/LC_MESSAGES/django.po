@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Mehdi Amani <MehdiAmani@toorintan.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-08-27 16:33+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Persian (http://www.transifex.com/rosarior/mayan-edms/language/fa/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:16
+msgid "System"
+msgstr ""
+
+#: apps.py:26 links.py:31 links.py:35 permissions.py:7 views.py:33
+msgid "Events"
+msgstr "رویداد"
+
+#: apps.py:35
+msgid "Timestamp"
+msgstr "علامت زمان"
+
+#: apps.py:38
+msgid "Actor"
+msgstr "فعال"
+
+#: apps.py:42
+msgid "Verb"
+msgstr "فعل"
+
+#: apps.py:46
+msgid "Action object"
+msgstr ""
+
+#: classes.py:23
+#, python-brace-format
+msgid "Unknown or obsolete event type: {0}"
+msgstr "نوع رخداد ناشناخته :{0}"
+
+#: models.py:13
+msgid "Name"
+msgstr "نام"
+
+#: models.py:17
+msgid "Event type"
+msgstr "نوع رویداد"
+
+#: models.py:18
+msgid "Event types"
+msgstr "انواع رخدادها"
+
+#: permissions.py:9
+msgid "Access the events of an object"
+msgstr "دسترسی به رخدادهای یک شی"
+
+#: views.py:26 views.py:81
+msgid "Target"
+msgstr "هدف"
+
+#: views.py:69
+#, python-format
+msgid "Events for: %s"
+msgstr "رخدادها برای :  %s"
+
+#: views.py:89
+#, python-format
+msgid "Events of type: %s"
+msgstr "نوع رخداد ها:  %s"

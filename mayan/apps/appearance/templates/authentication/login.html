@@ -1,0 +1,65 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+{% load static %}
+
+{% load autoadmin_tags %}
+{% load common_tags %}
+{% load motd_tags %}
+
+{% block base_title %}{% trans 'Login' %}{% endblock %}
+
+{% block project_name %}{% endblock %}
+
+{% block content_plain %}
+    <div class="login_wrapper">
+        <div class="animate form login_form-NA">
+          <section class="login_content">
+            <form action="." method="post" class="">{% csrf_token %}
+              <h1>{% trans 'Login Form' %}</h1>
+                {% include 'appearance/generic_form_instance.html' %}
+                    <input type="hidden" name="next" value="{{ next|escape }}" />
+              <div>
+                <button class="btn btn-default submit" name="{% if form.prefix %}{{ form.prefix }}-submit{% else %}submit{% endif %}" type="submit">{% trans 'Sign in' %}</button>
+                <a class="reset_pass" href="{% url 'authentication:password_reset_view' %}">{% trans 'Forgot your password?' %}</a>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="separator">
+                <div class="clearfix"></div>
+                <br>
+
+                <div>
+                    <h1><i class="fa fa-leaf text-green"></i> {% project_name %}</h1>
+                  <p>{% trans 'Copyright &copy; 2017 Tina Zhou.' %}</p>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+
+    {% autoadmin_properties %}
+    {% if autoadmin_properties.account %}
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h3 class="panel-title">{% trans "First time login" %}</h3>
+                    </div>
+                    <div class="x_content">
+                        <p>{% trans 'You have just finished installing <strong>Open Paperless</strong>, congratulations!' %}</p>
+                        <p>{% trans 'Login using the following credentials:' %}</p>
+                        <p>{% blocktrans with autoadmin_properties.account as account %}Username: <strong>{{ account }}</strong>{% endblocktrans %}</p>
+                        <p>{% blocktrans with autoadmin_properties.account.email as email %}Email: <strong>{{ email }}</strong>{% endblocktrans %}</p>
+                        <p>{% blocktrans with autoadmin_properties.password as password %}Password: <strong>{{ password }}</strong>{% endblocktrans %}</p>
+                        <p>{% trans 'Be sure to change the password to increase security and to disable this message.' %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+
+    {% motd %}
+{% endblock %}

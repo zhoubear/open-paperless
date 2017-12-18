@@ -1,0 +1,39 @@
+{% load common_tags %}
+{% load navigation_tags %}
+
+{% if link|get_type == "<class 'navigation.classes.Menu'>" %}
+
+    <li class="">
+        <a>
+            {% if link.icon %}
+                <i class="{{ link.icon }}"></i>
+            {% endif %}
+
+            {{ link.label }}
+
+            <span class="fa fa-chevron-down"></span></a>
+        </a>
+        <ul class="nav child_menu">
+            {% get_menu_links link.name as menu_links %}
+            {% for linkset in menu_links %}
+                {% with '' as li_class_active %}
+                {% with linkset as object_navigation_links %}
+                    {% include 'navigation/generic_navigation.html' %}
+                {% endwith %}
+                {% endwith %}
+            {% endfor %}
+        </ul>
+    </li>
+{% else %}
+
+    {% if as_li %}
+        <li class="{% if link.active and li_class_active %}{{ li_class_active }}{% endif %}">
+    {% endif %}
+
+        {% include link_template|default:'navigation/generic_link_instance.html' %}
+
+    {% if as_li %}
+        </li>
+    {% endif %}
+
+{% endif %}

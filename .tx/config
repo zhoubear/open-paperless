@@ -1,0 +1,194 @@
+[main]
+host = https://www.transifex.com
+
+[mayan-edms.acls-2-0]
+file_filter = mayan/apps/acls/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/acls/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.appearance-2-0]
+file_filter = mayan/apps/appearance/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/appearance/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.authentication-2-0]
+file_filter = mayan/apps/authentication/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/authentication/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.cabinets-2-0]
+file_filter = mayan/apps/cabinets/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/cabinets/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.checkouts-2-0]
+file_filter = mayan/apps/checkouts/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/checkouts/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.common-2-0]
+file_filter = mayan/apps/common/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/common/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.converter-2-0]
+file_filter = mayan/apps/converter/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/converter/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.django_gpg-2-0]
+file_filter = mayan/apps/django_gpg/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/django_gpg/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.documents-2-0]
+file_filter = mayan/apps/documents/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/documents/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.document_comments-2-0]
+file_filter = mayan/apps/document_comments/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/document_comments/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.document_indexing-2-0]
+file_filter = mayan/apps/document_indexing/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/document_indexing/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.document_parsing-2-0]
+file_filter = mayan/apps/document_parsing/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/document_parsing/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.document_signatures-2-0]
+file_filter = mayan/apps/document_signatures/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/document_signatures/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.document_states-2-0]
+file_filter = mayan/apps/document_states/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/document_states/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.dynamic_search-2-0]
+file_filter = mayan/apps/dynamic_search/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/dynamic_search/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.events-2-0]
+file_filter = mayan/apps/events/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/events/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.linking-2-0]
+file_filter = mayan/apps/linking/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/linking/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.lock_manager-2-0]
+file_filter = mayan/apps/lock_manager/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/lock_manager/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.mailer-2-0]
+file_filter = mayan/apps/mailer/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/mailer/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.metadata-2-0]
+file_filter = mayan/apps/metadata/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/metadata/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.mirroring-2-0]
+file_filter = mayan/apps/mirroring/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/mirroring/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.motd-2-0]
+file_filter = mayan/apps/motd/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/motd/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.ocr-2-0]
+file_filter = mayan/apps/ocr/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/ocr/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.permissions-2-0]
+file_filter = mayan/apps/permissions/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/permissions/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.rest_api-2-0]
+file_filter = mayan/apps/rest_api/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/rest_api/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.smart_settings-2-0]
+file_filter = mayan/apps/smart_settings/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/smart_settings/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.sources-2-0]
+file_filter = mayan/apps/sources/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/sources/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.statistics-2-0]
+file_filter = mayan/apps/mayan_statistics/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/mayan_statistics/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.storage-2-0]
+file_filter = mayan/apps/storage/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/storage/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.tags-2-0]
+file_filter = mayan/apps/tags/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/tags/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.task_manager-2-0]
+file_filter = mayan/apps/task_manager/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/task_manager/locale/en/LC_MESSAGES/django.po
+type = PO
+
+[mayan-edms.user_management-2-0]
+file_filter = mayan/apps/user_management/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+source_file = mayan/apps/user_management/locale/en/LC_MESSAGES/django.po
+type = PO

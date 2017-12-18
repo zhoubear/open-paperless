@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# mic <winterfall24@gmail.com>, 2012,2015
+# Wojtek Warczakowski <w.warczakowski@gmail.com>, 2016
+# Wojtek Warczakowski <w.warczakowski@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-07-09 06:34+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Polish (http://www.transifex.com/rosarior/mayan-edms/language/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: apps.py:20 permissions.py:7 settings.py:12
+msgid "Converter"
+msgstr "Konwerter"
+
+#: apps.py:27 models.py:40
+msgid "Order"
+msgstr "Kolejność"
+
+#: apps.py:29 models.py:70
+msgid "Transformation"
+msgstr "Przekształcenie"
+
+#: apps.py:33 models.py:50
+msgid "Arguments"
+msgstr "Argumenty"
+
+#: backends/python.py:181 backends/python.py:187
+#, python-format
+msgid "Exception determining PDF page count; %s"
+msgstr "Wyjątek określający liczbę stron PDF: %s"
+
+#: backends/python.py:201
+#, python-format
+msgid "Exception determining page count using Pillow; %s"
+msgstr ""
+
+#: classes.py:102
+msgid "Not an office file format."
+msgstr "Format niezgodny z formatem plików LibreOffice."
+
+#: classes.py:123
+msgid "LibreOffice not installed or not found."
+msgstr ""
+
+#: classes.py:312
+msgid "Crop"
+msgstr "Przycięcie"
+
+#: classes.py:325
+msgid "Flip"
+msgstr "Odbicie"
+
+#: classes.py:336
+msgid "Gaussian blur"
+msgstr "Rozmycie Gaussa"
+
+#: classes.py:346
+msgid "Line art"
+msgstr ""
+
+#: classes.py:357
+msgid "Mirror"
+msgstr "Odbicie lustrzane"
+
+#: classes.py:368
+msgid "Resize"
+msgstr "Zmiana rozmiaru"
+
+#: classes.py:395
+msgid "Rotate"
+msgstr "Obrócenie"
+
+#: classes.py:414
+msgid "Rotate 90 degrees"
+msgstr "Obrócenie o 90 stopni"
+
+#: classes.py:425
+msgid "Rotate 180 degrees"
+msgstr "Obrócenie o 180 stopni"
+
+#: classes.py:436
+msgid "Rotate 270 degrees"
+msgstr "Obrócenie o 270 stopni"
+
+#: classes.py:446
+msgid "Unsharp masking"
+msgstr "Maska wyostrzająca"
+
+#: classes.py:462
+msgid "Zoom"
+msgstr "Powiększenie"
+
+#: links.py:35
+msgid "Create new transformation"
+msgstr "Utwórz nowe przekształcenie"
+
+#: links.py:39
+msgid "Delete"
+msgstr "Usuń"
+
+#: links.py:43
+msgid "Edit"
+msgstr "Edytuj"
+
+#: links.py:47 models.py:71
+msgid "Transformations"
+msgstr "Przekształcenia"
+
+#: models.py:38
+msgid ""
+"Order in which the transformations will be executed. If left unchanged, an "
+"automatic order value will be assigned."
+msgstr "Kolejność wykonywania przekształceń. Jeśli nie zostanie zmieniona, przyjmie wartość automatyczną."
+
+#: models.py:44
+msgid "Name"
+msgstr "Nazwa"
+
+#: models.py:48
+msgid ""
+"Enter the arguments for the transformation as a YAML dictionary. ie: "
+"{\"degrees\": 180}"
+msgstr "Wprowadź argumenty dla przekształcenia w postaci słownika YAML np.: {\"degrees\": 180}"
+
+#: permissions.py:10
+msgid "Create new transformations"
+msgstr "Utwórz nowe przekształcenia"
+
+#: permissions.py:13
+msgid "Delete transformations"
+msgstr "Usuń przekształcenia"
+
+#: permissions.py:16
+msgid "Edit transformations"
+msgstr "Edytuj przekształcenia"
+
+#: permissions.py:19
+msgid "View existing transformations"
+msgstr "Przeglądaj utworzone przekształcenia"
+
+#: settings.py:15
+msgid "Graphics conversion backend to use."
+msgstr "Backend używany do konwersji grafiki."
+
+#: settings.py:34
+msgid "Configuration options for the graphics conversion backend."
+msgstr ""
+
+#: validators.py:22
+msgid "Enter a valid YAML value."
+msgstr "Wprowadź poprawną wartość YAML."
+
+#: views.py:64
+#, python-format
+msgid "Delete transformation \"%(transformation)s\" for: %(content_object)s?"
+msgstr "Usunąć przekształcenie \"%(transformation)s\" dla %(content_object)s?"
+
+#: views.py:116
+#, python-format
+msgid "Create new transformation for: %s"
+msgstr "Utwórz nowe przekształcenie dla %s"
+
+#: views.py:166
+#, python-format
+msgid "Edit transformation \"%(transformation)s\" for: %(content_object)s"
+msgstr "Edycja przekształcenia \"%(transformation)s\" dla %(content_object)s"
+
+#: views.py:213
+#, python-format
+msgid "Transformations for: %s"
+msgstr "Przekształcenia dla %s"

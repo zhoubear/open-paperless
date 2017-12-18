@@ -1,0 +1,36 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+{% load static %}
+
+{% load navigation_tags %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <h3>
+        {{ title }}
+    </h3>
+    <div class="x_panel">
+        <div class="x_content">
+            <div class="row">
+                {% with 'navigation/large_button_link.html' as link_template %}
+                    {% for object_navigation_links in resolved_links %}
+                        {% include 'navigation/generic_navigation.html' %}
+                    {% empty %}
+                        <p class="text-center" colspan=99>{% trans 'No results' %}</p>
+                    {% endfor %}
+                {% endwith %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block javascript %}
+    <script type="text/javascript">
+        $(function() {
+            $('.btn-block').matchHeight();
+        });
+    </script>
+{% endblock %}

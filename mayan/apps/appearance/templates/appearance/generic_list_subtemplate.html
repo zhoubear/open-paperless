@@ -1,0 +1,125 @@
+{% load i18n %}
+{% load static %}
+
+{% load common_tags %}
+{% load navigation_tags %}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>
+            {% if page_obj %}
+                {% if page_obj.paginator.num_pages != 1 %}
+                    {% blocktrans with page_obj.start_index as start and page_obj.end_index as end and page_obj.paginator.object_list|length as total and page_obj.number as page_number and page_obj.paginator.num_pages as total_pages %}Total ({{ start }} - {{ end }} out of {{ total }}) (Page {{ page_number }} of {{ total_pages }}){% endblocktrans %}
+                {% else %}
+                    {% blocktrans with page_obj.paginator.object_list|length as total %}Total: {{ total }}{% endblocktrans %}
+                {% endif %}
+            {% else %}
+                {% blocktrans with object_list|length as total %}Total: {{ total }}{% endblocktrans %}
+            {% endif %}
+        </h4>
+
+        <div class="x_panel">
+            <div class="nav navbar-right panel_toolbox">
+                <form action="{% url 'common:multi_object_action_view' %}" class="pure-form" method="get">
+                    {% if object_list %}
+                        {% if not hide_multi_item_actions %}
+                            {% get_multi_item_links_form object_list %}
+                        {% endif %}
+                        {% if multi_item_actions %}
+                            <fieldset>
+                                {{ multi_item_form }}
+                                {% comment %}
+                                    &nbsp;<button class="btn btn-primary btn-xs" type="submit" name="{{ form.prefix }}-submit">
+                                        {% trans 'Submit' %}
+                                    </button>
+                                {% endcomment %}
+                            </fieldset>
+                        {% endif %}
+                    {% endif %}
+            </div>
+            <div class="clearfix"></div>
+            <div class="x_content">
+                <div class="table-responsive">
+                    <table class="table table-condensed table-striped jambo_table bulk_action">
+                        <thead>
+                            {% if not hide_header %}
+                                <tr>
+                                    {% if multi_item_actions %}
+                                        <th class="first"><input class="" id="check-all" type="checkbox"/></th>
+                                    {% endif %}
+
+                                    {% if not hide_object %}
+                                        <th>{% trans 'Identifier' %}</th>
+                                    {% endif %}
+
+                                    {% if not hide_columns %}
+                                        {% for column in object_list|get_source_columns %}
+                                            <th>{{ column.label }}</th>
+                                        {% endfor %}
+                                    {% endif %}
+
+                                    {% for column in extra_columns %}
+                                        <th>{{ column.name }}</th>
+                                    {% endfor %}
+
+                                    {% if not hide_links %}
+                                        <th class="">&nbsp;</th>
+                                    {% endif %}
+                                </tr>
+                            {% endif %}
+                        </thead>
+                        <tbody>
+                            {% for object in object_list %}
+                                <tr>
+
+                                {% if multi_item_actions %}
+                                    <td>
+                                    {% if multi_select_item_properties %}
+                                        <input class="" type="checkbox" name="properties_{{ object|get_encoded_parameter:multi_select_item_properties }}" value="" />
+                                    {% else %}
+                                        <input class="" type="checkbox" name="pk_{{ object.pk }}" value="" />
+                                    {% endif %}
+                                    </td>
+                                {% endif %}
+                                {% if not hide_object %}
+                                    {% if main_object %}
+                                        {% with object|object_property:main_object as object %}
+                                            <td>{% if not hide_link %}<a href="{{ object.get_absolute_url }}">{{ object }}</a>{% else %}{{ object }}{% endif %}</td>
+                                        {% endwith %}
+                                    {% else %}
+                                        <td>{% if not hide_link %}<a href="{{ object.get_absolute_url }}">{{ object }}</a>{% else %}{{ object }}{% endif %}</td>
+                                    {% endif %}
+                                {% endif %}
+                                 {% if not hide_columns %}
+                                    {% for column in object|get_source_columns %}
+                                        <td>{% source_column_resolve column=column %}{{ column_result }}</td>
+                                    {% endfor %}
+                                {% endif %}
+                                {% for column in extra_columns %}
+                                    <td>{{ object|object_property:column.attribute }}</td>
+                                {% endfor %}
+                                {% if not hide_links %}
+                                    <td class="last">
+                                        {% get_menu_links 'object menu' source=object as resolved_links %}
+                                        {% for object_navigation_links in resolved_links %}
+                                            {% with 'true' as horizontal %}
+                                            {% with 'true' as as_group %}
+                                                {% include 'navigation/generic_navigation.html' %}
+                                            {% endwith %}
+                                            {% endwith %}
+                                        {% endfor %}
+                                    </td>
+                                {% endif %}
+                                </tr>
+                            {% empty %}
+                                <tr><td class="text-center" colspan=99>{% trans 'No results' %}</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+            </form>
+            {% include 'pagination/pagination.html' %}
+        </div>
+    </div>
+</div>

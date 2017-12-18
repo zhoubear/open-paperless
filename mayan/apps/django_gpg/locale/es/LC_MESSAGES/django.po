@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# jmcainzos <jmcainzos@vodafone.es>, 2014
+# Lory977 <helga.carrero@gmail.com>, 2015
+# Roberto Rosario, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2016-05-09 01:46+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Spanish (http://www.transifex.com/rosarior/mayan-edms/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:31
+msgid "Django GPG"
+msgstr "Django GPG"
+
+#: apps.py:47 apps.py:50 forms.py:17
+msgid "Key ID"
+msgstr "Identificador de clave"
+
+#: apps.py:48 apps.py:61 forms.py:19 models.py:52
+msgid "User ID"
+msgstr "ID de usuario"
+
+#: apps.py:51 forms.py:34 models.py:55
+msgid "Type"
+msgstr "Tipo"
+
+#: apps.py:53 forms.py:23 models.py:36
+msgid "Creation date"
+msgstr "Fecha de creación"
+
+#: apps.py:56 forms.py:27 models.py:40
+msgid "Expiration date"
+msgstr "Fecha de expiración"
+
+#: apps.py:57
+msgid "No expiration"
+msgstr "No expira"
+
+#: apps.py:59 forms.py:32 models.py:47
+msgid "Length"
+msgstr "Largo"
+
+#: forms.py:28
+msgid "None"
+msgstr "Ninguno"
+
+#: forms.py:31 models.py:44
+msgid "Fingerprint"
+msgstr "Huella"
+
+#: forms.py:33 models.py:50
+msgid "Algorithm"
+msgstr "Algoritmo"
+
+#: forms.py:47
+msgid "Term"
+msgstr "Término"
+
+#: forms.py:48
+msgid "Name, e-mail, key ID or key fingerprint to look for."
+msgstr "Nombre, dirección de correo electrónico, identificador de clave o huella digital de clave a buscar."
+
+#: links.py:13
+msgid "Delete"
+msgstr "Eliminar"
+
+#: links.py:17
+msgid "Details"
+msgstr "Detalles"
+
+#: links.py:21
+msgid "Download"
+msgstr "Descargar"
+
+#: links.py:25 permissions.py:28
+msgid "Query keyservers"
+msgstr "Hacer búsquedas en servidores de claves"
+
+#: links.py:29
+msgid "Import"
+msgstr "Importar"
+
+#: links.py:34 permissions.py:7
+msgid "Key management"
+msgstr "Gestión de claves"
+
+#: links.py:37
+msgid "Upload key"
+msgstr "Subir llave"
+
+#: links.py:41 views.py:160
+msgid "Private keys"
+msgstr "Claves privadas"
+
+#: links.py:45 views.py:149
+msgid "Public keys"
+msgstr "Claves públicas"
+
+#: literals.py:6 literals.py:14
+msgid "Public"
+msgstr "Pública"
+
+#: literals.py:7 literals.py:15
+msgid "Secret"
+msgstr "Secreta"
+
+#: literals.py:23 literals.py:28
+msgid "RSA"
+msgstr "RSA"
+
+#: literals.py:24
+msgid "DSA"
+msgstr "DSA"
+
+#: literals.py:29
+msgid "Elgamal"
+msgstr "Elgamal"
+
+#: literals.py:43
+msgid "Bad signature."
+msgstr "Firma inválida."
+
+#: literals.py:46
+msgid "Document not signed or invalid signature."
+msgstr "Documento no firmado o firma inválida."
+
+#: literals.py:49
+msgid "Signature error."
+msgstr "Error de firma."
+
+#: literals.py:53
+msgid "Document is signed but no public key is available for verification."
+msgstr "El documento ha sido firmado pero no hay clave pública disponible para verificación."
+
+#: literals.py:58
+msgid "Document is signed, and signature is good."
+msgstr "El documento ha sido firmado y la firma está en buen estado."
+
+#: literals.py:61
+msgid "Document is signed with a valid signature."
+msgstr "El documento ha sido firmado y la firma ha sido validada."
+
+#: models.py:32
+msgid "ASCII armored version of the key."
+msgstr "Versión ASCII de la llave"
+
+#: models.py:33
+msgid "Key data"
+msgstr "Datos de llave"
+
+#: models.py:61
+msgid "Key"
+msgstr "Llave"
+
+#: models.py:62
+msgid "Keys"
+msgstr "Llaves"
+
+#: models.py:68
+msgid "Invalid key data"
+msgstr "Datos de llave invalidos"
+
+#: models.py:71
+msgid "Key already exists."
+msgstr "Llave ya existe."
+
+#: permissions.py:10
+msgid "Delete keys"
+msgstr "Borrar claves"
+
+#: permissions.py:13
+msgid "Download keys"
+msgstr "Descargar llaves"
+
+#: permissions.py:16
+msgid "Import keys from keyservers"
+msgstr "Importar llaves del servidores de claves"
+
+#: permissions.py:19
+msgid "Use keys to sign content"
+msgstr "Usar llaves para firmar contenido"
+
+#: permissions.py:22
+msgid "Upload keys"
+msgstr "Subir llaves"
+
+#: permissions.py:25
+msgid "View keys"
+msgstr "Ver claves"
+
+#: settings.py:10
+msgid "Signatures"
+msgstr "Firma"
+
+#: settings.py:15
+msgid "Home directory used to store keys as well as configuration files."
+msgstr "Directorio de inicio utilizado para almacenar las claves, así como los archivos de configuración."
+
+#: settings.py:21
+msgid "Path to the GPG binary."
+msgstr "Ruta al binario GPG."
+
+#: settings.py:25
+msgid "Keyserver used to query for keys."
+msgstr "Servidor usado para buscar llaves."
+
+#: views.py:38
+#, python-format
+msgid "Delete key: %s"
+msgstr "Borrar llave: %s"
+
+#: views.py:48
+#, python-format
+msgid "Details for key: %s"
+msgstr "Detalles para llave: %s"
+
+#: views.py:68
+#, python-format
+msgid "Import key ID: %s?"
+msgstr "¿Importar llave: %s?"
+
+#: views.py:69
+msgid "Import key"
+msgstr "Importar clave"
+
+#: views.py:78
+#, python-format
+msgid "Unable to import key: %(key_id)s; %(error)s"
+msgstr "No se pudo importar la llave: %(key_id)s; %(error)s "
+
+#: views.py:85
+#, python-format
+msgid "Successfully received key: %(key_id)s"
+msgstr "Llave: %(key_id)s, recibida con éxito"
+
+#: views.py:107
+msgid "Search"
+msgstr "Búsqueda"
+
+#: views.py:109
+msgid "Query key server"
+msgstr "Consultar servidor de claves"
+
+#: views.py:119
+msgid "Key query results"
+msgstr "Resultado de búsqueda de llaves"
+
+#: views.py:138
+msgid "Upload new key"
+msgstr "Subir una nueva llave"

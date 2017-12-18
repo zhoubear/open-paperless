@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Dezső József <dejo60@gmail.com>, 2013
+# molnars <szabolcs.molnar@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-08-05 14:41+0000\n"
+"Last-Translator: molnars <szabolcs.molnar@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/rosarior/mayan-edms/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:16
+msgid "Dynamic search"
+msgstr "Dinamikus keresés"
+
+#: classes.py:27
+msgid "No search model matching the query"
+msgstr "Nincs a kérésnek megfelelő keresési modell"
+
+#: forms.py:9
+msgid "Match all"
+msgstr "Mind összeegyeztetése"
+
+#: forms.py:10
+msgid ""
+"When checked, only results that match all fields will be returned. When "
+"unchecked results that match at least one field will be returned."
+msgstr ""
+
+#: forms.py:29
+msgid "Search terms"
+msgstr "keresési feltételek"
+
+#: links.py:8 settings.py:8 views.py:52 views.py:63
+msgid "Search"
+msgstr "Keresés"
+
+#: links.py:11 views.py:77
+msgid "Advanced search"
+msgstr "Részletes keresés"
+
+#: links.py:15
+msgid "Search again"
+msgstr "Újra keresés"
+
+#: settings.py:11
+msgid "Maximum amount search hits to fetch and display."
+msgstr "A letölthető és megjeleníthető keresési találatok maximális száma."
+
+#: views.py:25
+#, python-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: views.py:65
+#, python-format
+msgid "Search for: %s"
+msgstr ""

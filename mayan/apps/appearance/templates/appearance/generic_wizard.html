@@ -1,0 +1,29 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% include 'appearance/calculate_form_title.html' with html_title=True %}{% endblock %}
+
+{% block content %}
+    <h3>{% include 'appearance/calculate_form_title.html' %}</h3>
+    <hr>
+
+    {{ wizard.management_form }}
+    {% with step_title as title %}
+
+        {% if wizard.form.forms %}
+            {{ wizard.form.management_form }}
+
+            {% with wizard.form as form %}
+            {% with 'true' as form_display_mode_table %}
+                {% include 'appearance/generic_form_subtemplate.html' %}
+            {% endwith %}
+            {% endwith %}
+        {% else %}
+            {% with wizard.form as form %}
+                {% include 'appearance/generic_form_subtemplate.html' %}
+            {% endwith %}
+        {% endif %}
+    {% endwith %}
+
+{% endblock %}

@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# serhatcan77 <serhat_can@yahoo.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-06-22 19:47+0000\n"
+"Last-Translator: serhatcan77 <serhat_can@yahoo.com>\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/rosarior/mayan-edms/language/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:26
+msgid "Document comments"
+msgstr "Belge yorumları"
+
+#: apps.py:46
+msgid "Date"
+msgstr "Tarih"
+
+#: apps.py:48 models.py:27
+msgid "User"
+msgstr "Kullanıcı"
+
+#. Translators: Comment here is a noun and refers to the actual text stored
+#: apps.py:51 models.py:30 models.py:72 views.py:23
+msgid "Comment"
+msgstr "Yorum Yap"
+
+#: apps.py:55 apps.py:59 links.py:22 models.py:73 permissions.py:7
+msgid "Comments"
+msgstr "Yorumlar"
+
+#: events.py:9
+msgid "Document comment created"
+msgstr "Doküman yorumu oluşturuldu"
+
+#: events.py:13
+msgid "Document comment deleted"
+msgstr "Doküman yorumu silindi"
+
+#: links.py:13
+msgid "Add comment"
+msgstr "Yorum ekle"
+
+#: links.py:18
+msgid "Delete"
+msgstr "Sil"
+
+#: models.py:23
+msgid "Document"
+msgstr "Belge"
+
+#: models.py:33
+msgid "Date time submitted"
+msgstr "Gönderilen tarih saat"
+
+#: permissions.py:10
+msgid "Create new comments"
+msgstr "Yeni yorumlar oluştur"
+
+#: permissions.py:13
+msgid "Delete comments"
+msgstr "Yorumları sil"
+
+#: permissions.py:16
+msgid "View comments"
+msgstr "Yorumları gör"
+
+#: views.py:41
+#, python-format
+msgid "Add comment to document: %s"
+msgstr "Dokümana yorum ekle: %s"
+
+#: views.py:79
+#, python-format
+msgid "Delete comment: %s?"
+msgstr "Yorumu sil: %s?"
+
+#: views.py:98
+#, python-format
+msgid "Comments for document: %s"
+msgstr "Belge için yorumlar: %s"

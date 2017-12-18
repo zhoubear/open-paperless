@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Roberto Rosario <roberto.rosario.gonzalez@gmail.com>, 2017\n"
+"Language-Team: Italian (https://www.transifex.com/rosarior/teams/13584/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:23 links.py:11 permissions.py:7
+msgid "Task manager"
+msgstr "Task manager"
+
+#: apps.py:29
+msgid "Label"
+msgstr "Etichetta"
+
+#: apps.py:32
+msgid "Name"
+msgstr "Nome "
+
+#: apps.py:35
+msgid "Default queue?"
+msgstr "Coda predefinita?"
+
+#: apps.py:41
+msgid "Is transient?"
+msgstr "è transitorio?"
+
+#: apps.py:47
+msgid "Type"
+msgstr "Tipo"
+
+#: apps.py:50
+msgid "Start time"
+msgstr "Ora d'inizio"
+
+#: apps.py:53
+msgid "Host"
+msgstr "Host"
+
+#: apps.py:57
+msgid "Acknowledged"
+msgstr "Riconosciuto"
+
+#: apps.py:63
+msgid "Arguments"
+msgstr "Argomenti"
+
+#: apps.py:67
+msgid "Keyword arguments"
+msgstr ""
+
+#: apps.py:71
+msgid "Worker process ID"
+msgstr ""
+
+#: links.py:15 views.py:15
+msgid "Background task queues"
+msgstr ""
+
+#: links.py:19
+msgid "Active tasks"
+msgstr "Tasks attivi"
+
+#: links.py:23
+msgid "Reserved tasks"
+msgstr ""
+
+#: links.py:27
+msgid "Scheduled tasks"
+msgstr ""
+
+#: permissions.py:10
+msgid "View tasks"
+msgstr ""
+
+#: views.py:30
+#, python-format
+msgid "Active tasks in queue: %s"
+msgstr ""
+
+#: views.py:45
+#, python-format
+msgid "Unable to retrieve task list; %s"
+msgstr ""
+
+#: views.py:55
+#, python-format
+msgid "Scheduled tasks in queue: %s"
+msgstr ""
+
+#: views.py:67
+#, python-format
+msgid "Reserved tasks in queue: %s"
+msgstr ""

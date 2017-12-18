@@ -1,0 +1,88 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+{% load static %}
+
+{% load common_tags %}
+{% load navigation_tags %}
+
+{% block title %}{% trans 'Dashboard' %}{% endblock %}
+
+{% block javascript %}
+    <script>
+        $(function() {
+            $('.match-height').matchHeight();
+        });
+    </script>
+{% endblock javascript %}
+
+{% block content %}
+    <h3>
+        {% trans 'Dashboard' %}
+    </h3>
+
+
+    <div class="row">
+        <div class="col-xs-12">
+
+            {% if missing_list %}
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{% trans 'Getting started' %}</h3>
+                    </div>
+                    <div class="panel-body">
+                        {% trans 'Before you can fully use Mayan EDMS you need the following:' %}
+
+                        <div class="list-group">
+                            {% for missing in missing_list %}
+                                <a href="{% url missing.view %}" class="list-group-item">
+                                    <h4 class="list-group-item-heading">{{ missing.label }}</h4>
+                                    <p class="list-group-item-text">{{ missing.description }}</p>
+                                </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="x_panel">
+                <div class="x_content">
+                    <br>
+
+                    <form action="{% url 'search:results' search_model='documents.DocumentPageResult' %}" method="get" role="search">
+                        <div class="input-group">
+                            <input class="form-control" name="q" placeholder="{% trans 'Search pages' %}" type="text" value="{{ search_terms|default:'' }}">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">{% trans 'Search' %}</button>
+                                <a class="btn btn-primary" href="{% url 'search:search_advanced' search_model='documents.DocumentPageResult' %}">{% trans 'Advanced' %}</a>
+                            </span>
+                        </div>
+                    </form>
+
+                    <form action="{% url 'search:results' search_model='documents.Document' %}" method="get" role="search">
+                        <div class="input-group">
+                            <input class="form-control" name="q" placeholder="{% trans 'Search documents' %}" type="text" value="{{ search_terms|default:'' }}">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">{% trans 'Search' %}</button>
+                                <a class="btn btn-primary" href="{% url 'search:search_advanced' search_model='documents.Document' %}">{% trans 'Advanced' %}</a>
+                            </span>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% get_dashboard 'main' as dashboard %}
+    <div class="row">
+        {% for widget in dashboard.get_widgets %}
+            {% include 'appearance/dashboard_widget.html' %}
+        {% endfor %}
+    </div>
+
+{% endblock %}

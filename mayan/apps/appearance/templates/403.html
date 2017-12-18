@@ -1,0 +1,14 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% blocktrans %}Insufficient permissions{% endblocktrans %}{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <h3 class="title">{% blocktrans %}Insufficient permissions{% endblocktrans %}</h3>
+        <div class="inner">
+            <p>{% blocktrans %}You don't have enough permissions for this operation.{% endblocktrans %}</p>
+        </div>
+    </div>
+{% endblock %}

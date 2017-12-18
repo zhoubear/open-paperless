@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# jmcainzos <jmcainzos@vodafone.es>, 2014
+# Lory977 <helga.carrero@gmail.com>, 2015
+# Roberto Rosario, 2011,2013
+# Roberto Rosario, 2015,2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-05-28 19:55+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Spanish (http://www.transifex.com/rosarior/mayan-edms/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:16
+msgid "Dynamic search"
+msgstr "Búsqueda dinámica "
+
+#: classes.py:27
+msgid "No search model matching the query"
+msgstr "Ningún modelo de búsqueda que coincida con la consulta"
+
+#: forms.py:9
+msgid "Match all"
+msgstr "Parear todos"
+
+#: forms.py:10
+msgid ""
+"When checked, only results that match all fields will be returned. When "
+"unchecked results that match at least one field will be returned."
+msgstr "Cuando se selecciona, sólo se devolverán los resultados que coincidan con todos los campos. Si no se selecciona los resultados que coincidan con al menos un campo se devolverá."
+
+#: forms.py:29
+msgid "Search terms"
+msgstr "Términos de búsqueda"
+
+#: links.py:8 settings.py:8 views.py:52 views.py:63
+msgid "Search"
+msgstr "Búsqueda"
+
+#: links.py:11 views.py:77
+msgid "Advanced search"
+msgstr "Búsqueda avanzada"
+
+#: links.py:15
+msgid "Search again"
+msgstr "Volver a buscar"
+
+#: settings.py:11
+msgid "Maximum amount search hits to fetch and display."
+msgstr "La cantidad máxima de resultados de búsqueda a recabar y mostrar."
+
+#: views.py:25
+#, python-format
+msgid "Search results for: %s"
+msgstr "Resultados de la búsqueda para: %s"
+
+#: views.py:65
+#, python-format
+msgid "Search for: %s"
+msgstr "Búsqueda para: %s"

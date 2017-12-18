@@ -1,0 +1,9 @@
+<div class="well">
+    {% if content %}
+        <p>{{ content }}</p>
+    {% endif %}
+
+    {% for paragraph in paragraphs %}
+        <p>{{ paragraph }}</p>
+    {% endfor %}
+</div>

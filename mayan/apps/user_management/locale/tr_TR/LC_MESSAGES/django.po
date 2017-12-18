@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# serhatcan77 <serhat_can@yahoo.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-08-01 07:21+0000\n"
+"Last-Translator: serhatcan77 <serhat_can@yahoo.com>\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/rosarior/mayan-edms/language/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:43 permissions.py:7
+msgid "User management"
+msgstr "Kullanıcı yönetimi"
+
+#: apps.py:59
+msgid "All the groups."
+msgstr "Tüm gruplar."
+
+#: apps.py:63
+msgid "All the users."
+msgstr "Tüm kullanıcılar."
+
+#: apps.py:68 links.py:30
+msgid "Members"
+msgstr "Üyeler"
+
+#: apps.py:72
+msgid "Full name"
+msgstr "Ad Soyad"
+
+#: apps.py:75 search.py:22
+msgid "Email"
+msgstr "E-posta"
+
+#: apps.py:78
+msgid "Active"
+msgstr "Aktif"
+
+#: apps.py:84
+msgid "Has usable password?"
+msgstr "Kullanılabilir şifre var mı?"
+
+#: forms.py:18
+msgid "New password"
+msgstr "Yeni Şifre"
+
+#: forms.py:21
+msgid "Confirm password"
+msgstr "Şifreyi Onayla"
+
+#: links.py:14 views.py:27
+msgid "Create new group"
+msgstr "Yeni grup oluştur"
+
+#: links.py:18 links.py:42 links.py:58
+msgid "Delete"
+msgstr "Sil"
+
+#: links.py:22 links.py:46
+msgid "Edit"
+msgstr "Düzenle"
+
+#: links.py:26 links.py:34 links.py:50 search.py:25 views.py:50
+msgid "Groups"
+msgstr "Gruplar"
+
+#: links.py:38 views.py:116
+msgid "Create new user"
+msgstr "Yeni kullanıcı oluştur"
+
+#: links.py:54 links.py:70 views.py:240
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: links.py:62 links.py:66
+msgid "Set password"
+msgstr "Şifreyi belirle"
+
+#: permissions.py:10
+msgid "Create new groups"
+msgstr "Yeni gruplar oluştur"
+
+#: permissions.py:13
+msgid "Delete existing groups"
+msgstr "Mevcut grupları sil"
+
+#: permissions.py:16
+msgid "Edit existing groups"
+msgstr "Varolan grupları düzenle"
+
+#: permissions.py:19
+msgid "View existing groups"
+msgstr "Mevcut grupları görüntüle"
+
+#: permissions.py:22
+msgid "Create new users"
+msgstr "Yeni kullanıcılar oluştur"
+
+#: permissions.py:25
+msgid "Delete existing users"
+msgstr "Mevcut kullanıcıları sil"
+
+#: permissions.py:28
+msgid "Edit existing users"
+msgstr "Var olan kullanıcıları düzenle"
+
+#: permissions.py:31
+msgid "View existing users"
+msgstr "Mevcut kullanıcıları görüntüle"
+
+#: search.py:19
+msgid "First name"
+msgstr "Ad"
+
+#: search.py:28
+msgid "Last name"
+msgstr "Soyad"
+
+#: search.py:31
+msgid "username"
+msgstr "kullanıcı adı"
+
+#: search.py:41
+msgid "Name"
+msgstr "İsim"
+
+#: serializers.py:29
+msgid "Comma separated list of group primary keys to assign this user to."
+msgstr "Bu kullanıcıya atamak için virgülle ayrılmış birincil gruplar listesi."
+
+#: serializers.py:51
+msgid "List of group primary keys to which to add the user."
+msgstr "Kullanıcının hangi gruba ekleneceğini belirten birincil anahtarların listesi."
+
+#: views.py:43
+#, python-format
+msgid "Edit group: %s"
+msgstr "Grubu düzenle: %s"
+
+#: views.py:64
+#, python-format
+msgid "Delete the group: %s?"
+msgstr "Grubu sil: %s?"
+
+#: views.py:70
+msgid "Available users"
+msgstr "Kullanılabilir kullanıcılar"
+
+#: views.py:71
+msgid "Members of groups"
+msgstr "Grup üyeleri"
+
+#: views.py:92
+#, python-format
+msgid "Members of group: %s"
+msgstr "Grubun üyeleri: %s"
+
+#: views.py:126
+#, python-format
+msgid "User \"%s\" created successfully."
+msgstr "\"%s\" kullanıcısı başarıyla oluşturuldu."
+
+#: views.py:135
+#, python-format
+msgid "User delete request performed on %(count)d user"
+msgstr "%(count)d kullanıcısı için kullanıcı silme isteği yapıldı"
+
+#: views.py:137
+#, python-format
+msgid "User delete request performed on %(count)d users"
+msgstr "%(count)d adet kullanıcıda gerçekleştirilen kullanıcı silme isteği"
+
+#: views.py:146
+msgid "Delete user"
+msgid_plural "Delete users"
+msgstr[0] "Kullanıcıları sil"
+
+#: views.py:156
+#, python-format
+msgid "Delete user: %s"
+msgstr "Kullanıcıyı sil: %s"
+
+#: views.py:168
+msgid ""
+"Super user and staff user deleting is not allowed, use the admin interface "
+"for these cases."
+msgstr "Süper kullanıcı ve çalışanların silinmesine izin verilmiyor, bu durumlarda admin arayüzünü kullanın."
+
+#: views.py:176
+#, python-format
+msgid "User \"%s\" deleted successfully."
+msgstr "\"%s\" kullanıcısı başarıyla silindi."
+
+#: views.py:182
+#, python-format
+msgid "Error deleting user \"%(user)s\": %(error)s"
+msgstr "\"%(user)s\" kullanıcısı silinirken hata oluştu: %(error)s"
+
+#: views.py:198
+#, python-format
+msgid "Edit user: %s"
+msgstr "Kullanıcıyı düzenle: %s"
+
+#: views.py:204
+msgid "Available groups"
+msgstr "Kullanılabilir gruplar"
+
+#: views.py:205
+msgid "Groups joined"
+msgstr "Gruplar katıldı"
+
+#: views.py:214
+#, python-format
+msgid "Groups of user: %s"
+msgstr "Kullanıcının grupları: %s"
+
+#: views.py:252
+#, python-format
+msgid "Password change request performed on %(count)d user"
+msgstr "%(count)d kullanıcısı için şifre değişikliği isteği yapıldı"
+
+#: views.py:254
+#, python-format
+msgid "Password change request performed on %(count)d users"
+msgstr "%(count)d kullanıcılarda gerçekleştirilen şifre değişikliği isteği"
+
+#: views.py:262
+msgid "Submit"
+msgstr "Gönder"
+
+#: views.py:264
+msgid "Change user password"
+msgid_plural "Change users passwords"
+msgstr[0] "Kullanıcıların şifrelerini değiştir"
+
+#: views.py:274
+#, python-format
+msgid "Change password for user: %s"
+msgstr "Kullanıcı için şifre değiştir: %s"
+
+#: views.py:294
+msgid ""
+"Super user and staff user password reseting is not allowed, use the admin "
+"interface for these cases."
+msgstr "Süper kullanıcı ve çalışanların parola sıfırlamasına izin verilmez, bu durumlarda admin arayüzünü kullanın."
+
+#: views.py:304
+#, python-format
+msgid "Successfull password reset for user: %s."
+msgstr "Kullanıcı için başarıyla yapılan şifre sıfırlaması: %s."
+
+#: views.py:310
+#, python-format
+msgid "Error reseting password for user \"%(user)s\": %(error)s"
+msgstr "\"%(user)s\" kullanıcısı için parola sıfırlama hatası: %(error)s"

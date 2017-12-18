@@ -1,0 +1,350 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Nurgül Özkan <nurgulozkan@hotmail.com>, 2017
+# serhatcan77 <serhat_can@yahoo.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-08-27 16:48+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/rosarior/mayan-edms/language/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:77 permissions_runtime.py:7 settings.py:11
+msgid "Common"
+msgstr "Ortak"
+
+#: apps.py:82
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: apps.py:94 models.py:24
+msgid "Namespace"
+msgstr "Alanadı"
+
+#: apps.py:98 mixins.py:245
+msgid "Object"
+msgstr "Nesne"
+
+#: apps.py:102
+msgid "Date and time"
+msgstr "Tarih ve saat"
+
+#: apps.py:106 models.py:37
+msgid "Result"
+msgstr "Sonuç"
+
+#: classes.py:222
+msgid "Available attributes: \n"
+msgstr "Kullanılabilir özellikler:\n"
+
+#: dashboards.py:7
+msgid "Main"
+msgstr ""
+
+#: forms.py:27
+msgid "Selection"
+msgstr "Seçim"
+
+#: forms.py:143
+msgid "Filter"
+msgstr "Filtre"
+
+#: generics.py:136
+#, python-format
+msgid "Unable to transfer selection: %s."
+msgstr "Seçim aktarımı yapılamadı: %s."
+
+#: generics.py:160
+msgid "Add"
+msgstr "Ekle"
+
+#: generics.py:171
+msgid "Remove"
+msgstr "Çıkar"
+
+#: generics.py:353
+#, python-format
+msgid "%(object)s not created, error: %(error)s"
+msgstr "%(object)s oluşturulamadı, hata: %(error)s"
+
+#: generics.py:364
+#, python-format
+msgid "%(object)s created successfully."
+msgstr "%(object)s başarıyla oluşturuldu."
+
+#: generics.py:393
+#, python-format
+msgid "%(object)s not deleted, error: %(error)s."
+msgstr "%(object)s silinemedi, hata: %(error)s."
+
+#: generics.py:404
+#, python-format
+msgid "%(object)s deleted successfully."
+msgstr "%(object)s başarıyla silindi."
+
+#: generics.py:450
+#, python-format
+msgid "%(object)s not updated, error: %(error)s."
+msgstr "%(object)s güncellenemedi, hata: %(error)s."
+
+#: generics.py:461
+#, python-format
+msgid "%(object)s updated successfully."
+msgstr "%(object)s başarıyla güncellendi."
+
+#: links.py:30
+msgid "About this"
+msgstr "Bunun hakkında"
+
+#: links.py:33 views.py:58
+msgid "Check for updates"
+msgstr "Güncellemeleri kontrol et"
+
+#: links.py:37
+msgid "User details"
+msgstr "Kullanıcı detayları"
+
+#: links.py:41
+msgid "Edit details"
+msgstr "Detayları düzenle"
+
+#: links.py:44
+msgid "Locale profile"
+msgstr "Yerel profil ayarı"
+
+#: links.py:48
+msgid "Edit locale profile"
+msgstr "Yerel profili düzenle"
+
+#: links.py:52
+msgid "Source code"
+msgstr "Kaynak kodu"
+
+#: links.py:56
+msgid "Documentation"
+msgstr "Belgeleme"
+
+#: links.py:60 links.py:65
+msgid "Errors"
+msgstr ""
+
+#: links.py:69
+msgid "Data filters"
+msgstr "Veri filtreleri"
+
+#: links.py:73
+msgid "Forum"
+msgstr "Forum"
+
+#: links.py:77 views.py:234
+msgid "License"
+msgstr "Lisans"
+
+#: links.py:80 views.py:248
+msgid "Other packages licenses"
+msgstr "Diğer paket lisansları"
+
+#: links.py:84
+msgid "Setup"
+msgstr "Ayarlar"
+
+#: links.py:87
+msgid "Support"
+msgstr "Destek"
+
+#: links.py:91 queues.py:10 views.py:278
+msgid "Tools"
+msgstr "Araçlar"
+
+#: literals.py:13
+msgid "Days"
+msgstr "Günler"
+
+#: literals.py:14
+msgid "Hours"
+msgstr "Saatler"
+
+#: literals.py:15
+msgid "Minutes"
+msgstr "Dakikalar"
+
+#: menus.py:12
+msgid "System"
+msgstr "Sistem"
+
+#: menus.py:22 models.py:81
+msgid "User"
+msgstr "Kullanıcı"
+
+#: mixins.py:84
+#, python-format
+msgid "Operation performed on %(count)d object"
+msgstr "İşlem %(count)d nesnesi üzerinde gerçekleştirildi"
+
+#: mixins.py:85
+#, python-format
+msgid "Operation performed on %(count)d objects"
+msgstr "İşlem %(count)d nesneleri üzerinde gerçekleştirildi"
+
+#: models.py:35 models.py:55
+msgid "Date time"
+msgstr "Tarih saat"
+
+#: models.py:43
+msgid "Error log entry"
+msgstr ""
+
+#: models.py:44
+msgid "Error log entries"
+msgstr ""
+
+#: models.py:51
+msgid "File"
+msgstr "Dosya"
+
+#: models.py:53
+msgid "Filename"
+msgstr "Dosya adı"
+
+#: models.py:59
+msgid "Shared uploaded file"
+msgstr "Paylaşılan yüklenen dosya"
+
+#: models.py:60
+msgid "Shared uploaded files"
+msgstr "Paylaşılan yüklenen dosyalar"
+
+#: models.py:85
+msgid "Timezone"
+msgstr "Saat dilimi"
+
+#: models.py:88
+msgid "Language"
+msgstr "Dil"
+
+#: models.py:92
+msgid "User locale profile"
+msgstr "Kullanıcı yerel ayar profili"
+
+#: models.py:93
+msgid "User locale profiles"
+msgstr "Kullanıcı yerel ayar profilleri"
+
+#: permissions_runtime.py:10
+msgid "View error log"
+msgstr ""
+
+#: queues.py:8
+msgid "Default"
+msgstr "Varsayılan"
+
+#: queues.py:12
+msgid "Common periodic"
+msgstr "Ortak periyodik"
+
+#: queues.py:16
+msgid "Delete stale uploads"
+msgstr "Eski yüklemeleri sil"
+
+#: settings.py:15
+msgid "Automatically enable logging to all apps."
+msgstr "Tüm uygulamalara günlük kaydını otomatik olarak etkinleştirin."
+
+#: settings.py:21
+msgid ""
+"Time to delay background tasks that depend on a database commit to "
+"propagate."
+msgstr "Veritabanına bağımlı arka plan görevlerini geciktirme zamanını oluşturmak için kullanılır."
+
+#: settings.py:29
+msgid "An integer specifying how many objects should be displayed per page."
+msgstr "Sayfa başına kaç tane nesnenin görüntüleneceğini belirten bir tam sayı."
+
+#: settings.py:35
+msgid "A storage backend that all workers can use to share files."
+msgstr "Tüm çalışanların dosyaları paylaşmak için kullanabileceği bir depolama alanı."
+
+#: settings.py:40
+msgid ""
+"Temporary directory used site wide to store thumbnails, previews and "
+"temporary files."
+msgstr "Geçici dizin, küçük resimleri, önizlemeleri ve geçici dosyaları saklamak için site genelinde kullanılır."
+
+#: settings.py:48
+msgid "Path to the logfile that will track errors during production."
+msgstr "Üretim sırasında hataları izleyecek olan günlük dosyasının yolu."
+
+#: validators.py:29
+msgid ""
+"Enter a valid 'internal name' consisting of letters, numbers, and "
+"underscores."
+msgstr "Harfler, rakamlar ve alt çizgilerden oluşan geçerli bir 'dahili ad' girin."
+
+#: views.py:51
+#, python-format
+msgid "The version you are using is outdated. The latest version is %s"
+msgstr "Kullandığınız sürüm güncelliğini yitirmiştir. En son sürümü %s"
+
+#: views.py:55
+msgid "Your version is up-to-date."
+msgstr "Sürümünüz güncel."
+
+#: views.py:72
+msgid "Current user details"
+msgstr "Geçerli kullanıcı ayrıntıları"
+
+#: views.py:77
+msgid "Edit current user details"
+msgstr "Geçerli kullanıcı ayrıntılarını düzenle"
+
+#: views.py:97
+msgid "Current user locale profile details"
+msgstr "Geçerli kullanıcı yerel ayarları profil ayrıntıları"
+
+#: views.py:104
+msgid "Edit current user locale profile details"
+msgstr "Geçerli kullanıcı yerel ayarları ayrıntılarını düzenle"
+
+#: views.py:165
+#, python-format
+msgid "Error log entries for: %s"
+msgstr ""
+
+#: views.py:197
+msgid "Filter selection"
+msgstr "Filtre seçimi"
+
+#: views.py:213
+#, python-format
+msgid "Results for filter: %s"
+msgstr "Filtre için sonuçlar: %s"
+
+#: views.py:220
+msgid "Filter not found"
+msgstr "Filtre bulunamadı"
+
+#: views.py:261
+msgid "Setup items"
+msgstr "Kurulum öğeleri"
+
+#: views.py:305
+msgid "No action selected."
+msgstr "İşlem seçilmedi."
+
+#: views.py:313
+msgid "Must select at least one item."
+msgstr "En az bir öğe seçmelisiniz."
+
+#: widgets.py:48
+msgid "None"
+msgstr "Yok"

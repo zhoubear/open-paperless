@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Nima Towhidi <nima.towhidi@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-05-12 07:25+0000\n"
+"Last-Translator: Nima Towhidi <nima.towhidi@gmail.com>\n"
+"Language-Team: Persian (http://www.transifex.com/rosarior/mayan-edms/language/fa/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:31
+msgid "Django GPG"
+msgstr ""
+
+#: apps.py:47 apps.py:50 forms.py:17
+msgid "Key ID"
+msgstr "شناسه کلید"
+
+#: apps.py:48 apps.py:61 forms.py:19 models.py:52
+msgid "User ID"
+msgstr "شناسه کاربری"
+
+#: apps.py:51 forms.py:34 models.py:55
+msgid "Type"
+msgstr "نوع"
+
+#: apps.py:53 forms.py:23 models.py:36
+msgid "Creation date"
+msgstr "تاریخ ایجاد"
+
+#: apps.py:56 forms.py:27 models.py:40
+msgid "Expiration date"
+msgstr "تاریخ انقضا"
+
+#: apps.py:57
+msgid "No expiration"
+msgstr "بدون انقضا"
+
+#: apps.py:59 forms.py:32 models.py:47
+msgid "Length"
+msgstr "طول"
+
+#: forms.py:28
+msgid "None"
+msgstr "هیچکدام."
+
+#: forms.py:31 models.py:44
+msgid "Fingerprint"
+msgstr "اثر انگشت"
+
+#: forms.py:33 models.py:50
+msgid "Algorithm"
+msgstr "الگوریتم"
+
+#: forms.py:47
+msgid "Term"
+msgstr "ترم Term"
+
+#: forms.py:48
+msgid "Name, e-mail, key ID or key fingerprint to look for."
+msgstr "نام، ایمیل، شناسه کلید ویا اثرانگشت کلید برای چستچو."
+
+#: links.py:13
+msgid "Delete"
+msgstr "حذف"
+
+#: links.py:17
+msgid "Details"
+msgstr "جزئیات"
+
+#: links.py:21
+msgid "Download"
+msgstr "دانلود"
+
+#: links.py:25 permissions.py:28
+msgid "Query keyservers"
+msgstr "پرسش و یا query از سرورهای کلید"
+
+#: links.py:29
+msgid "Import"
+msgstr "وارد کردن"
+
+#: links.py:34 permissions.py:7
+msgid "Key management"
+msgstr "مدیریت کلید"
+
+#: links.py:37
+msgid "Upload key"
+msgstr "کلید آپلود"
+
+#: links.py:41 views.py:160
+msgid "Private keys"
+msgstr "کلید شخصی"
+
+#: links.py:45 views.py:149
+msgid "Public keys"
+msgstr "کلید عمومی"
+
+#: literals.py:6 literals.py:14
+msgid "Public"
+msgstr "عمومی"
+
+#: literals.py:7 literals.py:15
+msgid "Secret"
+msgstr "سری و یا رمز"
+
+#: literals.py:23 literals.py:28
+msgid "RSA"
+msgstr "RSA"
+
+#: literals.py:24
+msgid "DSA"
+msgstr "DSA"
+
+#: literals.py:29
+msgid "Elgamal"
+msgstr "الگمال Elgmal"
+
+#: literals.py:43
+msgid "Bad signature."
+msgstr "امضای اشتباه"
+
+#: literals.py:46
+msgid "Document not signed or invalid signature."
+msgstr "سند امضا نشده و یا امضا قابل قبول نییست"
+
+#: literals.py:49
+msgid "Signature error."
+msgstr "خطا در امضا"
+
+#: literals.py:53
+msgid "Document is signed but no public key is available for verification."
+msgstr "سند امضا شده است ولیکن کلید عمومی جهت بررسی صحت امضا وجود ندارد."
+
+#: literals.py:58
+msgid "Document is signed, and signature is good."
+msgstr "سند امضا شده است و امضا مورد تایید میباشد."
+
+#: literals.py:61
+msgid "Document is signed with a valid signature."
+msgstr "سند با امضای مورد تایید امضا شده است."
+
+#: models.py:32
+msgid "ASCII armored version of the key."
+msgstr ""
+
+#: models.py:33
+msgid "Key data"
+msgstr ""
+
+#: models.py:61
+msgid "Key"
+msgstr "کلید"
+
+#: models.py:62
+msgid "Keys"
+msgstr "کلیدها"
+
+#: models.py:68
+msgid "Invalid key data"
+msgstr ""
+
+#: models.py:71
+msgid "Key already exists."
+msgstr "این کلید از قبل وجود دارد."
+
+#: permissions.py:10
+msgid "Delete keys"
+msgstr "پاک و یا حذف کلیدها"
+
+#: permissions.py:13
+msgid "Download keys"
+msgstr "دانلود کلیدها"
+
+#: permissions.py:16
+msgid "Import keys from keyservers"
+msgstr "وارد کردن کلیده از سرور کلیدها"
+
+#: permissions.py:19
+msgid "Use keys to sign content"
+msgstr ""
+
+#: permissions.py:22
+msgid "Upload keys"
+msgstr "آپلود کلیدها"
+
+#: permissions.py:25
+msgid "View keys"
+msgstr "دیدن کلیدها"
+
+#: settings.py:10
+msgid "Signatures"
+msgstr "امضاها"
+
+#: settings.py:15
+msgid "Home directory used to store keys as well as configuration files."
+msgstr "ریشه دایرکتوری جهت نگهداری کلیدها بهمراه فایلهای پیکربندی."
+
+#: settings.py:21
+msgid "Path to the GPG binary."
+msgstr "محل کتایخانه باینری GPG"
+
+#: settings.py:25
+msgid "Keyserver used to query for keys."
+msgstr ""
+
+#: views.py:38
+#, python-format
+msgid "Delete key: %s"
+msgstr ""
+
+#: views.py:48
+#, python-format
+msgid "Details for key: %s"
+msgstr ""
+
+#: views.py:68
+#, python-format
+msgid "Import key ID: %s?"
+msgstr ""
+
+#: views.py:69
+msgid "Import key"
+msgstr "وارد کردن کلید"
+
+#: views.py:78
+#, python-format
+msgid "Unable to import key: %(key_id)s; %(error)s"
+msgstr ""
+
+#: views.py:85
+#, python-format
+msgid "Successfully received key: %(key_id)s"
+msgstr ""
+
+#: views.py:107
+msgid "Search"
+msgstr "جستجو"
+
+#: views.py:109
+msgid "Query key server"
+msgstr "پرسش از سرور کلید"
+
+#: views.py:119
+msgid "Key query results"
+msgstr ""
+
+#: views.py:138
+msgid "Upload new key"
+msgstr ""

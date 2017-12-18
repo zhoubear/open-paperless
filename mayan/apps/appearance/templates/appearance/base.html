@@ -1,0 +1,421 @@
+{% load i18n %}
+{% load static %}
+
+{% load compress %}
+
+{% load common_tags %}
+{% load navigation_tags %}
+
+{% spaceless %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Language" content="{{ LANGUAGE_CODE }}" />
+        <title>
+            {% block base_title %}
+                {% block title %}{% endblock %} :: {% block project_name %}{% project_name %}{% endblock %}
+            {% endblock base_title %}
+        </title>
+
+        {% compress css %}
+            {# <link href="{% static 'appearance/packages/font-awesome-4.7.0/css/font-awesome.min.css' %}" media="screen" rel="stylesheet" type="text/css" />#}
+            {# Disable base Bootstrap CSS, Flatly seems to include it already #}
+            {#<link href="{% static 'appearance/packages/bootstrap-3.3.4-dist/css/bootstrap.min.css' %}" media="screen" rel="stylesheet" type="text/css"  />#}
+
+            <!-- Bootstrap -->
+            <link href="{% static 'appearance/packages/gentelella-master/vendors/bootstrap/dist/css/bootstrap.min.css' %}" rel="stylesheet">
+            <!-- Font Awesome -->
+            <link href="{% static 'appearance/packages/gentelella-master/vendors/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+            <!-- NProgress -->
+            <link href="{% static 'appearance/packages/gentelella-master/vendors/nprogress/nprogress.css' %} " rel="stylesheet">
+            <!-- iCheck -->
+            <link href="{% static 'appearance/packages/gentelella-master/vendors/iCheck/skins/flat/green.css' %}" rel="stylesheet">
+
+            <!-- bootstrap-progressbar -->
+            <link href="{% static 'appearance/packages/gentelella-master/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css' %}" rel="stylesheet">
+            <!-- JQVMap -->
+            <link href="{% static 'appearance/packages/gentelella-master/vendors/jqvmap/dist/jqvmap.min.css' %}" rel="stylesheet"/>
+            <!-- bootstrap-daterangepicker -->
+            <link href="{% static 'appearance/packages/gentelella-master/vendors/bootstrap-daterangepicker/daterangepicker.css' %}" rel="stylesheet">
+
+            <link href="{% static 'appearance/packages/gentelella-master/vendors/pnotify/dist/pnotify.css' %}" rel="stylesheet">
+            <link href="{% static 'appearance/packages/gentelella-master/vendors/pnotify/dist/pnotify.buttons.css' %}" rel="stylesheet">
+            <link href="{% static 'appearance/packages/gentelella-master/vendors/pnotify/dist/pnotify.nonblock.css' %}" rel="stylesheet">
+
+
+            <!-- Custom Theme Style -->
+            <link href="{% static 'appearance/packages/gentelella-master/build/css/custom.css' %}" rel="stylesheet" type="text/css">
+
+
+
+            {#<link href="{% static 'appearance/packages/bootswatch.com/flatly/bootstrap.css' %}" media="screen" rel="stylesheet" type="text/css" />#}
+            {#<link href="{% static 'appearance/packages/animate/animate.css' %}" media="screen" rel="stylesheet" type="text/css" />#}
+            <link href="{% static 'appearance/packages/fancyBox-master/source/jquery.fancybox.css' %}" media="screen" rel="stylesheet" type="text/css" />
+            <link href="{% static 'appearance/packages/select2-4.0.3/dist/css/select2.min.css' %}" media="screen" rel="stylesheet" type="text/css" />
+            {#<link href="{% static 'appearance/packages/toastr-master-998959b0/build/toastr.min.css' %}" media="screen" rel="stylesheet" type="text/css" />#}
+            <link href="{% static 'appearance/css/base.css' %}" media="screen" rel="stylesheet" type="text/css" />
+            {% block stylesheets %}{% endblock %}
+        {% endcompress %}
+        <script>
+            function waitForJQuery(func) {
+                if (window.jQuery) {
+                    func();
+                } else {
+                    setTimeout(function() {
+                        waitForJQuery(func)
+                    }, 50);
+                }
+            }
+        </script>
+    </head>
+        {% if appearance_type == 'plain' %}
+            <body class="login">
+            {% block content_plain %}{% endblock %}
+        {% else %}
+            <body class="nav-md">
+
+            <div class="container body">
+                <div class="main_container">
+                    <div class="col-md-3 left_col">
+                        <div class="left_col scroll-view">
+                            <div class="navbar nav_title" style="border: 0;">
+                                <a href="{% url 'common:home' %}" class="site_title"><i class="bg-green fa fa-leaf"></i><span> {% project_name %}</span></a>
+                            </div>
+
+
+                            <div class="clearfix"></div>
+
+{% comment %}
+                            <!-- menu profile quick info -->
+                            <div class="profile clearfix">
+                                <div class="profile_pic">
+                                    <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                                </div>
+                            <div class="profile_info">
+                                <span>Welcome,</span>
+                                <h2>John Doe</h2>
+                            </div>
+
+                        </div>
+                        <!-- /menu profile quick info -->
+{% endcomment %}
+                    <br>
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section active">
+                            <h3>{% trans 'Main menu' %}</h3>
+                            <ul class="nav side-menu" style="">
+
+                                {% get_menu_links 'main menu' as menu_links %}
+                                {% for link_set in menu_links %}
+                                    {% for link in link_set %}
+                                        {% with 'true' as as_li %}
+                                        {% with 'true' as hide_active_anchor %}
+                                        {% with 'active' as li_class_active %}
+                                        {% with 'first' as li_class_first %}
+                                        {% with ' ' as link_classes %}
+                                            {% include 'navigation/generic_subnavigation.html' %}
+                                        {% endwith %}
+                                        {% endwith %}
+                                        {% endwith %}
+                                        {% endwith %}
+                                        {% endwith %}
+                                    {% endfor %}
+                                {% endfor %}
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- /sidebar menu -->
+{% comment %}
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="" data-original-title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="" href="login.html" data-original-title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+{% endcomment %}
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">&nbsp;
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+
+{% comment %}                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+
+                    <li><a href="javascript:;"> Profile</a></li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-red pull-right">50%</span>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li><a href="javascript:;">Help</a></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                  </ul>
+                </li>
+
+                <li role="presentation" class="dropdown">
+                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="badge bg-green">6</span>
+                  </a>
+                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="text-center">
+                        <a>
+                          <strong>See All Alerts</strong>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+{% endcomment %}
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main" style="min-height: 1716px;">
+            <div class="row">
+                <div class="col-xs-12">
+                    {% block messages %}{% endblock %}
+                </div>
+            </div>
+
+            {% get_menus_links names='object menu,sidebar menu,secondary menu' as links %}
+            {% get_menu_links 'object facet' as form_navigation_links %}
+
+            <div class="row">
+                {% if links or form_navigation_links %}
+                    <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10">
+                {% else %}
+                    <div class="col-xs-12">
+                {% endif %}
+                    {% block content %}{% endblock %}
+                    {% block footer %}{% endblock %}
+                </div>
+
+                {% if links or form_navigation_links %}
+                    <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                {% endif %}
+
+                {% if links %}
+                    <div class="pull-right btn-group" style="margin-bottom: 10px;">
+                        <button aria-expanded="true" type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                            {% trans 'Actions' %}
+                            <span class="caret"></span>
+                            <span class="sr-only">{% trans 'Toggle Dropdown' %}</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            {% for links_set in links %}
+                                {% for entry in links_set %}
+                                    <li><a class="btn-sm" href="{{ entry.url }}">{{ entry.text }}</a></li>
+                                {% endfor %}
+
+                                {% if not forloop.last and links_set %}
+                                    <li class="divider"></li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                     <div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+                {% endif %}
+
+                {% if form_navigation_links %}
+                    <div class="pull-right list-group">
+                        {% if form_navigation_links %}
+                            {% for object_navigation_links in form_navigation_links %}
+                                {% with 'true' as hide_active_anchor %}
+                                {% with 'active' as link_class_active %}
+                                {% with 'list-group-item btn-sm' as link_classes %}
+                                    {% include 'navigation/generic_navigation.html' %}
+                                {% endwith %}
+                                {% endwith %}
+                                {% endwith %}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                {% endif %}
+
+                {% if links or form_navigation_links %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        <!-- /page content -->
+
+{% comment %}
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+{% endcomment %}
+
+      </div>
+    </div>
+
+        {% endif %}
+
+        {% compress js %}
+
+            <!-- jQuery -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/jquery/dist/jquery.min.js' %}"></script>
+            <!-- Bootstrap -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+            <!-- FastClick -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/fastclick/lib/fastclick.js' %}"></script>
+            <!-- NProgress -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/nprogress/nprogress.js' %}"></script>
+            <!-- Chart.js -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/Chart.js/dist/Chart.min.js' %}"></script>
+            <!-- gauge.js -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/gauge.js/dist/gauge.min.js' %}"></script>
+            <!-- bootstrap-progressbar -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js' %}"></script>
+            <!-- iCheck -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/iCheck/icheck.min.js' %}"></script>
+            <!-- Skycons -->
+{#            <script src="../vendors/skycons/skycons.js"></script>#}
+            <!-- Flot -->
+{#            <script src="../vendors/Flot/jquery.flot.js"></script>#}
+{#            <script src="../vendors/Flot/jquery.flot.pie.js"></script>#}
+{#            <script src="../vendors/Flot/jquery.flot.time.js"></script>#}
+{#            <script src="../vendors/Flot/jquery.flot.stack.js"></script>#}
+{#            <script src="../vendors/Flot/jquery.flot.resize.js"></script>#}
+            <!-- Flot plugins -->
+{#            <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>#}
+{#            <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>#}
+{#            <script src="../vendors/flot.curvedlines/curvedLines.js"></script>#}
+            <!-- DateJS -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/DateJS/build/date.js' %}"></script>
+            <!-- JQVMap -->
+{#            <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>#}
+{#            <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>#}
+{#            <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>#}
+            <!-- bootstrap-daterangepicker -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/moment/min/moment.min.js' %}"></script>
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/bootstrap-daterangepicker/daterangepicker.js' %}"></script>
+
+           <!-- PNotify -->
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/pnotify/dist/pnotify.js' %}"></script>
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/pnotify/dist/pnotify.buttons.js' %}"></script>
+            <script src="{% static 'appearance/packages/gentelella-master/vendors/pnotify/dist/pnotify.nonblock.js' %}"></script>
+
+            <!-- Custom Theme Scripts -->
+            <script src="{% static 'appearance/packages/gentelella-master/build/js/custom.js' %}"></script>
+
+{% comment %}
+        <script type="text/javascript" src="{% static 'appearance/packages/jquery-2.1.4.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'appearance/packages/bootstrap-3.3.4-dist/js/bootstrap.min.js' %}"></script>
+{% endcomment %}
+
+            <script type="text/javascript" src="{% static 'appearance/packages/jquery.scrollview.js' %}"></script>
+            <script type="text/javascript" src="{% static 'appearance/packages/jquery_lazyload-master/jquery.lazyload.min.js' %}"></script>
+            <script type="text/javascript" src="{% static 'appearance/packages/fancyBox-master/source/jquery.fancybox.pack.js' %}"></script>
+            <script type="text/javascript" src="{% static 'appearance/packages/fancyBox-master/lib/jquery.mousewheel.pack.js' %}"></script>
+            <script type="text/javascript" src="{% static 'appearance/packages/select2-4.0.3/dist/js/select2.min.js' %}"></script>
+            {#<script type="text/javascript" src="{% static 'appearance/packages/toastr-master-998959b0/build/toastr.min.js' %}"></script>#}
+
+            <script type="text/javascript" src="{% static 'appearance/packages/jquery.matchHeight-min.js' %}"></script>
+
+            <script type="text/javascript" src="{% static 'appearance/js/base.js' %}"></script>
+        {% endcompress %}
+
+        <script>
+        var DjangoMessages = [
+            {% for message in messages %}
+                {
+                    tags: '{{ message.tags }}',
+                    message: '{{ message.message }}'
+                },
+            {% endfor %}
+        ];
+        </script>
+        {% block javascript %}{% endblock %}
+    </body>
+</html>
+{% endspaceless %}

@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Lory977 <helga.carrero@gmail.com>, 2015
+# Roberto Rosario, 2014
+# Roberto Rosario, 2015-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-07-15 03:56+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Spanish (http://www.transifex.com/rosarior/mayan-edms/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:25 links.py:28 permissions.py:7 queues.py:8
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#. Translators: Schedule here is a verb, the 'schedule' at which the
+#. statistic will be updated
+#: apps.py:34
+msgid "Schedule"
+msgstr "Programa"
+
+#: links.py:11
+msgid "Queue"
+msgstr "Programar"
+
+#: links.py:15
+msgid "View"
+msgstr "Ver"
+
+#: links.py:19
+msgid "Namespace details"
+msgstr "Detalles de espacio de nombres"
+
+#: links.py:23
+msgid "Namespace list"
+msgstr "Lista de espacios nombrados"
+
+#. Translators: 'Slug' refers to the URL valid ID of the statistic
+#. More info: https://docs.djangoproject.com/en/1.7/glossary/#term-slug
+#: models.py:14
+msgid "Slug"
+msgstr "Identificador"
+
+#: models.py:16
+msgid "Date time"
+msgstr "Fecha y hora"
+
+#: models.py:18
+msgid "Data"
+msgstr "Datos"
+
+#: models.py:31
+msgid "Statistics result"
+msgstr "Resultado de estadísticas"
+
+#: models.py:32
+msgid "Statistics results"
+msgstr "Resultados de estadísticas"
+
+#: permissions.py:10
+msgid "View statistics"
+msgstr "Ver estadísticas"
+
+#: queues.py:13
+msgid "Execute statistic"
+msgstr "Ejecutar estadística"
+
+#: templates/statistics/backends/chartjs/line.html:19
+msgid "No data available yet"
+msgstr "No hay datos disponibles aún."
+
+#: views.py:17
+msgid "Statistics namespaces"
+msgstr "Estadísticas de espacios nombrados"
+
+#: views.py:33
+#, python-format
+msgid "Namespace details for: %s"
+msgstr "Detalles para espacios nombrados: %s"
+
+#: views.py:53
+#, python-format
+msgid "Results for: %s"
+msgstr "Resultados para: %s"
+
+#: views.py:60 views.py:85
+#, python-format
+msgid "Statistic \"%s\" not found."
+msgstr "No se encontró estadística \"%s\"."
+
+#: views.py:77
+#, python-format
+msgid "Queue statistic \"%s\" to be updated?"
+msgstr "¿Programa estadística \"%s\" para ser actualizada?"

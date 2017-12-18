@@ -1,0 +1,23 @@
+{% load i18n %}
+
+{% if messages %}
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{% trans 'Messages of the day' %}</h3>
+                </div>
+                <div class="panel-body">
+                    {% for message in messages %}
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <h4 class="list-group-item-heading">{{ message.label }}</h4>
+                                <p class="list-group-item-text">{{ message.message | linebreaks }}</p>
+                            </li>
+                        </ul>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}

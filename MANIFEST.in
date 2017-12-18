@@ -1,0 +1,3 @@
+include README.md LICENSE HISTORY.rst mayan/LICENSE
+recursive-include mayan/apps *.txt *.html *.css *.ico *.png *.jpg *.js *.po *.mo *.ttf *.woff *.woff2 *.gif *.eot *.svg *.doc *.pdf *.tiff *.sig *.asc *.gpg *.zip
+global-exclude mayan/settings/local.py mayan/settings/travis/* mayan/media/*

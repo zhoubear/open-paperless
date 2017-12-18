@@ -1,0 +1,346 @@
+/*@font-face {
+    font-family: 'IM Fell English SC';
+    font-style: normal;
+    font-weight: normal;
+    src:
+        local('IM FELL English SC'),
+        local('IM_FELL_English_SC'),
+        url('../fonts/IM_Fell_English_SC.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/IM_Fell_English_SC.woff') format('woff'),
+        url('../fonts/IM_Fell_English_SC.svg#IMFellEnglishSC') format('svg'),
+        url('../fonts/IM_Fell_English_SC.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local('Lato Regular'),
+        local('Lato-Regular'),
+        url('../fonts/Lato_400.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato_400.woff') format('woff'),
+        url('../fonts/Lato_400.svg#Lato') format('svg'),
+        url('../fonts/Lato_400.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src:
+        local('Lato Bold'),
+        local('Lato-Bold'),
+        url('../fonts/Lato_700.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato_700.woff') format('woff'),
+        url('../fonts/Lato_700.svg#Lato') format('svg'),
+        url('../fonts/Lato_700.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src:
+        local('Lato Italic'),
+        local('Lato-Italic'),
+        url('../fonts/Lato_400italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato_400italic.woff') format('woff'),
+        url('../fonts/Lato_400italic.svg#Lato') format('svg'),
+        url('../fonts/Lato_400italic.ttf') format('truetype');
+}
+
+body {
+    padding-top: 70px;
+}
+
+.navbar-brand {
+    font-family: "IM Fell English SC", serif;
+}
+
+#fancybox-left-ico {
+ left: 20px;
+}
+
+#fancybox-right-ico {
+ right: 20px;
+ left: auto;
+}
+
+.thin_border {
+    border: 1px solid black;
+}
+
+.mayan-page-wrapper-interactive {
+    overflow: auto;
+}
+
+#carousel-container {
+    overflow-x: scroll; height: 500px;
+}
+
+#carousel-container img {
+    max-width: 100%;
+}
+
+.carousel-item {
+    margin: 5px 10px 10px 10px;
+}
+
+.carousel-item-page-number {
+    text-align: center;
+}
+
+img.lazy-load {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+img.lazy-load-carousel {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.img-nolazyload {
+    border: 1px solid black;
+}
+
+.document-page-content-divider {
+    text-align: center;
+}
+
+.label-tag {
+    text-shadow: 0px 0px 2px #000
+}
+
+.fancybox-nav span {
+    visibility: visible;
+}
+
+.instance-image-widget {
+    text-align: center;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 11px;
+}
+
+.btn-block {
+    margin-bottom: 15px;
+    white-space: normal;
+    min-height: 120px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+
+.btn-block .fa {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-block {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.radio ul li {
+    list-style-type:none;
+}
+
+a i {
+    padding-right: 3px;
+}
+
+.dashboard-widget {
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid black;
+}
+
+.dashboard-widget .panel-heading i {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.dashboard-widget-icon {
+    font-size: 200%;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice .label {
+    padding-bottom: 1px;
+}
+
+.tag-container .label {
+    margin-right: 2px;
+}
+
+ #toast-container > div {
+  opacity: 1;
+}
+
+.link-text-span {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
+// Collapse navigation on medium or smaller
+@media (max-width: 991px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+
+// List item view
+
+.panel-item {
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, .2);
+}
+
+.panel-item > .panel-heading {
+    padding: 1px 10px;
+}
+
+.panel-item > .panel-body {
+    padding: 10px;
+}
+
+.list-extra-column-label {
+    font-weight: bold;
+}
+
+// Content
+@media (min-width:1200px) {
+    .container-fluid {
+        width: 95%;
+    }
+}
+
+// Document widget
+.spinner-container {
+    margin: auto;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.spinner-container > .spinner-icon {
+    margin-left: 4px;
+    margin-top: 3px;
+}
+
+// Cabinets
+.cabinet-display {
+    font-style: italic;
+}
+*/
+
+.text-green {
+    color: #1ABB9C;
+}
+
+body {
+    color: black;
+}
+
+.mayan-page-wrapper-interactive {
+    overflow: auto;
+}
+
+#carousel-container {
+    overflow-x: scroll; height: 500px;
+}
+
+#carousel-container img {
+    max-width: 100%;
+}
+
+.carousel-item {
+    margin: 5px 10px 10px 10px;
+}
+
+.carousel-item-page-number {
+    text-align: center;
+}
+
+.document-page-content-divider {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+img.lazy-load {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+img.lazy-load-carousel {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.img-nolazyload {
+    border: 1px solid black;
+}
+
+.document-page-content-divider {
+    text-align: center;
+}
+
+.label-tag {
+    text-shadow: 0px 0px 2px #000
+}
+
+.fancybox-nav span {
+    visibility: visible;
+}
+
+.instance-image-widget {
+    text-align: center;
+}
+
+
+.panel-document .x_content {
+    height: 85%;
+    overflow: auto;
+}
+
+.thin_border {
+    border: 1px solid black;
+}

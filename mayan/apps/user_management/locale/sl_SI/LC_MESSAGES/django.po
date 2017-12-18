@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-07-15 03:50+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Slovenian (Slovenia) (http://www.transifex.com/rosarior/mayan-edms/language/sl_SI/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl_SI\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: apps.py:43 permissions.py:7
+msgid "User management"
+msgstr ""
+
+#: apps.py:59
+msgid "All the groups."
+msgstr ""
+
+#: apps.py:63
+msgid "All the users."
+msgstr ""
+
+#: apps.py:68 links.py:30
+msgid "Members"
+msgstr ""
+
+#: apps.py:72
+msgid "Full name"
+msgstr ""
+
+#: apps.py:75 search.py:22
+msgid "Email"
+msgstr ""
+
+#: apps.py:78
+msgid "Active"
+msgstr ""
+
+#: apps.py:84
+msgid "Has usable password?"
+msgstr ""
+
+#: forms.py:18
+msgid "New password"
+msgstr ""
+
+#: forms.py:21
+msgid "Confirm password"
+msgstr ""
+
+#: links.py:14 views.py:27
+msgid "Create new group"
+msgstr ""
+
+#: links.py:18 links.py:42 links.py:58
+msgid "Delete"
+msgstr ""
+
+#: links.py:22 links.py:46
+msgid "Edit"
+msgstr ""
+
+#: links.py:26 links.py:34 links.py:50 search.py:25 views.py:50
+msgid "Groups"
+msgstr "Skupine"
+
+#: links.py:38 views.py:116
+msgid "Create new user"
+msgstr ""
+
+#: links.py:54 links.py:70 views.py:240
+msgid "Users"
+msgstr "Uporabniki"
+
+#: links.py:62 links.py:66
+msgid "Set password"
+msgstr ""
+
+#: permissions.py:10
+msgid "Create new groups"
+msgstr ""
+
+#: permissions.py:13
+msgid "Delete existing groups"
+msgstr ""
+
+#: permissions.py:16
+msgid "Edit existing groups"
+msgstr ""
+
+#: permissions.py:19
+msgid "View existing groups"
+msgstr ""
+
+#: permissions.py:22
+msgid "Create new users"
+msgstr ""
+
+#: permissions.py:25
+msgid "Delete existing users"
+msgstr ""
+
+#: permissions.py:28
+msgid "Edit existing users"
+msgstr ""
+
+#: permissions.py:31
+msgid "View existing users"
+msgstr ""
+
+#: search.py:19
+msgid "First name"
+msgstr ""
+
+#: search.py:28
+msgid "Last name"
+msgstr ""
+
+#: search.py:31
+msgid "username"
+msgstr ""
+
+#: search.py:41
+msgid "Name"
+msgstr "Ime"
+
+#: serializers.py:29
+msgid "Comma separated list of group primary keys to assign this user to."
+msgstr ""
+
+#: serializers.py:51
+msgid "List of group primary keys to which to add the user."
+msgstr ""
+
+#: views.py:43
+#, python-format
+msgid "Edit group: %s"
+msgstr ""
+
+#: views.py:64
+#, python-format
+msgid "Delete the group: %s?"
+msgstr ""
+
+#: views.py:70
+msgid "Available users"
+msgstr ""
+
+#: views.py:71
+msgid "Members of groups"
+msgstr ""
+
+#: views.py:92
+#, python-format
+msgid "Members of group: %s"
+msgstr ""
+
+#: views.py:126
+#, python-format
+msgid "User \"%s\" created successfully."
+msgstr ""
+
+#: views.py:135
+#, python-format
+msgid "User delete request performed on %(count)d user"
+msgstr ""
+
+#: views.py:137
+#, python-format
+msgid "User delete request performed on %(count)d users"
+msgstr ""
+
+#: views.py:146
+msgid "Delete user"
+msgid_plural "Delete users"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: views.py:156
+#, python-format
+msgid "Delete user: %s"
+msgstr ""
+
+#: views.py:168
+msgid ""
+"Super user and staff user deleting is not allowed, use the admin interface "
+"for these cases."
+msgstr ""
+
+#: views.py:176
+#, python-format
+msgid "User \"%s\" deleted successfully."
+msgstr ""
+
+#: views.py:182
+#, python-format
+msgid "Error deleting user \"%(user)s\": %(error)s"
+msgstr ""
+
+#: views.py:198
+#, python-format
+msgid "Edit user: %s"
+msgstr ""
+
+#: views.py:204
+msgid "Available groups"
+msgstr ""
+
+#: views.py:205
+msgid "Groups joined"
+msgstr ""
+
+#: views.py:214
+#, python-format
+msgid "Groups of user: %s"
+msgstr ""
+
+#: views.py:252
+#, python-format
+msgid "Password change request performed on %(count)d user"
+msgstr ""
+
+#: views.py:254
+#, python-format
+msgid "Password change request performed on %(count)d users"
+msgstr ""
+
+#: views.py:262
+msgid "Submit"
+msgstr ""
+
+#: views.py:264
+msgid "Change user password"
+msgid_plural "Change users passwords"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: views.py:274
+#, python-format
+msgid "Change password for user: %s"
+msgstr ""
+
+#: views.py:294
+msgid ""
+"Super user and staff user password reseting is not allowed, use the admin "
+"interface for these cases."
+msgstr ""
+
+#: views.py:304
+#, python-format
+msgid "Successfull password reset for user: %s."
+msgstr ""
+
+#: views.py:310
+#, python-format
+msgid "Error reseting password for user \"%(user)s\": %(error)s"
+msgstr ""

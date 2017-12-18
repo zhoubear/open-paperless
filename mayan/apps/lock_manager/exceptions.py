@@ -1,0 +1,2 @@
+class LockError(Exception):
+    pass

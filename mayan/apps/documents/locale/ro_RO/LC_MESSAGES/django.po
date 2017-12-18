@@ -1,0 +1,1005 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Stefaniu Criste <gupi@hangar.ro>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-08-15 06:31+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Romanian (Romania) (http://www.transifex.com/rosarior/mayan-edms/language/ro_RO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: apps.py:103 apps.py:221 apps.py:497 menus.py:8 models.py:232
+#: permissions.py:7 queues.py:18 settings.py:13
+msgid "Documents"
+msgstr "Documente"
+
+#: apps.py:126
+msgid "Create a document type"
+msgstr ""
+
+#: apps.py:128
+msgid ""
+"Every uploaded document must be assigned a document type, it is the basic "
+"way Mayan EDMS categorizes documents."
+msgstr ""
+
+#: apps.py:135 models.py:68 models.py:160 models.py:678 search.py:21
+#: search.py:42
+msgid "Label"
+msgstr "Etichetă"
+
+#: apps.py:140
+msgid "The MIME type of any of the versions of a document"
+msgstr ""
+
+#: apps.py:141 apps.py:254 search.py:19 search.py:39
+msgid "MIME type"
+msgstr "Tip MIME"
+
+#: apps.py:190 apps.py:201 apps.py:208 apps.py:234 apps.py:266 apps.py:274
+msgid "Thumbnail"
+msgstr "Iconiță"
+
+#: apps.py:196 apps.py:215 apps.py:241
+msgid "Type"
+msgstr "Tip"
+
+#: apps.py:228 models.py:680
+msgid "Enabled"
+msgstr ""
+
+#: apps.py:244
+msgid "Date time trashed"
+msgstr ""
+
+#: apps.py:250
+msgid "Time and date"
+msgstr ""
+
+#: apps.py:258
+msgid "Encoding"
+msgstr "Encodare"
+
+#: apps.py:262 models.py:375
+msgid "Comment"
+msgstr "Comentariu"
+
+#: apps.py:280 links.py:310 views/document_views.py:790
+msgid "Duplicates"
+msgstr ""
+
+#: apps.py:500
+msgid "New documents per month"
+msgstr ""
+
+#: apps.py:507
+msgid "New document versions per month"
+msgstr ""
+
+#: apps.py:514
+msgid "New document pages per month"
+msgstr ""
+
+#: apps.py:521
+msgid "Total documents at each month"
+msgstr ""
+
+#: apps.py:528
+msgid "Total document versions at each month"
+msgstr ""
+
+#: apps.py:535
+msgid "Total document pages at each month"
+msgstr ""
+
+#: dashboard_widgets.py:37
+msgid "New pages this month"
+msgstr ""
+
+#: dashboard_widgets.py:46
+msgid "New documents this month"
+msgstr ""
+
+#: dashboard_widgets.py:55
+msgid "Total documents"
+msgstr ""
+
+#: dashboard_widgets.py:62 links.py:297 links.py:302 permissions.py:56
+#: views/document_type_views.py:52
+msgid "Document types"
+msgstr ""
+
+#: dashboard_widgets.py:69 views/document_views.py:84
+msgid "Documents in trash"
+msgstr ""
+
+#: events.py:8
+msgid "Document created"
+msgstr ""
+
+#: events.py:12
+msgid "Document downloaded"
+msgstr ""
+
+#: events.py:15
+msgid "Document properties edited"
+msgstr ""
+
+#: events.py:18
+msgid "Document type changed"
+msgstr ""
+
+#: events.py:21
+msgid "New version uploaded"
+msgstr ""
+
+#: events.py:25
+msgid "Document version reverted"
+msgstr ""
+
+#: events.py:29
+msgid "Document viewed"
+msgstr ""
+
+#: forms.py:39 links.py:236
+msgid "Page image"
+msgstr "Imaginea paginii"
+
+#: forms.py:51 forms.py:54 forms.py:67
+#, python-format
+msgid "Document pages (%d)"
+msgstr ""
+
+#: forms.py:70
+#, python-format
+msgid "Document version pages (%d)"
+msgstr ""
+
+#: forms.py:108
+msgid "Quick document rename"
+msgstr "Redenumire rapidă"
+
+#: forms.py:130
+msgid "Date added"
+msgstr "Dată adaugată"
+
+#: forms.py:134
+msgid "UUID"
+msgstr "UUID"
+
+#: forms.py:136 models.py:170
+msgid "Language"
+msgstr ""
+
+#: forms.py:138
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: forms.py:146
+msgid "File mimetype"
+msgstr "Tip fişier "
+
+#: forms.py:147 forms.py:152
+msgid "None"
+msgstr "Nici unul"
+
+#: forms.py:150
+msgid "File encoding"
+msgstr ""
+
+#: forms.py:156
+msgid "File size"
+msgstr "Marime fişier"
+
+#: forms.py:161
+msgid "Exists in storage"
+msgstr "Există în arhivă"
+
+#: forms.py:163
+msgid "File path in storage"
+msgstr "Cale fisier in arhiva"
+
+#: forms.py:166 models.py:391 search.py:24 search.py:48
+msgid "Checksum"
+msgstr "Suma de control"
+
+#: forms.py:167 links.py:68
+msgid "Pages"
+msgstr "Pagini"
+
+#: forms.py:195 models.py:108 models.py:156 models.py:675 search.py:16
+#: search.py:35
+msgid "Document type"
+msgstr "Tip document"
+
+#: forms.py:211
+msgid "Compress"
+msgstr "Comprimă"
+
+#: forms.py:213
+msgid ""
+"Download the document in the original format or in a compressed manner. This"
+" option is selectable only when downloading one document, for multiple "
+"documents, the bundle will always be downloads as a compressed file."
+msgstr ""
+
+#: forms.py:220
+msgid "Compressed filename"
+msgstr "Nume fişier comprimat"
+
+#: forms.py:223
+msgid ""
+"The filename of the compressed file that will contain the documents to be "
+"downloaded, if the previous option is selected."
+msgstr "Nume fișier comprimat, care va conține documentele ce urmează să fie descărcate, în cazul în care această opțiunea a fost selectată anterior."
+
+#: forms.py:238
+msgid "Preserve extension"
+msgstr ""
+
+#: forms.py:240
+msgid ""
+"Takes the file extension and moves it to the end of the filename allowing "
+"operating systems that rely on file extensions to open the downloaded "
+"document version correctly."
+msgstr ""
+
+#: forms.py:252 literals.py:23
+msgid "Page range"
+msgstr "Pagini"
+
+#: forms.py:258
+msgid ""
+"Page number from which all the transformation will be cloned. Existing "
+"transformations will be lost."
+msgstr ""
+
+#: links.py:53
+msgid "Preview"
+msgstr ""
+
+#: links.py:58
+msgid "Properties"
+msgstr ""
+
+#: links.py:63 links.py:158
+msgid "Versions"
+msgstr ""
+
+#: links.py:74 links.py:120
+msgid "Clear transformations"
+msgstr ""
+
+#: links.py:79
+msgid "Clone transformations"
+msgstr ""
+
+#: links.py:84 links.py:128 links.py:271 links.py:285
+msgid "Delete"
+msgstr "Șterge"
+
+#: links.py:89 links.py:124
+msgid "Move to trash"
+msgstr ""
+
+#: links.py:94
+msgid "Edit properties"
+msgstr ""
+
+#: links.py:98 links.py:132
+msgid "Change type"
+msgstr ""
+
+#: links.py:102 links.py:136 views/document_views.py:433
+msgid "Download"
+msgstr "Descarcă"
+
+#: links.py:106
+msgid "Print"
+msgstr ""
+
+#: links.py:111 links.py:139
+msgid "Recalculate page count"
+msgstr ""
+
+#: links.py:115 links.py:143
+msgid "Restore"
+msgstr ""
+
+#: links.py:149
+msgid "Download version"
+msgstr ""
+
+#: links.py:153 links.py:222 models.py:231 models.py:369 models.py:905
+#: models.py:930
+msgid "Document"
+msgstr ""
+
+#: links.py:163
+msgid "Details"
+msgstr "Detalii"
+
+#: links.py:168 views/document_views.py:64
+msgid "All documents"
+msgstr ""
+
+#: links.py:171 models.py:923 views/document_views.py:394
+msgid "Recent documents"
+msgstr ""
+
+#: links.py:175
+msgid "Trash can"
+msgstr ""
+
+#: links.py:183
+msgid ""
+"Clear the graphics representations used to speed up the documents' display "
+"and interactive transformations results."
+msgstr "Goliți reprezentările grafice folosite pentru a accelera afișarea documentelor și rezultatele interactive de transformari."
+
+#: links.py:186
+msgid "Clear document image cache"
+msgstr ""
+
+#: links.py:190 permissions.py:51
+msgid "Empty trash"
+msgstr ""
+
+#: links.py:198
+msgid "First page"
+msgstr ""
+
+#: links.py:203
+msgid "Last page"
+msgstr ""
+
+#: links.py:210
+msgid "Previous page"
+msgstr ""
+
+#: links.py:216
+msgid "Next page"
+msgstr ""
+
+#: links.py:227
+msgid "Rotate left"
+msgstr ""
+
+#: links.py:232
+msgid "Rotate right"
+msgstr ""
+
+#: links.py:240
+msgid "Reset view"
+msgstr ""
+
+#: links.py:245
+msgid "Zoom in"
+msgstr ""
+
+#: links.py:251
+msgid "Zoom out"
+msgstr ""
+
+#: links.py:260
+msgid "Revert"
+msgstr ""
+
+#: links.py:267 views/document_type_views.py:67
+msgid "Create document type"
+msgstr ""
+
+#: links.py:275 links.py:289
+msgid "Edit"
+msgstr "Editează"
+
+#: links.py:280
+msgid "Add quick label to document type"
+msgstr ""
+
+#: links.py:293 models.py:686
+msgid "Quick labels"
+msgstr ""
+
+#: links.py:305 models.py:933 models.py:946 views/document_views.py:798
+msgid "Duplicated documents"
+msgstr ""
+
+#: links.py:314
+msgid "Duplicated document scan"
+msgstr ""
+
+#: literals.py:14
+msgid "Default"
+msgstr "Iniţial"
+
+#: literals.py:23
+msgid "All pages"
+msgstr ""
+
+#: models.py:72
+msgid ""
+"Amount of time after which documents of this type will be moved to the "
+"trash."
+msgstr ""
+
+#: models.py:74
+msgid "Trash time period"
+msgstr ""
+
+#: models.py:78
+msgid "Trash time unit"
+msgstr ""
+
+#: models.py:82
+msgid ""
+"Amount of time after which documents of this type in the trash will be "
+"deleted."
+msgstr ""
+
+#: models.py:84
+msgid "Delete time period"
+msgstr ""
+
+#: models.py:89
+msgid "Delete time unit"
+msgstr ""
+
+#: models.py:109
+msgid "Documents types"
+msgstr ""
+
+#: models.py:160
+msgid "The name of the document"
+msgstr ""
+
+#: models.py:163 search.py:22 search.py:45
+msgid "Description"
+msgstr "Descriere"
+
+#: models.py:166 models.py:936
+msgid "Added"
+msgstr ""
+
+#: models.py:174
+msgid "In trash?"
+msgstr ""
+
+#: models.py:179
+msgid "Date and time trashed"
+msgstr ""
+
+#: models.py:183
+msgid ""
+"A document stub is a document with an entry on the database but no file "
+"uploaded. This could be an interrupted upload or a deferred upload via the "
+"API."
+msgstr ""
+
+#: models.py:186
+msgid "Is stub?"
+msgstr ""
+
+#: models.py:194
+#, python-format
+msgid "Document stub, id: %d"
+msgstr ""
+
+#: models.py:372
+msgid "Timestamp"
+msgstr ""
+
+#: models.py:381
+msgid "File"
+msgstr "Fișier"
+
+#: models.py:396 models.py:397 models.py:699
+msgid "Document version"
+msgstr "Versiune document"
+
+#: models.py:685
+msgid "Quick label"
+msgstr ""
+
+#: models.py:703
+msgid "Page number"
+msgstr "Numarul paginii"
+
+#: models.py:708
+#, python-format
+msgid "Page %(page_num)d out of %(total_pages)d of %(document)s"
+msgstr "Pag %(page_num)d din %(total_pages)d din %(document)s"
+
+#: models.py:724 models.py:872 models.py:889
+msgid "Document page"
+msgstr ""
+
+#: models.py:725 models.py:890
+msgid "Document pages"
+msgstr "Pagini document"
+
+#: models.py:874
+msgid "Filename"
+msgstr "Nume fişier"
+
+#: models.py:877
+msgid "Document page cached image"
+msgstr ""
+
+#: models.py:878
+msgid "Document page cached images"
+msgstr ""
+
+#: models.py:901
+msgid "User"
+msgstr "utilizator"
+
+#: models.py:908
+msgid "Accessed"
+msgstr "Accesat"
+
+#: models.py:922
+msgid "Recent document"
+msgstr ""
+
+#: models.py:945
+msgid "Duplicated document"
+msgstr ""
+
+#: permissions.py:10
+msgid "Create documents"
+msgstr "Document nou"
+
+#: permissions.py:13
+msgid "Delete documents"
+msgstr "Şterge"
+
+#: permissions.py:16
+msgid "Trash documents"
+msgstr ""
+
+#: permissions.py:19 views/document_views.py:435
+msgid "Download documents"
+msgstr "Descarcă"
+
+#: permissions.py:22
+msgid "Edit documents"
+msgstr "Editează"
+
+#: permissions.py:25
+msgid "Create new document versions"
+msgstr "Crează o versiune nouă pentru document"
+
+#: permissions.py:28
+msgid "Edit document properties"
+msgstr "Editează proprietăţile"
+
+#: permissions.py:31
+msgid "Print documents"
+msgstr "Tipărește documente"
+
+#: permissions.py:34
+msgid "Restore trashed document"
+msgstr ""
+
+#: permissions.py:37
+msgid "Execute document modifying tools"
+msgstr "Lansează uneltele de modificare"
+
+#: permissions.py:41
+msgid "Revert documents to a previous version"
+msgstr "Reveniți la o versiune anterioară a documentului"
+
+#: permissions.py:45
+msgid "View documents' versions list"
+msgstr ""
+
+#: permissions.py:48
+msgid "View documents"
+msgstr "Vizualizează"
+
+#: permissions.py:59
+msgid "Create document types"
+msgstr "Tip nou"
+
+#: permissions.py:62
+msgid "Delete document types"
+msgstr "Şterge tipuri "
+
+#: permissions.py:65
+msgid "Edit document types"
+msgstr "Editează tipuri"
+
+#: permissions.py:68
+msgid "View document types"
+msgstr "Vezi tipuri de documente"
+
+#: queues.py:9
+msgid "Converter"
+msgstr ""
+
+#: queues.py:12
+msgid "Documents periodic"
+msgstr ""
+
+#: queues.py:15
+msgid "Uploads"
+msgstr ""
+
+#: queues.py:23
+msgid "Check document type delete periods"
+msgstr ""
+
+#: queues.py:27
+msgid "Check document type trash periods"
+msgstr ""
+
+#: queues.py:31
+msgid "Delete document stubs"
+msgstr ""
+
+#: queues.py:36
+msgid "Clear image cache"
+msgstr ""
+
+#: queues.py:41
+msgid "Generate document page image"
+msgstr ""
+
+#: queues.py:46
+msgid "Update document page count"
+msgstr ""
+
+#: queues.py:50
+msgid "Upload new document version"
+msgstr ""
+
+#: queues.py:54
+msgid "Delete a document"
+msgstr ""
+
+#: settings.py:29
+msgid ""
+"Maximum number of recent (created, edited, viewed) documents to remember per"
+" user."
+msgstr "Numărul maxim de documente (create, editate, vizualizate) reţinute per utilizator."
+
+#: settings.py:40
+msgid "Amount in percent zoom in or out a document page per user interaction."
+msgstr "Suma în procente folosită pentru a mării sau micşora un document interactiv cu utilizatorul."
+
+#: settings.py:47
+msgid ""
+"Maximum amount in percent (%) to allow user to zoom in a document page "
+"interactively."
+msgstr "Suma maximă în procente (%), permisă utilizatorilor pentru mărirea interactiv a unei pagini ."
+
+#: settings.py:54
+msgid ""
+"Minimum amount in percent (%) to allow user to zoom out a document page "
+"interactively."
+msgstr "Suma minimă în procente (%), permisă utilizatorului pentru micșorarea interactivă a unei pagini ."
+
+#: settings.py:61
+msgid "Amount in degrees to rotate a document page per user interaction."
+msgstr "Ce rotaţie pentru pagină (în grade) este folosită în interacțiunea cu utilizatorul."
+
+#: settings.py:70
+msgid "Default documents language (in ISO639-2 format)."
+msgstr ""
+
+#: settings.py:74
+msgid "List of supported document languages."
+msgstr ""
+
+#: settings.py:79
+msgid ""
+"Disables the first cache tier which stores high resolution, non transformed "
+"versions of documents's pages."
+msgstr ""
+
+#: settings.py:86
+msgid ""
+"Disables the second cache tier which stores medium to low resolution, "
+"transformed (rotated, zoomed, etc) versions of documents' pages."
+msgstr ""
+
+#: views/document_page_views.py:48
+#, python-format
+msgid "Pages for document: %s"
+msgstr ""
+
+#: views/document_page_views.py:103
+msgid "Unknown view keyword argument schema, unable to redirect."
+msgstr ""
+
+#: views/document_page_views.py:135
+msgid "There are no more pages in this document"
+msgstr "Nu mai sunt pagini în acest document."
+
+#: views/document_page_views.py:152
+msgid "You are already at the first page of this document"
+msgstr "Sunteți deja la prima pagină a acestui document"
+
+#: views/document_page_views.py:180
+#, python-format
+msgid "Image of: %s"
+msgstr ""
+
+#: views/document_type_views.py:39
+#, python-format
+msgid "Documents of type: %s"
+msgstr ""
+
+#: views/document_type_views.py:78
+msgid "All documents of this type will be deleted too."
+msgstr ""
+
+#: views/document_type_views.py:80
+#, python-format
+msgid "Delete the document type: %s?"
+msgstr ""
+
+#: views/document_type_views.py:96
+#, python-format
+msgid "Edit document type: %s"
+msgstr ""
+
+#: views/document_type_views.py:121
+#, python-format
+msgid "Create quick label for document type: %s"
+msgstr ""
+
+#: views/document_type_views.py:142
+#, python-format
+msgid "Edit quick label \"%(filename)s\" from document type \"%(document_type)s\""
+msgstr ""
+
+#: views/document_type_views.py:167
+#, python-format
+msgid ""
+"Delete the quick label: %(label)s, from document type \"%(document_type)s\"?"
+msgstr ""
+
+#: views/document_type_views.py:195
+#, python-format
+msgid "Quick labels for document type: %s"
+msgstr ""
+
+#: views/document_version_views.py:47
+#, python-format
+msgid "Versions of document: %s"
+msgstr ""
+
+#: views/document_version_views.py:61
+msgid "All later version after this one will be deleted too."
+msgstr "Toate versiune de dupa aceasta, vor fi şterse de asemenea."
+
+#: views/document_version_views.py:64
+msgid "Revert to this version?"
+msgstr ""
+
+#: views/document_version_views.py:74
+msgid "Document version reverted successfully"
+msgstr "Versiunea documentului refacută cu succes"
+
+#: views/document_version_views.py:79
+#, python-format
+msgid "Error reverting document version; %s"
+msgstr "Eroare la revenirea la versiunea documentului; %s"
+
+#: views/document_version_views.py:97
+msgid "Download document version"
+msgstr ""
+
+#: views/document_version_views.py:162
+#, python-format
+msgid "Preview of document version: %s"
+msgstr ""
+
+#: views/document_views.py:92
+msgid "Delete the selected document?"
+msgstr ""
+
+#: views/document_views.py:113
+#, python-format
+msgid "Document: %(document)s deleted."
+msgstr ""
+
+#: views/document_views.py:121
+msgid "Delete the selected documents?"
+msgstr ""
+
+#: views/document_views.py:133
+#, python-format
+msgid "Document type change request performed on %(count)d document"
+msgstr ""
+
+#: views/document_views.py:136
+#, python-format
+msgid "Document type change request performed on %(count)d documents"
+msgstr ""
+
+#: views/document_views.py:143
+msgid "Change"
+msgstr ""
+
+#: views/document_views.py:145
+msgid "Change the type of the selected document"
+msgid_plural "Change the type of the selected documents"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: views/document_views.py:156
+#, python-format
+msgid "Change the type of the document: %s"
+msgstr ""
+
+#: views/document_views.py:177
+#, python-format
+msgid "Document type for \"%s\" changed successfully."
+msgstr ""
+
+#: views/document_views.py:201
+#, python-format
+msgid "Duplicates for document: %s"
+msgstr ""
+
+#: views/document_views.py:230
+#, python-format
+msgid "Edit properties of document: %s"
+msgstr ""
+
+#: views/document_views.py:246
+msgid "Restore the selected document?"
+msgstr ""
+
+#: views/document_views.py:267
+#, python-format
+msgid "Document: %(document)s restored."
+msgstr ""
+
+#: views/document_views.py:275
+msgid "Restore the selected documents?"
+msgstr ""
+
+#: views/document_views.py:302
+#, python-format
+msgid "Preview of document: %s"
+msgstr ""
+
+#: views/document_views.py:310
+#, python-format
+msgid "Move \"%s\" to the trash?"
+msgstr ""
+
+#: views/document_views.py:333
+#, python-format
+msgid "Document: %(document)s moved to trash successfully."
+msgstr ""
+
+#: views/document_views.py:346
+msgid "Move the selected documents to the trash?"
+msgstr ""
+
+#: views/document_views.py:364
+#, python-format
+msgid "Properties for document: %s"
+msgstr ""
+
+#: views/document_views.py:370
+msgid "Empty trash?"
+msgstr ""
+
+#: views/document_views.py:383
+msgid "Trash emptied successfully"
+msgstr ""
+
+#: views/document_views.py:569
+#, python-format
+msgid "%(count)d document queued for page count recalculation"
+msgstr ""
+
+#: views/document_views.py:572
+#, python-format
+msgid "%(count)d documents queued for page count recalculation"
+msgstr ""
+
+#: views/document_views.py:580
+msgid "Recalculate the page count of the selected document?"
+msgid_plural "Recalculate the page count of the selected documents?"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: views/document_views.py:591
+#, python-format
+msgid "Recalculate the page count of the document: %s?"
+msgstr ""
+
+#: views/document_views.py:608
+#, python-format
+msgid "Transformation clear request processed for %(count)d document"
+msgstr ""
+
+#: views/document_views.py:611
+#, python-format
+msgid "Transformation clear request processed for %(count)d documents"
+msgstr ""
+
+#: views/document_views.py:619
+msgid "Clear all the page transformations for the selected document?"
+msgid_plural "Clear all the page transformations for the selected document?"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: views/document_views.py:630
+#, python-format
+msgid "Clear all the page transformations for the document: %s?"
+msgstr ""
+
+#: views/document_views.py:645 views/document_views.py:673
+#, python-format
+msgid ""
+"Error deleting the page transformations for document: %(document)s; "
+"%(error)s."
+msgstr "Eroare la ștergerea transformări : %(document)s; %(error)s."
+
+#: views/document_views.py:681
+msgid "Transformations cloned successfully."
+msgstr ""
+
+#: views/document_views.py:696 views/document_views.py:751
+msgid "Submit"
+msgstr "Trimiteţi"
+
+#: views/document_views.py:698
+#, python-format
+msgid "Clone page transformations for document: %s"
+msgstr ""
+
+#: views/document_views.py:752
+#, python-format
+msgid "Print: %s"
+msgstr "Tipărește: %s"
+
+#: views/misc_views.py:18
+msgid "Clear the document image cache?"
+msgstr ""
+
+#: views/misc_views.py:25
+msgid "Document cache clearing queued successfully."
+msgstr ""
+
+#: views/misc_views.py:31
+msgid "Scan for duplicated documents?"
+msgstr ""
+
+#: views/misc_views.py:38
+msgid "Duplicated document scan queued successfully."
+msgstr ""
+
+#: widgets.py:67
+#, python-format
+msgid "Page %(page_number)d of %(total_pages)d"
+msgstr ""
+
+#: widgets.py:90
+msgid "Clickable image"
+msgstr ""
+
+#: widgets.py:253
+msgid "Document page image"
+msgstr ""

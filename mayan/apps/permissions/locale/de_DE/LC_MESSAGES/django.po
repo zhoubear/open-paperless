@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Berny <berny@bernhard-marx.de>, 2015
+# Jesaja Everling <jeverling@gmail.com>, 2017
+# Mathias Behrle <mbehrle@m9s.biz>, 2014
+# tetjarediske <tetja.rediske@googlemail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-08-03 06:00+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: German (Germany) (http://www.transifex.com/rosarior/mayan-edms/language/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:23 models.py:46 models.py:78 permissions.py:7
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+#: classes.py:89
+msgid "Insufficient permissions."
+msgstr "Unzureichende Berechtigungen"
+
+#: links.py:14
+msgid "Grant"
+msgstr "Gewähren"
+
+#: links.py:18
+msgid "Revoke"
+msgstr "Widerrufen"
+
+#: links.py:22
+msgid "Create new role"
+msgstr "Erstellen"
+
+#: links.py:26
+msgid "Delete"
+msgstr "Löschen"
+
+#: links.py:30
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: links.py:35 models.py:99 views.py:137
+msgid "Roles"
+msgstr "Rollen"
+
+#: links.py:38
+msgid "Members"
+msgstr "Mitglieder"
+
+#: links.py:43
+msgid "Role permissions"
+msgstr "Berechtigungen"
+
+#: models.py:19
+msgid "Namespace"
+msgstr "Namensraum"
+
+#: models.py:20
+msgid "Name"
+msgstr "Name"
+
+#: models.py:45
+msgid "Permission"
+msgstr "Berechtigung"
+
+#: models.py:75 search.py:16
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: models.py:81
+msgid "Groups"
+msgstr "Gruppen"
+
+#: models.py:98
+msgid "Role"
+msgstr "Rolle"
+
+#: permissions.py:10
+msgid "View roles"
+msgstr "Rollen anzeigen"
+
+#: permissions.py:13
+msgid "Edit roles"
+msgstr "Rollen bearbeiten"
+
+#: permissions.py:16
+msgid "Create roles"
+msgstr "Rollen erstellen"
+
+#: permissions.py:19
+msgid "Delete roles"
+msgstr "Rollen löschen"
+
+#: permissions.py:22
+msgid "Grant permissions"
+msgstr "Berechtigungen gewähren"
+
+#: permissions.py:25
+msgid "Revoke permissions"
+msgstr "Berechtigungen widerrufen"
+
+#: search.py:20
+msgid "Group name"
+msgstr ""
+
+#: serializers.py:46
+msgid ""
+"Comma separated list of groups primary keys to add to, or replace in this "
+"role."
+msgstr "Komma getrennte Liste der Primary Keys der Gruppen die zu dieser Rolle hinzugefügt oder ersetzt werden sollen."
+
+#: serializers.py:53
+msgid "Comma separated list of permission primary keys to grant to this role."
+msgstr ""
+
+#: serializers.py:90
+#, python-format
+msgid "No such permission: %s"
+msgstr "Keine solche Berechtigung: %s"
+
+#: views.py:46
+msgid "Available groups"
+msgstr "Verfügbare Gruppen"
+
+#: views.py:47
+msgid "Role groups"
+msgstr "Rollengruppen"
+
+#: views.py:57
+#, python-format
+msgid "Groups of role: %s"
+msgstr "Gruppen für Rolle %s"
+
+#: views.py:80
+msgid "Available permissions"
+msgstr "Verfügbare Berechtigungen"
+
+#: views.py:81
+msgid "Granted permissions"
+msgstr "Erteilte Berechtigungen"
+
+#: views.py:94
+#, python-format
+msgid "Permissions for role: %s"
+msgstr "Berechtigungen der Rolle %s"

@@ -1,0 +1,282 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# lilo.panic, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-07-09 06:34+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Russian (http://www.transifex.com/rosarior/mayan-edms/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: apps.py:12 settings.py:9
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: templates/403.html:5 templates/403.html:9
+msgid "Insufficient permissions"
+msgstr "Недостаточно прав"
+
+#: templates/403.html:11
+msgid "You don't have enough permissions for this operation."
+msgstr "У вас недостаточно прав для этой операции."
+
+#: templates/404.html:5 templates/404.html:9
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: templates/404.html:11
+msgid "Sorry, but the requested page could not be found."
+msgstr "Извините, но запрашиваемая страница не найдена."
+
+#: templates/500.html:5 templates/500.html:9
+msgid "Server error"
+msgstr "Ошибка сервера"
+
+#: templates/500.html:11
+msgid ""
+"There's been an error. It's been reported to the site administrators via "
+"e-mail and should be fixed shortly. Thanks for your patience."
+msgstr "Тут какая-то ошибка. Её нужно сообщить администрации сайта по электронной почте, и она будет исправлена. Спасибо за терпение."
+
+#: templates/500.html:14
+msgid ""
+"If you need assistance, you may reference this error via the following "
+"identifier:"
+msgstr "Если вам нужна помощь, вы можете сослаться на эту ошибку по следующему идентификатору:"
+
+#: templates/appearance/about.html:8 templates/appearance/about.html:57
+msgid "About"
+msgstr "Инфо"
+
+#: templates/appearance/about.html:62
+msgid "Version"
+msgstr "Версия"
+
+#: templates/appearance/about.html:64
+#, python-format
+msgid "Build number: %(build_number)s"
+msgstr "Версия сборки: %(build_number)s"
+
+#: templates/appearance/about.html:76
+msgid "Released under the Apache 2.0 License"
+msgstr "Выпущено под лицензией Apache 2.0"
+
+#: templates/appearance/about.html:88
+msgid "Copyright &copy; 2011-2015 Roberto Rosario."
+msgstr "&copy; 2011-2015 Roberto Rosario, все права защищены."
+
+#: templates/appearance/base.html:56
+msgid "Toggle navigation"
+msgstr "Переключение навигации"
+
+#: templates/appearance/base.html:114
+#: templates/navigation/generic_navigation.html:6
+msgid "Actions"
+msgstr "Действия"
+
+#: templates/appearance/base.html:116
+msgid "Toggle Dropdown"
+msgstr "Переключение выпадающего списка"
+
+#: templates/appearance/calculate_form_title.html:16
+#, python-format
+msgid "Details for: %(object)s"
+msgstr "Подробности: %(object)s"
+
+#: templates/appearance/calculate_form_title.html:19
+#, python-format
+msgid "Edit: %(object)s"
+msgstr "Редактировать: %(object)s"
+
+#: templates/appearance/calculate_form_title.html:21
+msgid "Create"
+msgstr "Создать"
+
+#: templates/appearance/dashboard_widget.html:25
+msgid "View details"
+msgstr ""
+
+#: templates/appearance/generic_confirm.html:6
+#: templates/appearance/generic_confirm.html:13
+msgid "Confirm"
+msgstr "Подтверждать"
+
+#: templates/appearance/generic_confirm.html:11
+msgid "Confirm delete"
+msgstr "Подтвердить удаление"
+
+#: templates/appearance/generic_confirm.html:27
+#, python-format
+msgid "Delete: %(object)s?"
+msgstr "Удалить: %(object)s?"
+
+#: templates/appearance/generic_confirm.html:48
+msgid "Yes"
+msgstr "Да"
+
+#: templates/appearance/generic_confirm.html:52
+msgid "No"
+msgstr "Нет"
+
+#: templates/appearance/generic_form_instance.html:49
+#: templates/appearance/generic_form_instance.html:55
+#: templates/appearance/generic_form_subtemplate.html:51
+#: templates/appearance/generic_multiform_subtemplate.html:41
+msgid "required"
+msgstr "требуется"
+
+#: templates/appearance/generic_form_subtemplate.html:71
+#: templates/appearance/generic_multiform_subtemplate.html:63
+msgid "Save"
+msgstr "Сохранить"
+
+#: templates/appearance/generic_form_subtemplate.html:71
+#: templates/appearance/generic_list_items_subtemplate.html:45
+#: templates/appearance/generic_list_subtemplate.html:33
+#: templates/appearance/generic_multiform_subtemplate.html:63
+#: templates/authentication/password_reset_confirm.html:29
+#: templates/authentication/password_reset_form.html:29
+msgid "Submit"
+msgstr "Подтвердить"
+
+#: templates/appearance/generic_form_subtemplate.html:74
+#: templates/appearance/generic_multiform_subtemplate.html:67
+msgid "Cancel"
+msgstr "Отменить"
+
+#: templates/appearance/generic_list_horizontal.html:21
+#: templates/appearance/generic_list_items_subtemplate.html:118
+#: templates/appearance/generic_list_subtemplate.html:112
+msgid "No results"
+msgstr "Нет результатов"
+
+#: templates/appearance/generic_list_items_subtemplate.html:24
+#: templates/appearance/generic_list_subtemplate.html:12
+#, python-format
+msgid ""
+"Total (%(start)s - %(end)s out of %(total)s) (Page %(page_number)s of "
+"%(total_pages)s)"
+msgstr "Всего (%(start)s - %(end)s из %(total)s) (Страница %(page_number)s из %(total_pages)s)"
+
+#: templates/appearance/generic_list_items_subtemplate.html:26
+#: templates/appearance/generic_list_items_subtemplate.html:29
+#: templates/appearance/generic_list_subtemplate.html:14
+#: templates/appearance/generic_list_subtemplate.html:17
+#, python-format
+msgid "Total: %(total)s"
+msgstr "Всего: %(total)s"
+
+#: templates/appearance/generic_list_subtemplate.html:53
+msgid "Identifier"
+msgstr "Идентификатор"
+
+#: templates/appearance/home.html:9 templates/appearance/home.html:21
+msgid "Dashboard"
+msgstr ""
+
+#: templates/appearance/home.html:30
+msgid "Getting started"
+msgstr "Приступая к работе"
+
+#: templates/appearance/home.html:33
+msgid "Before you can fully use Mayan EDMS you need the following:"
+msgstr "Вам кое-что понадобится, прежде чем вы начнёте полноценно использовать Mayan EDMS:"
+
+#: templates/appearance/home.html:54
+msgid "Search pages"
+msgstr ""
+
+#: templates/appearance/home.html:56 templates/appearance/home.html:66
+msgid "Search"
+msgstr "Поиск"
+
+#: templates/appearance/home.html:57 templates/appearance/home.html:67
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: templates/appearance/home.html:64
+msgid "Search documents"
+msgstr ""
+
+#: templates/authentication/login.html:10
+msgid "Login"
+msgstr "Войти"
+
+#: templates/authentication/login.html:21
+msgid "First time login"
+msgstr "Первое время входа в систему"
+
+#: templates/authentication/login.html:24
+msgid ""
+"You have just finished installing <strong>Mayan EDMS</strong>, "
+"congratulations!"
+msgstr "Вы только что закончили установку <strong>Mayan EDMS</strong>, поздравляем!"
+
+#: templates/authentication/login.html:25
+msgid "Login using the following credentials:"
+msgstr "Войти, используя следующие учетные данные:"
+
+#: templates/authentication/login.html:26
+#, python-format
+msgid "Username: <strong>%(account)s</strong>"
+msgstr "Имя пользователя: <strong>%(account)s</strong>"
+
+#: templates/authentication/login.html:27
+#, python-format
+msgid "Email: <strong>%(email)s</strong>"
+msgstr "Адрес электронной почты: <strong>%(email)s</strong>"
+
+#: templates/authentication/login.html:28
+#, python-format
+msgid "Password: <strong>%(password)s</strong>"
+msgstr "Пароль: <strong>%(password)s</strong>"
+
+#: templates/authentication/login.html:29
+msgid ""
+"Be sure to change the password to increase security and to disable this "
+"message."
+msgstr "Обязательно измените пароль для повышения безопасности и отключения этого сообщения."
+
+#: templates/authentication/login.html:45
+#: templates/authentication/login.html:53
+msgid "Sign in"
+msgstr "Вход"
+
+#: templates/authentication/login.html:58
+msgid "Forgot your password?"
+msgstr ""
+
+#: templates/authentication/password_reset_complete.html:8
+#: templates/authentication/password_reset_confirm.html:8
+#: templates/authentication/password_reset_confirm.html:20
+#: templates/authentication/password_reset_done.html:8
+#: templates/authentication/password_reset_form.html:8
+#: templates/authentication/password_reset_form.html:20
+msgid "Password reset"
+msgstr ""
+
+#: templates/authentication/password_reset_complete.html:15
+msgid "Password reset complete! Click the link below to login."
+msgstr ""
+
+#: templates/authentication/password_reset_complete.html:17
+msgid "Login page"
+msgstr ""
+
+#: templates/authentication/password_reset_done.html:15
+msgid "Password reset email sent!"
+msgstr ""
+
+#: templatetags/appearance_tags.py:16
+msgid "None"
+msgstr "Ни один"

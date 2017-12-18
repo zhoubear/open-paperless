@@ -1,0 +1,64 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+{% load static %}
+
+{% load common_tags %}
+
+{% block title %}{% trans 'About' %}{% endblock %}
+
+{% block stylesheets %}
+    <style>
+        @media (min-width: 768px) {
+            .mayan-edms-logo {
+                font-size: 300%;
+            }
+        }
+
+        @media (min-width: 991px) {
+            .mayan-edms-logo {
+                font-size: 500%;
+            }
+        }
+    </style>
+{% endblock stylesheets %}
+
+{% block content %}
+    <h3>{% trans 'About' %}</h3>
+
+    {% build as build_number %}
+    <div class="x_panel">
+        <div class="x_content">
+            <h3 class="text-center">{% project_name %} ({% trans 'Version' %} {% project_version %})</h3>
+            {% if build_number %}
+                <p class='text-center'>{% blocktrans with build_number as build_number %}Build number: {{ build_number }}{% endblocktrans %}</p>
+            {% endif %}
+            <p class="text-center">
+                {% project_description as project_description %}
+                {% trans project_description %}
+            </p>
+
+            <p class="text-center">
+                <i class="fa fa-home"></i><a href="{% project_website %}"> {% project_website %}</a>
+            </p>
+
+            <p class="text-center">
+                {% trans 'Released under the Apache 2.0 License' %}
+            </p>
+
+            <p class="text-center mayan-edms-logo"><i class="fa fa-leaf text-green"></i> Open Paperless</p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <div id="row">
+        <div class="col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    {% trans 'Copyright &copy; 2017 Tina Zhou.' %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

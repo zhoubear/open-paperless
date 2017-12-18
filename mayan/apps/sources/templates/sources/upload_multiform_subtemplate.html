@@ -1,0 +1,61 @@
+{% load i18n %}
+{% load static %}
+
+<link href="{% static 'sources/packages/dropzone.css' %}" media="screen" rel="stylesheet" type="text/css" />
+
+{% include 'appearance/generic_multiform_subtemplate.html' %}
+
+<script type="text/javascript" src="{% static 'sources/packages/dropzone.js' %}"></script>
+<script type="text/javascript" src="{% url 'common:javascript_catalog' 'sources' %}"></script>
+
+<script type="text/x-template" id="previewTemplate">
+    <div class="dz-preview dz-file-preview">
+        <i class="fa fa-file-o" style="font-size: 150px;"></i>
+
+        <div class="dz-image"><img data-dz-thumbnail></div>
+        <div class="dz-details">
+            <div class="dz-filename"><span data-dz-name></span></div>
+            <div class="dz-size"><span data-dz-size></span></div>
+        </div>
+        <div class="dz-progress">
+            <span class="dz-upload" data-dz-uploadprogress>
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width: 100%">
+                </div>
+            </span>
+        </div>
+        <div class="dz-error-message alert alert-danger"><span data-dz-errormessage></span></div>
+        <div class="dz-success-mark">
+            <i class="text-success fa fa-4x fa-check-circle"></i>
+        </div>
+        <div class="dz-error-mark">
+            <i class="text-danger fa fa-4x fa-exclamation-circle"></i>
+        </div>
+
+        <div class="text-center">
+            <a class="btn btn-default btn-xs btn-dz-remove" data-dz-remove>{% trans 'Clear' %}</a>
+        </div>
+    </div>
+</script>
+<script>
+    var previewTemplate = document.querySelector('#previewTemplate').innerHTML;
+
+    {% verbatim %}
+        Dropzone.options.html5upload = {
+            paramName: 'source-file',
+            addRemoveLinks: false,
+            createImageThumbnails: false,
+            dictDefaultMessage: '<i class="fa fa-cloud-upload"></i> ' + gettext('Drop files or click here to upload files'),
+            dictFallbackMessage: gettext('Your browser does not support drag\'n\'drop file uploads.'),
+            dictFallbackText: gettext('Please use the fallback form below to upload your files like in the olden days.'),
+            dictFileTooBig: gettext('File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB.'),
+            dictInvalidFileType: gettext('You can\'t upload files of this type.'),
+            dictResponseError: gettext('Server responded with {{statusCode}} code.'),
+            dictCancelUpload: gettext('Cancel upload'),
+            dictCancelUploadConfirmation: gettext('Are you sure you want to cancel this upload?'),
+            dictRemoveFile: gettext('Clear'),
+            dictMaxFilesExceeded: gettext('You can not upload any more files.'),
+            maxFilesize: 1024,
+            previewTemplate: previewTemplate,
+        };
+    {% endverbatim %}
+</script>

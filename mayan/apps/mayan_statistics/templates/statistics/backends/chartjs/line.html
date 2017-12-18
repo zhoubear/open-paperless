@@ -1,0 +1,35 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+{% load static %}
+
+{% load navigation_tags %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <h3>
+        {{ title }}
+    </h3>
+    <hr>
+
+    <div class="row">
+        <div class="col-xs-12">
+            {% if no_data %}
+                {% trans 'No data available yet' %}
+            {% endif %}
+            <canvas id="canvas-chart"></canvas>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascript %}
+    <script type="text/javascript" src="{% static 'statistics/packages/Chart.js-1.0.2/Chart.min.js' %}"></script>
+    <script>
+        jQuery(document).ready(function() {
+            var data = {{ chart_data|safe }};
+            var ctx = document.getElementById('canvas-chart').getContext('2d');
+            var chart = new Chart(ctx).Line(data, {bezierCurve: false, responsive: true});
+        });
+    </script>
+{% endblock javascript %}

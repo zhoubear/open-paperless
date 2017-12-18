@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2017
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2014
+# Pierre Lhoste <inactive+peterhost@transifex.com>, 2012
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-08-07 12:43+0000\n"
+"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/rosarior/mayan-edms/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:23 models.py:46 models.py:78 permissions.py:7
+msgid "Permissions"
+msgstr "Droits"
+
+#: classes.py:89
+msgid "Insufficient permissions."
+msgstr "Droits insuffisants"
+
+#: links.py:14
+msgid "Grant"
+msgstr "Attribuer"
+
+#: links.py:18
+msgid "Revoke"
+msgstr "Retirer"
+
+#: links.py:22
+msgid "Create new role"
+msgstr "Créer un nouveau rôle"
+
+#: links.py:26
+msgid "Delete"
+msgstr "Supprimer"
+
+#: links.py:30
+msgid "Edit"
+msgstr "Modifier"
+
+#: links.py:35 models.py:99 views.py:137
+msgid "Roles"
+msgstr "Rôles"
+
+#: links.py:38
+msgid "Members"
+msgstr "Membres"
+
+#: links.py:43
+msgid "Role permissions"
+msgstr "Autorisations du rôle"
+
+#: models.py:19
+msgid "Namespace"
+msgstr "Espace de nommage"
+
+#: models.py:20
+msgid "Name"
+msgstr "Nom"
+
+#: models.py:45
+msgid "Permission"
+msgstr "Autorisation"
+
+#: models.py:75 search.py:16
+msgid "Label"
+msgstr "Étiquette"
+
+#: models.py:81
+msgid "Groups"
+msgstr "Groupes"
+
+#: models.py:98
+msgid "Role"
+msgstr "Rôle"
+
+#: permissions.py:10
+msgid "View roles"
+msgstr "Afficher les rôles"
+
+#: permissions.py:13
+msgid "Edit roles"
+msgstr "Modifier les rôles"
+
+#: permissions.py:16
+msgid "Create roles"
+msgstr "Créer des rôles"
+
+#: permissions.py:19
+msgid "Delete roles"
+msgstr "Supprimer des rôles"
+
+#: permissions.py:22
+msgid "Grant permissions"
+msgstr "Donner des droits"
+
+#: permissions.py:25
+msgid "Revoke permissions"
+msgstr "Retirer des droits"
+
+#: search.py:20
+msgid "Group name"
+msgstr "Nom du groupe"
+
+#: serializers.py:46
+msgid ""
+"Comma separated list of groups primary keys to add to, or replace in this "
+"role."
+msgstr "La liste séparée par une virgule des groupes de clés primaires à ajouter ou à remplacer dans ce rôle."
+
+#: serializers.py:53
+msgid "Comma separated list of permission primary keys to grant to this role."
+msgstr "Liste séparée par des virgules des clés primaires d'autorisation pour autoriser ce rôle."
+
+#: serializers.py:90
+#, python-format
+msgid "No such permission: %s"
+msgstr "Aucune autorisation de ce genre: %s"
+
+#: views.py:46
+msgid "Available groups"
+msgstr "Groupes disponibles"
+
+#: views.py:47
+msgid "Role groups"
+msgstr "Rôles"
+
+#: views.py:57
+#, python-format
+msgid "Groups of role: %s"
+msgstr "Groupes ayant le rôle : %s"
+
+#: views.py:80
+msgid "Available permissions"
+msgstr "Permissions disponibles"
+
+#: views.py:81
+msgid "Granted permissions"
+msgstr "Permissions accordées"
+
+#: views.py:94
+#, python-format
+msgid "Permissions for role: %s"
+msgstr "Permissions pour le rôle : %s"

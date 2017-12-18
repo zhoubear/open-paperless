@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# serhatcan77 <serhat_can@yahoo.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-08-15 06:30+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/rosarior/mayan-edms/language/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:52 permissions.py:8 settings.py:7
+msgid "Document signatures"
+msgstr "Belge imzaları"
+
+#: apps.py:92
+msgid "Date"
+msgstr "Tarih"
+
+#: apps.py:95 models.py:47
+msgid "Key ID"
+msgstr "Anahtar Kimliği"
+
+#: apps.py:99 forms.py:64 models.py:51
+msgid "Signature ID"
+msgstr "İmza Kimliği"
+
+#: apps.py:100 forms.py:76
+msgid "None"
+msgstr "Yok"
+
+#: apps.py:103
+msgid "Type"
+msgstr "tip"
+
+#: forms.py:21
+msgid "Key"
+msgstr "anahtar"
+
+#: forms.py:25
+msgid "Passphrase"
+msgstr "Parola"
+
+#: forms.py:46
+msgid "Signature is embedded?"
+msgstr "İmza gömülmüş mü?"
+
+#: forms.py:48
+msgid "Signature date"
+msgstr "İmza tarihi"
+
+#: forms.py:51
+msgid "Signature key ID"
+msgstr "İmza anahtarının kimliği"
+
+#: forms.py:53
+msgid "Signature key present?"
+msgstr "İmza anahtarı mevcut mu?"
+
+#: forms.py:66
+msgid "Key fingerprint"
+msgstr "Anahtar parmak izi"
+
+#: forms.py:70
+msgid "Key creation date"
+msgstr "Anahtar oluşturma tarihi"
+
+#: forms.py:75
+msgid "Key expiration date"
+msgstr "Anahtar son kullanma tarihi"
+
+#: forms.py:80
+msgid "Key length"
+msgstr "Anahtar uzunluğu"
+
+#: forms.py:84
+msgid "Key algorithm"
+msgstr "Anahtar algoritması"
+
+#: forms.py:88
+msgid "Key user ID"
+msgstr "Anahtar kullanıcı kimliği"
+
+#: forms.py:92
+msgid "Key type"
+msgstr "Anahtar türü"
+
+#: links.py:32
+msgid "Verify all documents"
+msgstr "Tüm belgeleri doğrulayın"
+
+#: links.py:39 links.py:57 queues.py:8
+msgid "Signatures"
+msgstr "İmzalar"
+
+#: links.py:46
+msgid "Delete"
+msgstr "Sil"
+
+#: links.py:51
+msgid "Details"
+msgstr "Detaylar"
+
+#: links.py:63
+msgid "Download"
+msgstr "İndir"
+
+#: links.py:69
+msgid "Upload signature"
+msgstr "İmza yükle"
+
+#: links.py:75
+msgid "Sign detached"
+msgstr "Ayrılmış olarak imzala"
+
+#: links.py:81
+msgid "Sign embedded"
+msgstr "Gömülmüş olarak imzala"
+
+#: models.py:41
+msgid "Document version"
+msgstr "Belge versiyonu"
+
+#: models.py:45
+msgid "Date signed"
+msgstr "İmzalanan tarih"
+
+#: models.py:55
+msgid "Public key fingerprint"
+msgstr "Ortak anahtar parmak izi"
+
+#: models.py:61
+msgid "Document version signature"
+msgstr "Belge sürümünün imzası"
+
+#: models.py:62
+msgid "Document version signatures"
+msgstr "Belge sürüm imzaları"
+
+#: models.py:81
+msgid "Detached"
+msgstr "Ayrılmış"
+
+#: models.py:83
+msgid "Embedded"
+msgstr "Gömülü"
+
+#: models.py:98
+msgid "Document version embedded signature"
+msgstr "Gömülü imza belge sürümü"
+
+#: models.py:99
+msgid "Document version embedded signatures"
+msgstr "Gömülü imza belge sürümü"
+
+#: models.py:132
+msgid "Signature file"
+msgstr "İmza dosyası"
+
+#: models.py:136
+msgid "Document version detached signature"
+msgstr "Belge versiyonu ayrılmış imza"
+
+#: models.py:137
+msgid "Document version detached signatures"
+msgstr "Belge versiyonu müstakil imzalar"
+
+#: models.py:140
+msgid "signature"
+msgstr "imza"
+
+#: permissions.py:13
+msgid "Sign documents with detached signatures"
+msgstr "Ayrılmış imzalı belgeleri imzala"
+
+#: permissions.py:17
+msgid "Sign documents with embedded signatures"
+msgstr "Gömülü imzalı belgeleri imzala"
+
+#: permissions.py:21
+msgid "Delete detached signatures"
+msgstr "Ayrılmış imzaları sil"
+
+#: permissions.py:25
+msgid "Download detached document signatures"
+msgstr "Ayrılmış belge imzalarını indir"
+
+#: permissions.py:29
+msgid "Upload detached document signatures"
+msgstr "Ayrılmış belge imzalarını yükle"
+
+#: permissions.py:33
+msgid "Verify document signatures"
+msgstr "Belge imzalarını doğrula"
+
+#: permissions.py:37
+msgid "View details of document signatures"
+msgstr "Belge imzalarının ayrıntılarını görüntüle"
+
+#: queues.py:11
+msgid "Verify key signatures"
+msgstr "Anahtar imzaları doğrula"
+
+#: queues.py:15
+msgid "Unverify key signatures"
+msgstr "Anahtar imzaları doğrula"
+
+#: queues.py:19
+msgid "Verify document version"
+msgstr "Belge sürümünü doğrula"
+
+#: queues.py:24
+msgid "Verify missing embedded signature"
+msgstr "Eksik gömülü imzayı doğrula"
+
+#: views.py:61 views.py:154
+msgid "Passphrase is needed to unlock this key."
+msgstr "Bu anahtarın kilidini açmak için parolanın kullanılması gerekir."
+
+#: views.py:71 views.py:164
+msgid "Passphrase is incorrect."
+msgstr "Parola yanlış."
+
+#: views.py:92 views.py:184
+msgid "Document version signed successfully."
+msgstr "Belge sürümü başarıyla imzalandı."
+
+#: views.py:116
+#, python-format
+msgid "Sign document version \"%s\" with a detached signature"
+msgstr "Ayrılmış bir imzayla \"%s\" belgesini imzala"
+
+#: views.py:215
+#, python-format
+msgid "Sign document version \"%s\" with a embedded signature"
+msgstr "Gömülü bir imzayla \"%s\" belge sürümünü imzalayın"
+
+#: views.py:238
+#, python-format
+msgid "Delete detached signature: %s"
+msgstr "Ayrılmış imza silin: %s"
+
+#: views.py:259
+#, python-format
+msgid "Details for signature: %s"
+msgstr "İmza ayrıntıları: %s"
+
+#: views.py:299
+#, python-format
+msgid "Signatures for document version: %s"
+msgstr "Belge sürümünün imzaları: %s"
+
+#: views.py:328
+#, python-format
+msgid "Upload detached signature for document version: %s"
+msgstr "Belge versiyonu için ayrılmış imza yükle: %s"
+
+#: views.py:345
+msgid "On large databases this operation may take some time to execute."
+msgstr "Büyük veritabanlarında bu işlemin yürütülmesi biraz zaman alabilir."
+
+#: views.py:346
+msgid "Verify all document for signatures?"
+msgstr "İmzalar için tüm belgeleri doğruluyor musunuz?"
+
+#: views.py:356
+msgid "Signature verification queued successfully."
+msgstr "İmza doğrulama işlemi başarıyla sıraya alındı."

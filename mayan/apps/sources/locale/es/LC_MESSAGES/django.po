@@ -1,0 +1,637 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# jmcainzos <jmcainzos@vodafone.es>, 2014
+# jmcainzos <jmcainzos@vodafone.es>, 2015
+# Lory977 <helga.carrero@gmail.com>, 2015
+# Roberto Rosario, 2015-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-08-25 03:14+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Spanish (http://www.transifex.com/rosarior/mayan-edms/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:40 links.py:35 models.py:175 queues.py:8 settings.py:7 views.py:554
+msgid "Sources"
+msgstr "Fuentes"
+
+#: apps.py:57
+msgid "Create a document source"
+msgstr "Crear una nueva fuente de documentos"
+
+#: apps.py:59
+msgid ""
+"Document sources are the way in which new documents are feed to Mayan EDMS, "
+"create at least a web form source to be able to upload documents from a "
+"browser."
+msgstr "Las fuentes de documentos son la manera en la que se almacenan nuevos documentos en Mayan EDMS. Crea por lo menos una fuente del tipo formulario web para poder cargar documentos desde un navegador."
+
+#: apps.py:69
+msgid "Created"
+msgstr "Creado"
+
+#: apps.py:76
+msgid "Thumbnail"
+msgstr "Foto miniatura"
+
+#: apps.py:84 models.py:781
+msgid "Date time"
+msgstr "Fecha y hora"
+
+#: apps.py:89 models.py:784
+msgid "Message"
+msgstr "Mensaje"
+
+#: forms.py:30
+msgid "Comment"
+msgstr "Comentario"
+
+#: forms.py:45
+msgid "Expand compressed files"
+msgstr "Expandir archivos comprimidos"
+
+#: forms.py:47
+msgid "Upload a compressed file's contained files as individual documents"
+msgstr "Subir los archivos de un archivo comprimido como documentos individuales"
+
+#: forms.py:68 views.py:442
+msgid "Staging file"
+msgstr "Archivo provisional"
+
+#: forms.py:72 forms.py:77
+msgid "File"
+msgstr "Archivo"
+
+#: handlers.py:16
+msgid "Default"
+msgstr "Por defecto"
+
+#: links.py:30
+msgid "New document"
+msgstr "Nuevo documento"
+
+#: links.py:39
+msgid "Add new IMAP email"
+msgstr "Añadir nuevo correo electrónico IMAP"
+
+#: links.py:44
+msgid "Add new POP3 email"
+msgstr "Añadir nuevo correo electrónico POP3"
+
+#: links.py:49
+msgid "Add new staging folder"
+msgstr "Añadir nueva carpeta de ensayo"
+
+#: links.py:54
+msgid "Add new watch folder"
+msgstr "Añadir nueva carpeta observada"
+
+#: links.py:59
+msgid "Add new webform source"
+msgstr "Añadir nueva fuente en formato web"
+
+#: links.py:64
+msgid "Add new SANE scanner"
+msgstr "Añadir un nuevo escáner SANE"
+
+#: links.py:69 links.py:83
+msgid "Delete"
+msgstr "Borrar"
+
+#: links.py:73
+msgid "Edit"
+msgstr "Editar"
+
+#: links.py:77
+msgid "Document sources"
+msgstr "Fuentes de documentos"
+
+#: links.py:89
+msgid "Upload new version"
+msgstr "Subir versión nueva"
+
+#: links.py:92
+msgid "Logs"
+msgstr "Bitácoras"
+
+#: links.py:96
+msgid "Check now"
+msgstr "Revisar ahora"
+
+#: literals.py:9
+msgid "Flatbed"
+msgstr "Cama plana"
+
+#: literals.py:10
+msgid "Document feeder"
+msgstr "Alimentador de documentos"
+
+#: literals.py:17
+msgid "Simplex"
+msgstr "Simple"
+
+#: literals.py:18
+msgid "Duplex"
+msgstr "Dúplex"
+
+#: literals.py:26
+msgid "Lineart"
+msgstr "Arte lineal"
+
+#: literals.py:27
+msgid "Monochrome"
+msgstr "Monocromático"
+
+#: literals.py:28
+msgid "Color"
+msgstr "Color"
+
+#: literals.py:36 literals.py:41
+msgid "Always"
+msgstr "Siempre"
+
+#: literals.py:37 literals.py:42
+msgid "Never"
+msgstr "Nunca"
+
+#: literals.py:43
+msgid "Ask user"
+msgstr "Preguntar al usuario"
+
+#: literals.py:54
+msgid "Scanner"
+msgstr "Escáner"
+
+#: literals.py:55 models.py:407
+msgid "Web form"
+msgstr "Formulario web"
+
+#: literals.py:56 models.py:378
+msgid "Staging folder"
+msgstr "Archivos provisionales"
+
+#: literals.py:57 models.py:771
+msgid "Watch folder"
+msgstr "Carpeta observada"
+
+#: literals.py:58
+msgid "POP3 email"
+msgstr "Correo electrónico POP3"
+
+#: literals.py:59 models.py:734 models.py:735
+msgid "IMAP email"
+msgstr "Correo electrónico IMAP"
+
+#: models.py:62
+msgid "Label"
+msgstr "Etiqueta"
+
+#: models.py:63 views.py:547
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: models.py:174 models.py:778
+msgid "Source"
+msgstr "Fuente"
+
+#: models.py:182
+msgid "Interactive source"
+msgstr "Fuente interactiva"
+
+#: models.py:183
+msgid "Interactive sources"
+msgstr "Fuentes interactivas"
+
+#: models.py:193
+msgid "Device name as returned by the SANE backend."
+msgstr "Nombre del dispositivo devuelto por el servidor SANE."
+
+#: models.py:194
+msgid "Device name"
+msgstr "Nombre del dispositivo"
+
+#: models.py:199
+msgid ""
+"Selects the scan mode (e.g., lineart, monochrome, or color). If this option "
+"is not supported by your scanner, leave it blank."
+msgstr "Selecciona el modo de escáner (por ejemplo, lineart, monochrome o color). Si esta opción no es compatible con el escáner, déjela en blanco."
+
+#: models.py:201
+msgid "Mode"
+msgstr "Modo"
+
+#: models.py:205
+msgid ""
+"Sets the resolution of the scanned image in DPI (dots per inch). Typical "
+"value is 200. If this option is not supported by your scanner, leave it "
+"blank."
+msgstr "Define la resolución de la imagen escaneada en DPI (puntos por pulgada). El valor típico es 200. Si esta opción no es compatible con el escáner, déjelo en blanco."
+
+#: models.py:208
+msgid "Resolution"
+msgstr "Resolución"
+
+#: models.py:213
+msgid ""
+"Selects the scan source (such as a document-feeder). If this option is not "
+"supported by your scanner, leave it blank."
+msgstr "Selecciona la fuente de escaneado (como un alimentador de documentos). Si esta opción no es compatible con el escáner, déjela en blanco."
+
+#: models.py:216
+msgid "Paper source"
+msgstr "Fuente de papel"
+
+#: models.py:221
+msgid ""
+"Selects the document feeder mode (simplex/duplex). If this option is not "
+"supported by your scanner, leave it blank."
+msgstr "Selecciona el modo de alimentador de documentos (simplex / dúplex). Si esta opción no es compatible con el escáner, déjela en blanco."
+
+#: models.py:223
+msgid "ADF mode"
+msgstr "Modo ADF"
+
+#: models.py:227
+msgid "SANE Scanner"
+msgstr "Escáner SANE"
+
+#: models.py:228
+msgid "SANE Scanners"
+msgstr "Escáneres SANE"
+
+#: models.py:275
+#, python-format
+msgid "Error while scanning; %s"
+msgstr "Error al escanear; %s"
+
+#: models.py:307 models.py:752
+msgid "Server side filesystem path."
+msgstr "Ruta a los archivos en el servidor."
+
+#: models.py:308 models.py:753
+msgid "Folder path"
+msgstr "Ruta de la carpeta"
+
+#: models.py:311
+msgid "Width value to be passed to the converter backend."
+msgstr "Valor de la anchura que se pasa al backend convertidor."
+
+#: models.py:312
+msgid "Preview width"
+msgstr "Ancho de muestra"
+
+#: models.py:316
+msgid "Height value to be passed to the converter backend."
+msgstr "Valor de la altura que se pasa al backend convertidor."
+
+#: models.py:317
+msgid "Preview height"
+msgstr "Alto de muestra"
+
+#: models.py:321 models.py:398
+msgid "Whether to expand or not compressed archives."
+msgstr "Expandir o no archivos comprimidos."
+
+#: models.py:322 models.py:399 models.py:435
+msgid "Uncompress"
+msgstr "Descomprimir"
+
+#: models.py:327
+msgid "Delete the file after is has been successfully uploaded."
+msgstr "Eliminar el archivo después de que se haya cargado correctamente."
+
+#: models.py:329
+msgid "Delete after upload"
+msgstr "Borrar después de subir"
+
+#: models.py:353
+#, python-format
+msgid "Unable get list of staging files: %s"
+msgstr "No es posible obtener la lista de los archivos provisionales: %s"
+
+#: models.py:374
+#, python-format
+msgid "Error deleting staging file; %s"
+msgstr "Error al borrar archivo de ensayo; %s"
+
+#: models.py:379
+msgid "Staging folders"
+msgstr "Archivos provisionales"
+
+#: models.py:408
+msgid "Web forms"
+msgstr "Formularios web"
+
+#: models.py:415 models.py:416
+msgid "Out of process"
+msgstr "Fuera de proceso"
+
+#: models.py:422
+msgid "Interval in seconds between checks for new documents."
+msgstr "Intérvalo en segundos para detectar documentos nuevos"
+
+#: models.py:423
+msgid "Interval"
+msgstr "Intérvalo"
+
+#: models.py:428
+msgid "Assign a document type to documents uploaded from this source."
+msgstr "Asignar un tipo de documento a los documentos subidos desde esta fuente"
+
+#: models.py:430
+msgid "Document type"
+msgstr "Tipo de documento"
+
+#: models.py:434
+msgid "Whether to expand or not, compressed archives."
+msgstr "Expandir o no archivos comprimidos."
+
+#: models.py:484
+msgid "Interval source"
+msgstr "Intervalo de fuente."
+
+#: models.py:485
+msgid "Interval sources"
+msgstr "Intervalo de fuentes"
+
+#: models.py:498
+msgid "Host"
+msgstr "Host"
+
+#: models.py:499
+msgid "SSL"
+msgstr "SSL"
+
+#: models.py:501
+msgid ""
+"Typical choices are 110 for POP3, 995 for POP3 over SSL, 143 for IMAP, 993 "
+"for IMAP over SSL."
+msgstr "Las opciones típicas son 110 para POP3, 995 para POP3 sobre SSL, 143 para IMAP, 993 para IMAP sobre SSL."
+
+#: models.py:502
+msgid "Port"
+msgstr "Puerto"
+
+#: models.py:504
+msgid "Username"
+msgstr "Usuario"
+
+#: models.py:505
+msgid "Password"
+msgstr "Contraseña"
+
+#: models.py:509
+msgid ""
+"Name of the attachment that will contains the metadata type names and value "
+"pairs to be assigned to the rest of the downloaded attachments. Note: This "
+"attachment has to be the first attachment."
+msgstr "Nombre del archivo adjunto que contiene los nombres de los tipos de metadatos y los pares de valores que se asignará al resto de los archivos adjuntos descargados. Nota: Este anejo tiene que ser el primer archivo adjunto."
+
+#: models.py:513
+msgid "Metadata attachment name"
+msgstr "Nombre del anejo de metadatos"
+
+#: models.py:517
+msgid ""
+"Select a metadata type valid for the document type selected in which to "
+"store the email's subject."
+msgstr "Seleccione un tipo de metadatos válido para el tipo de documento seleccionado para almacenar el asunto del correo electrónico."
+
+#: models.py:520
+msgid "Subject metadata type"
+msgstr "Tipo de metadatos de asunto "
+
+#: models.py:524
+msgid ""
+"Select a metadata type valid for the document type selected in which to "
+"store the email's \"from\" value."
+msgstr "Seleccione un tipo de metadatos válido para el tipo de documento seleccionado para almacenar el valor \"de\" del correo electrónico."
+
+#: models.py:527
+msgid "From metadata type"
+msgstr "Tipo de metadato de remitente"
+
+#: models.py:531
+msgid "Store the body of the email as a text document."
+msgstr "Almacenar el cuerpo del correo electrónico como un documento de texto."
+
+#: models.py:532
+msgid "Store email body"
+msgstr "Almacenar cuerpo del correo electrónico"
+
+#: models.py:541
+#, python-format
+msgid ""
+"Subject metadata type \"%(metadata_type)s\" is not valid for the document "
+"type: %(document_type)s"
+msgstr "El tipo de metadatos de tema \"%(metadata_type)s\" no es válido para el tipo de documento: %(document_type)s"
+
+#: models.py:555
+#, python-format
+msgid ""
+"\"From\" metadata type \"%(metadata_type)s\" is not valid for the document "
+"type: %(document_type)s"
+msgstr "\"De\" tipo de metadatos \"%(metadata_type)s\" no es válido para el tipo de documento: %(document_type)s"
+
+#: models.py:605
+#, python-format
+msgid "attachment-%i"
+msgstr "Anejo-%i"
+
+#: models.py:644
+msgid "Email source"
+msgstr "Fuente de correo electrónico"
+
+#: models.py:645
+msgid "Email sources"
+msgstr "Fuentes de correo electrónico"
+
+#: models.py:652
+msgid "Timeout"
+msgstr "Tiempo de espera"
+
+#: models.py:689 models.py:690
+msgid "POP email"
+msgstr "Correo electrónico POP"
+
+#: models.py:698
+msgid "IMAP Mailbox from which to check for messages."
+msgstr "Buzón IMAP en el cual revisar mensajes."
+
+#: models.py:699
+msgid "Mailbox"
+msgstr "Buzón"
+
+#: models.py:772
+msgid "Watch folders"
+msgstr "Carpetas observadas"
+
+#: models.py:790
+msgid "Log entry"
+msgstr "Entrada de bitácora"
+
+#: models.py:791
+msgid "Log entries"
+msgstr "Entradas de bitácora"
+
+#: permissions.py:7
+msgid "Sources setup"
+msgstr "Configuración de fuentes de documentos"
+
+#: permissions.py:9
+msgid "Create new document sources"
+msgstr "Crear nuevas fuentes de documentos"
+
+#: permissions.py:12
+msgid "Delete document sources"
+msgstr "Eliminar fuentes de documentos"
+
+#: permissions.py:15
+msgid "Edit document sources"
+msgstr "Editar fuentes de documentos"
+
+#: permissions.py:18
+msgid "View existing document sources"
+msgstr "Ver fuentes de documento existentes"
+
+#: permissions.py:21
+msgid "Delete staging files"
+msgstr "Borrar archivos provisionales"
+
+#: queues.py:11
+msgid "Sources periodic"
+msgstr "Fuentes periódicas"
+
+#: queues.py:16
+msgid "Check interval source"
+msgstr "Intervalo de comprobación de la fuente"
+
+#: queues.py:21
+msgid "Handle upload"
+msgstr "Manejar la carga"
+
+#: queues.py:25
+msgid "Upload document"
+msgstr "Subir documento"
+
+#: settings.py:12
+msgid "File path to the scanimage program used to control image scanners."
+msgstr "Ruta de acceso al programa scanimage utilizado para controlar los escáneres de imágenes."
+
+#: tasks.py:32
+#, python-format
+msgid "Error processing source: %s"
+msgstr "Error procesando fuente: %s"
+
+#: templates/sources/upload_multiform_subtemplate.html:35
+msgid "Clear"
+msgstr "Limpiar"
+
+#: views.py:52
+#, python-format
+msgid "Log entries for source: %s"
+msgstr "Entradas de bitácora para fuente: %s"
+
+#: views.py:108 wizards.py:53
+msgid ""
+"No interactive document sources have been defined or none have been enabled,"
+" create one before proceeding."
+msgstr "No se han definido fuentes de documentos interactivos o no hay ninguna habilitada, cree una antes de continuar."
+
+#: views.py:134 views.py:152 views.py:162
+msgid "Document properties"
+msgstr "Propiedades de documento"
+
+#: views.py:142
+msgid "Files in staging path"
+msgstr "Archivos en ruta de ensayo"
+
+#: views.py:153
+msgid "Scan"
+msgstr "Escanear"
+
+#: views.py:260
+msgid "New document queued for uploaded and will be available shortly."
+msgstr "Nuevo documento en cola para ser cargado, estará disponible en breve."
+
+#: views.py:309
+#, python-format
+msgid "Upload a local document from source: %s"
+msgstr "Subir documento local desde la fuente: %s"
+
+#: views.py:338
+#, python-format
+msgid "Document \"%s\" is blocked from uploading new versions."
+msgstr "Documento \"%s\" esta bloqueado de crear nuevas versiones."
+
+#: views.py:390
+msgid ""
+"New document version queued for uploaded and will be available shortly."
+msgstr "Nueva versión del documento en cola para ser cargado,  estará disponible en breve."
+
+#: views.py:429
+#, python-format
+msgid "Upload a new version from source: %s"
+msgstr "Subir una nueva versión de la fuente: %s"
+
+#: views.py:469
+#, python-format
+msgid "Trigger check for source \"%s\"?"
+msgstr "¿Lanzar chequeo para la fuenta \"%s\"? "
+
+#: views.py:482
+msgid "Source check queued."
+msgstr "Verificación del origen en sometida."
+
+#: views.py:496
+#, python-format
+msgid "Create new source of type: %s"
+msgstr "Crear nuevo tipo de fuente: %s"
+
+#: views.py:516
+#, python-format
+msgid "Delete the source: %s?"
+msgstr "¿Eliminar la fuente: %s?"
+
+#: views.py:535
+#, python-format
+msgid "Edit source: %s"
+msgstr "Editar fuente: %s"
+
+#: views.py:543
+msgid "Type"
+msgstr "Tipo"
+
+#: wizards.py:42
+msgid "Step 1 of 3: Select document type"
+msgstr "Paso 1 de 3: Seleccione tipo de documento"
+
+#: wizards.py:43
+msgid "Step 2 of 3: Enter document metadata"
+msgstr "Paso 2 de 3: Entre la metadata del documento"
+
+#: wizards.py:44
+msgid "Step 3 of 3: Select tags"
+msgstr "Pago 3 de 3: Seleccione las etiquetas"
+
+#: wizards.py:70
+msgid "Next step"
+msgstr "Siguiente paso"
+
+#: wizards.py:72
+msgid "Document upload wizard"
+msgstr "Asistente de carga de documentos"
+
+#: wizards.py:99
+msgid "Tags to be attached."
+msgstr "Etiquetas a ser anejadas."

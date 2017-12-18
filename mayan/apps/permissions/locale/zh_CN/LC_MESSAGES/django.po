@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ford Guo <agile.guo@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-08-03 06:00+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/rosarior/mayan-edms/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:23 models.py:46 models.py:78 permissions.py:7
+msgid "Permissions"
+msgstr "权限"
+
+#: classes.py:89
+msgid "Insufficient permissions."
+msgstr "权限不足"
+
+#: links.py:14
+msgid "Grant"
+msgstr "赋给"
+
+#: links.py:18
+msgid "Revoke"
+msgstr "撤销"
+
+#: links.py:22
+msgid "Create new role"
+msgstr ""
+
+#: links.py:26
+msgid "Delete"
+msgstr ""
+
+#: links.py:30
+msgid "Edit"
+msgstr ""
+
+#: links.py:35 models.py:99 views.py:137
+msgid "Roles"
+msgstr "角色"
+
+#: links.py:38
+msgid "Members"
+msgstr ""
+
+#: links.py:43
+msgid "Role permissions"
+msgstr ""
+
+#: models.py:19
+msgid "Namespace"
+msgstr ""
+
+#: models.py:20
+msgid "Name"
+msgstr "名称"
+
+#: models.py:45
+msgid "Permission"
+msgstr "许可"
+
+#: models.py:75 search.py:16
+msgid "Label"
+msgstr ""
+
+#: models.py:81
+msgid "Groups"
+msgstr "用户组"
+
+#: models.py:98
+msgid "Role"
+msgstr ""
+
+#: permissions.py:10
+msgid "View roles"
+msgstr "查看角色"
+
+#: permissions.py:13
+msgid "Edit roles"
+msgstr "编辑角色"
+
+#: permissions.py:16
+msgid "Create roles"
+msgstr "创建角色"
+
+#: permissions.py:19
+msgid "Delete roles"
+msgstr "删除角色"
+
+#: permissions.py:22
+msgid "Grant permissions"
+msgstr "权限授权"
+
+#: permissions.py:25
+msgid "Revoke permissions"
+msgstr "撤销权限"
+
+#: search.py:20
+msgid "Group name"
+msgstr ""
+
+#: serializers.py:46
+msgid ""
+"Comma separated list of groups primary keys to add to, or replace in this "
+"role."
+msgstr ""
+
+#: serializers.py:53
+msgid "Comma separated list of permission primary keys to grant to this role."
+msgstr ""
+
+#: serializers.py:90
+#, python-format
+msgid "No such permission: %s"
+msgstr ""
+
+#: views.py:46
+msgid "Available groups"
+msgstr ""
+
+#: views.py:47
+msgid "Role groups"
+msgstr ""
+
+#: views.py:57
+#, python-format
+msgid "Groups of role: %s"
+msgstr ""
+
+#: views.py:80
+msgid "Available permissions"
+msgstr ""
+
+#: views.py:81
+msgid "Granted permissions"
+msgstr ""
+
+#: views.py:94
+#, python-format
+msgid "Permissions for role: %s"
+msgstr ""

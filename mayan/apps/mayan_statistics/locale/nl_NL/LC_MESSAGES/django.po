@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Evelijn Saaltink <evelijnsaaltink@gmail.com>, 2016
+# Lucas Weel <ljj.weel@gmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-06-23 05:44+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/rosarior/mayan-edms/language/nl_NL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:25 links.py:28 permissions.py:7 queues.py:8
+msgid "Statistics"
+msgstr "Statistiek"
+
+#. Translators: Schedule here is a verb, the 'schedule' at which the
+#. statistic will be updated
+#: apps.py:34
+msgid "Schedule"
+msgstr "Schema"
+
+#: links.py:11
+msgid "Queue"
+msgstr "Wachtrij"
+
+#: links.py:15
+msgid "View"
+msgstr "Bekijk"
+
+#: links.py:19
+msgid "Namespace details"
+msgstr ""
+
+#: links.py:23
+msgid "Namespace list"
+msgstr "Namespacelijst"
+
+#. Translators: 'Slug' refers to the URL valid ID of the statistic
+#. More info: https://docs.djangoproject.com/en/1.7/glossary/#term-slug
+#: models.py:14
+msgid "Slug"
+msgstr ""
+
+#: models.py:16
+msgid "Date time"
+msgstr "Datum en tijd"
+
+#: models.py:18
+msgid "Data"
+msgstr "Gegevens"
+
+#: models.py:31
+msgid "Statistics result"
+msgstr ""
+
+#: models.py:32
+msgid "Statistics results"
+msgstr ""
+
+#: permissions.py:10
+msgid "View statistics"
+msgstr "Bekijk statistieken"
+
+#: queues.py:13
+msgid "Execute statistic"
+msgstr ""
+
+#: templates/statistics/backends/chartjs/line.html:19
+msgid "No data available yet"
+msgstr "Nog geen gegevens beschikbaar"
+
+#: views.py:17
+msgid "Statistics namespaces"
+msgstr ""
+
+#: views.py:33
+#, python-format
+msgid "Namespace details for: %s"
+msgstr ""
+
+#: views.py:53
+#, python-format
+msgid "Results for: %s"
+msgstr "Resultaten voor: %s"
+
+#: views.py:60 views.py:85
+#, python-format
+msgid "Statistic \"%s\" not found."
+msgstr "Statistiek \"%s\" niet gevonden"
+
+#: views.py:77
+#, python-format
+msgid "Queue statistic \"%s\" to be updated?"
+msgstr ""

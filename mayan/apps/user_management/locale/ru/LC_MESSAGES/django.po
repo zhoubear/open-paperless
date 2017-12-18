@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# lilo.panic, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-07-15 03:50+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Russian (http://www.transifex.com/rosarior/mayan-edms/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: apps.py:43 permissions.py:7
+msgid "User management"
+msgstr "Управление пользователями"
+
+#: apps.py:59
+msgid "All the groups."
+msgstr "Все группы"
+
+#: apps.py:63
+msgid "All the users."
+msgstr "Все пользователи."
+
+#: apps.py:68 links.py:30
+msgid "Members"
+msgstr "Участники"
+
+#: apps.py:72
+msgid "Full name"
+msgstr "Полное имя"
+
+#: apps.py:75 search.py:22
+msgid "Email"
+msgstr "Email"
+
+#: apps.py:78
+msgid "Active"
+msgstr "Активен"
+
+#: apps.py:84
+msgid "Has usable password?"
+msgstr "Есть действующий пароль?"
+
+#: forms.py:18
+msgid "New password"
+msgstr "Новый пароль"
+
+#: forms.py:21
+msgid "Confirm password"
+msgstr "Подтвердите пароль"
+
+#: links.py:14 views.py:27
+msgid "Create new group"
+msgstr "Создать новую группу"
+
+#: links.py:18 links.py:42 links.py:58
+msgid "Delete"
+msgstr "Удалить"
+
+#: links.py:22 links.py:46
+msgid "Edit"
+msgstr "Редактировать"
+
+#: links.py:26 links.py:34 links.py:50 search.py:25 views.py:50
+msgid "Groups"
+msgstr "Группы"
+
+#: links.py:38 views.py:116
+msgid "Create new user"
+msgstr "Создать нового пользователя"
+
+#: links.py:54 links.py:70 views.py:240
+msgid "Users"
+msgstr "Пользователи"
+
+#: links.py:62 links.py:66
+msgid "Set password"
+msgstr ""
+
+#: permissions.py:10
+msgid "Create new groups"
+msgstr "Создание новых групп"
+
+#: permissions.py:13
+msgid "Delete existing groups"
+msgstr "Удалить существующие группы"
+
+#: permissions.py:16
+msgid "Edit existing groups"
+msgstr "Редактирование существующих групп"
+
+#: permissions.py:19
+msgid "View existing groups"
+msgstr "Просмотр существующих групп"
+
+#: permissions.py:22
+msgid "Create new users"
+msgstr "Создание новых пользователей"
+
+#: permissions.py:25
+msgid "Delete existing users"
+msgstr "Удаление существующих пользователей"
+
+#: permissions.py:28
+msgid "Edit existing users"
+msgstr "Редактирование существующих пользователей"
+
+#: permissions.py:31
+msgid "View existing users"
+msgstr "Просмотр существующих пользователей"
+
+#: search.py:19
+msgid "First name"
+msgstr ""
+
+#: search.py:28
+msgid "Last name"
+msgstr ""
+
+#: search.py:31
+msgid "username"
+msgstr "имя пользователя"
+
+#: search.py:41
+msgid "Name"
+msgstr "Название"
+
+#: serializers.py:29
+msgid "Comma separated list of group primary keys to assign this user to."
+msgstr ""
+
+#: serializers.py:51
+msgid "List of group primary keys to which to add the user."
+msgstr ""
+
+#: views.py:43
+#, python-format
+msgid "Edit group: %s"
+msgstr "Редактировать группу: %s"
+
+#: views.py:64
+#, python-format
+msgid "Delete the group: %s?"
+msgstr "Удалить группу: %s?"
+
+#: views.py:70
+msgid "Available users"
+msgstr "Доступные пользователи"
+
+#: views.py:71
+msgid "Members of groups"
+msgstr "Участники групп"
+
+#: views.py:92
+#, python-format
+msgid "Members of group: %s"
+msgstr "Член групп: %s"
+
+#: views.py:126
+#, python-format
+msgid "User \"%s\" created successfully."
+msgstr "Пользователь \"%s\" создан."
+
+#: views.py:135
+#, python-format
+msgid "User delete request performed on %(count)d user"
+msgstr ""
+
+#: views.py:137
+#, python-format
+msgid "User delete request performed on %(count)d users"
+msgstr ""
+
+#: views.py:146
+msgid "Delete user"
+msgid_plural "Delete users"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: views.py:156
+#, python-format
+msgid "Delete user: %s"
+msgstr ""
+
+#: views.py:168
+msgid ""
+"Super user and staff user deleting is not allowed, use the admin interface "
+"for these cases."
+msgstr "Удаление суперпользователя и  персонала не допускается, используйте интерфейс администратора для этих случаев."
+
+#: views.py:176
+#, python-format
+msgid "User \"%s\" deleted successfully."
+msgstr "Пользователь \"%s\" удален."
+
+#: views.py:182
+#, python-format
+msgid "Error deleting user \"%(user)s\": %(error)s"
+msgstr "Ошибка при удалении пользователя \"%(user)s\": %(error)s"
+
+#: views.py:198
+#, python-format
+msgid "Edit user: %s"
+msgstr "Редактировать пользователя: %s."
+
+#: views.py:204
+msgid "Available groups"
+msgstr "Доступные группы"
+
+#: views.py:205
+msgid "Groups joined"
+msgstr "Участник групп"
+
+#: views.py:214
+#, python-format
+msgid "Groups of user: %s"
+msgstr "Группы пользователя: %s"
+
+#: views.py:252
+#, python-format
+msgid "Password change request performed on %(count)d user"
+msgstr ""
+
+#: views.py:254
+#, python-format
+msgid "Password change request performed on %(count)d users"
+msgstr ""
+
+#: views.py:262
+msgid "Submit"
+msgstr "Подтвердить"
+
+#: views.py:264
+msgid "Change user password"
+msgid_plural "Change users passwords"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: views.py:274
+#, python-format
+msgid "Change password for user: %s"
+msgstr ""
+
+#: views.py:294
+msgid ""
+"Super user and staff user password reseting is not allowed, use the admin "
+"interface for these cases."
+msgstr "Сброс паролей суперпользователя и персонала не допускается, используйте интерфейс администратора для этих случаев."
+
+#: views.py:304
+#, python-format
+msgid "Successfull password reset for user: %s."
+msgstr "Пароль пользователя %s сброшен."
+
+#: views.py:310
+#, python-format
+msgid "Error reseting password for user \"%(user)s\": %(error)s"
+msgstr "Ошибка сброса пароля для пользователя \"%(user)s\": %(error)s"

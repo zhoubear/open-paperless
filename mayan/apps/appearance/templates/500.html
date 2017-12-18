@@ -1,0 +1,19 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% trans 'Server error' %}{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <h3 class="title">{% trans 'Server error' %}</h3>
+        <div class="inner">
+            <p>{% trans "There's been an error. It's been reported to the site administrators via e-mail and should be fixed shortly. Thanks for your patience." %}</p>
+
+            {% if request.sentry.id %}
+                <p>{% trans 'If you need assistance, you may reference this error via the following identifier:' %}</p>
+                <p><strong>{{ request.sentry.id }}</strong></p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

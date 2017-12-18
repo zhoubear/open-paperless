@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Roberto Rosario, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2016-03-21 21:09+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Spanish (http://www.transifex.com/rosarior/mayan-edms/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:26
+msgid "Document comments"
+msgstr "Comentarios de documento"
+
+#: apps.py:46
+msgid "Date"
+msgstr "Fecha"
+
+#: apps.py:48 models.py:27
+msgid "User"
+msgstr "Usuario"
+
+#. Translators: Comment here is a noun and refers to the actual text stored
+#: apps.py:51 models.py:30 models.py:72 views.py:23
+msgid "Comment"
+msgstr "Comentario"
+
+#: apps.py:55 apps.py:59 links.py:22 models.py:73 permissions.py:7
+msgid "Comments"
+msgstr "Comentarios"
+
+#: events.py:9
+msgid "Document comment created"
+msgstr "Comentario de documento creado"
+
+#: events.py:13
+msgid "Document comment deleted"
+msgstr "Comentario de documento borrado"
+
+#: links.py:13
+msgid "Add comment"
+msgstr "Añadir comentario"
+
+#: links.py:18
+msgid "Delete"
+msgstr "Borrar"
+
+#: models.py:23
+msgid "Document"
+msgstr "Documento"
+
+#: models.py:33
+msgid "Date time submitted"
+msgstr "Fecha y hora sometido"
+
+#: permissions.py:10
+msgid "Create new comments"
+msgstr "Crear nuevos comentarios"
+
+#: permissions.py:13
+msgid "Delete comments"
+msgstr "Eliminar comentarios"
+
+#: permissions.py:16
+msgid "View comments"
+msgstr "Ver comentarios"
+
+#: views.py:41
+#, python-format
+msgid "Add comment to document: %s"
+msgstr "Añadir comentario al documento: %s"
+
+#: views.py:79
+#, python-format
+msgid "Delete comment: %s?"
+msgstr "¿Borrar comentario: %s?"
+
+#: views.py:98
+#, python-format
+msgid "Comments for document: %s"
+msgstr "Comentarios para el documento: %s"

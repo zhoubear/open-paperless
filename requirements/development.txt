@@ -1,0 +1,17 @@
+# requirements/development.txt
+Werkzeug==0.12.2
+
+django-debug-toolbar==1.8
+django-extensions==1.7.9
+django-rosetta==0.7.13
+
+flake8==3.3.0
+
+ipython==5.4.1
+
+safety==1.4.0
+
+transifex-client==0.12.4
+
+-r build.txt
+-r testing-base.txt

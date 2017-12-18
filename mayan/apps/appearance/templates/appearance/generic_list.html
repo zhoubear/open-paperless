@@ -1,0 +1,20 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+
+{% load navigation_tags %}
+
+{% block title %}{% include 'appearance/calculate_form_title.html' with html_title=True %}{% endblock %}
+
+{% block content %}
+    {% if title %}
+        <h3>{% include 'appearance/calculate_form_title.html' %}</h3>
+    {% endif %}
+
+    {% if list_as_items %}
+        {% include 'appearance/generic_list_items_subtemplate.html' %}
+    {% else %}
+        {% include 'appearance/generic_list_subtemplate.html' %}
+    {% endif %}
+{% endblock content %}
+

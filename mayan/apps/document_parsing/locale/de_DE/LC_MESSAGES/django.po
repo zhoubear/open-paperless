@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Roberto Rosario <roberto.rosario.gonzalez@gmail.com>, 2017\n"
+"Language-Team: German (Germany) (https://www.transifex.com/rosarior/teams/13584/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:61 permissions.py:7 settings.py:7
+msgid "Document parsing"
+msgstr ""
+
+#: apps.py:91
+msgid "Document"
+msgstr "Dokument"
+
+#: apps.py:95
+msgid "Added"
+msgstr "Hinzugefügt"
+
+#: apps.py:99 models.py:39
+msgid "Result"
+msgstr "Ergebnis"
+
+#: apps.py:116 apps.py:120 links.py:11 models.py:18
+msgid "Content"
+msgstr "Inhalt"
+
+#: events.py:9
+msgid "Document version submitted for parsing"
+msgstr ""
+
+#: events.py:13
+msgid "Document version parsing finished"
+msgstr ""
+
+#: forms.py:42
+#, python-format
+msgid "Page %(page_number)d"
+msgstr "Seite %(page_number)d"
+
+#: forms.py:50
+msgid "Contents"
+msgstr "Inhalte"
+
+#: links.py:16 links.py:38 views.py:149
+msgid "Parsing errors"
+msgstr ""
+
+#: links.py:21
+msgid "Download content"
+msgstr ""
+
+#: links.py:25 links.py:30
+msgid "Submit for parsing"
+msgstr ""
+
+#: links.py:33
+msgid "Parse documents per type"
+msgstr ""
+
+#: models.py:16
+msgid "Document page"
+msgstr "Dokumentenseite"
+
+#: models.py:26
+msgid "Document page content"
+msgstr "Seiteninhalt"
+
+#: models.py:27
+msgid "Document pages contents"
+msgstr "Seiteninhalt"
+
+#: models.py:34
+msgid "Document version"
+msgstr "Dokumentenversion"
+
+#: models.py:37
+msgid "Date time submitted"
+msgstr "Einstellunsgzeit"
+
+#: models.py:46
+msgid "Document version parse error"
+msgstr ""
+
+#: models.py:47
+msgid "Document version parse errors"
+msgstr ""
+
+#: parsers.py:91
+#, python-format
+msgid "Exception parsing page; %s"
+msgstr "Ausnahme bei der Verarbeitung einer Seite: %s"
+
+#: parsers.py:118
+#, python-format
+msgid "Cannot find pdftotext executable at: %s"
+msgstr "Programm pdftotext nicht gefunden in %s"
+
+#: permissions.py:10
+msgid "View the content of a document"
+msgstr ""
+
+#: permissions.py:14
+msgid "Parse the content of a document"
+msgstr ""
+
+#: queues.py:7
+msgid "Parsing"
+msgstr ""
+
+#: queues.py:10
+msgid "Document version parsing"
+msgstr ""
+
+#: settings.py:13
+msgid ""
+"File path to poppler's pdftotext program used to extract text from PDF "
+"files."
+msgstr ""
+"Pfad zum \"pdftotext\"-Programm (bereitgestellt von poppler), das benutzt "
+"wird, um Text aus PDF-Dateien zu extrahieren."
+
+#: views.py:38
+#, python-format
+msgid "Content for document: %s"
+msgstr ""
+
+#: views.py:66
+#, python-format
+msgid "Parsing errors for document: %s"
+msgstr ""
+
+#: views.py:78
+#, python-format
+msgid "%(count)d document added to the parsing queue"
+msgstr ""
+
+#: views.py:81
+#, python-format
+msgid "%(count)d documents added to the parsing queue"
+msgstr ""
+
+#: views.py:89
+#, python-format
+msgid "Submit %(count)d document to the parsing queue?"
+msgid_plural "Submit %(count)d documents to the parsing queue"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views.py:102
+#, python-format
+msgid "Submit document \"%s\" to the parsing queue"
+msgstr ""
+
+#: views.py:116
+msgid "Submit all documents of a type for parsing"
+msgstr ""
+
+#: views.py:135
+#, python-format
+msgid ""
+"%(count)d documents of type \"%(document_type)s\" added to the parsing "
+"queue."
+msgstr ""

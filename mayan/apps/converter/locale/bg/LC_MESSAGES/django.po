@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Pavlin Koldamov <pkoldamov@gmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-07-09 06:34+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Bulgarian (http://www.transifex.com/rosarior/mayan-edms/language/bg/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:20 permissions.py:7 settings.py:12
+msgid "Converter"
+msgstr ""
+
+#: apps.py:27 models.py:40
+msgid "Order"
+msgstr ""
+
+#: apps.py:29 models.py:70
+msgid "Transformation"
+msgstr ""
+
+#: apps.py:33 models.py:50
+msgid "Arguments"
+msgstr ""
+
+#: backends/python.py:181 backends/python.py:187
+#, python-format
+msgid "Exception determining PDF page count; %s"
+msgstr ""
+
+#: backends/python.py:201
+#, python-format
+msgid "Exception determining page count using Pillow; %s"
+msgstr ""
+
+#: classes.py:102
+msgid "Not an office file format."
+msgstr ""
+
+#: classes.py:123
+msgid "LibreOffice not installed or not found."
+msgstr ""
+
+#: classes.py:312
+msgid "Crop"
+msgstr ""
+
+#: classes.py:325
+msgid "Flip"
+msgstr ""
+
+#: classes.py:336
+msgid "Gaussian blur"
+msgstr ""
+
+#: classes.py:346
+msgid "Line art"
+msgstr ""
+
+#: classes.py:357
+msgid "Mirror"
+msgstr ""
+
+#: classes.py:368
+msgid "Resize"
+msgstr "Преоразмеряване"
+
+#: classes.py:395
+msgid "Rotate"
+msgstr "Завъртете"
+
+#: classes.py:414
+msgid "Rotate 90 degrees"
+msgstr ""
+
+#: classes.py:425
+msgid "Rotate 180 degrees"
+msgstr ""
+
+#: classes.py:436
+msgid "Rotate 270 degrees"
+msgstr ""
+
+#: classes.py:446
+msgid "Unsharp masking"
+msgstr ""
+
+#: classes.py:462
+msgid "Zoom"
+msgstr "Увеличаване"
+
+#: links.py:35
+msgid "Create new transformation"
+msgstr ""
+
+#: links.py:39
+msgid "Delete"
+msgstr ""
+
+#: links.py:43
+msgid "Edit"
+msgstr "Редактиране"
+
+#: links.py:47 models.py:71
+msgid "Transformations"
+msgstr ""
+
+#: models.py:38
+msgid ""
+"Order in which the transformations will be executed. If left unchanged, an "
+"automatic order value will be assigned."
+msgstr ""
+
+#: models.py:44
+msgid "Name"
+msgstr "Име"
+
+#: models.py:48
+msgid ""
+"Enter the arguments for the transformation as a YAML dictionary. ie: "
+"{\"degrees\": 180}"
+msgstr ""
+
+#: permissions.py:10
+msgid "Create new transformations"
+msgstr ""
+
+#: permissions.py:13
+msgid "Delete transformations"
+msgstr ""
+
+#: permissions.py:16
+msgid "Edit transformations"
+msgstr ""
+
+#: permissions.py:19
+msgid "View existing transformations"
+msgstr ""
+
+#: settings.py:15
+msgid "Graphics conversion backend to use."
+msgstr ""
+
+#: settings.py:34
+msgid "Configuration options for the graphics conversion backend."
+msgstr ""
+
+#: validators.py:22
+msgid "Enter a valid YAML value."
+msgstr ""
+
+#: views.py:64
+#, python-format
+msgid "Delete transformation \"%(transformation)s\" for: %(content_object)s?"
+msgstr ""
+
+#: views.py:116
+#, python-format
+msgid "Create new transformation for: %s"
+msgstr ""
+
+#: views.py:166
+#, python-format
+msgid "Edit transformation \"%(transformation)s\" for: %(content_object)s"
+msgstr ""
+
+#: views.py:213
+#, python-format
+msgid "Transformations for: %s"
+msgstr ""

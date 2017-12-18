@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2017
+# Pierre Lhoste <inactive+peterhost@transifex.com>, 2012
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-07-24 19:19+0000\n"
+"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/rosarior/mayan-edms/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:25 links.py:28 permissions.py:7 queues.py:8
+msgid "Statistics"
+msgstr "Statistiques"
+
+#. Translators: Schedule here is a verb, the 'schedule' at which the
+#. statistic will be updated
+#: apps.py:34
+msgid "Schedule"
+msgstr "Planification"
+
+#: links.py:11
+msgid "Queue"
+msgstr "File d'attente"
+
+#: links.py:15
+msgid "View"
+msgstr "Afficher"
+
+#: links.py:19
+msgid "Namespace details"
+msgstr "Détails de l'espace de nommage"
+
+#: links.py:23
+msgid "Namespace list"
+msgstr "Liste de l'espace de nommage"
+
+#. Translators: 'Slug' refers to the URL valid ID of the statistic
+#. More info: https://docs.djangoproject.com/en/1.7/glossary/#term-slug
+#: models.py:14
+msgid "Slug"
+msgstr "Jeton"
+
+#: models.py:16
+msgid "Date time"
+msgstr "Date et heure"
+
+#: models.py:18
+msgid "Data"
+msgstr "Données"
+
+#: models.py:31
+msgid "Statistics result"
+msgstr "Résultat des statistiques"
+
+#: models.py:32
+msgid "Statistics results"
+msgstr "Résultats des statistiques"
+
+#: permissions.py:10
+msgid "View statistics"
+msgstr "Afficher les statistiques"
+
+#: queues.py:13
+msgid "Execute statistic"
+msgstr "Exécuter une statistique"
+
+#: templates/statistics/backends/chartjs/line.html:19
+msgid "No data available yet"
+msgstr "Pas de données disponibles"
+
+#: views.py:17
+msgid "Statistics namespaces"
+msgstr "Statistiques des espaces de nommage"
+
+#: views.py:33
+#, python-format
+msgid "Namespace details for: %s"
+msgstr "Détails de l'espace de nommage pour: %s"
+
+#: views.py:53
+#, python-format
+msgid "Results for: %s"
+msgstr "Résultats pour: %s"
+
+#: views.py:60 views.py:85
+#, python-format
+msgid "Statistic \"%s\" not found."
+msgstr "Statistique \"%s\" non trouvée."
+
+#: views.py:77
+#, python-format
+msgid "Queue statistic \"%s\" to be updated?"
+msgstr "Mettre en file d'attente la statistique \"%s\" à mettre à jour ?"

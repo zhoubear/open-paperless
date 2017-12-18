@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Bruno CAPELETO <bruno.capeleto@abcreseau.com>, 2016
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2015,2017
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2015
+# Pierre Lhoste <inactive+peterhost@transifex.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-08-15 06:30+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: French (http://www.transifex.com/rosarior/mayan-edms/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:52 permissions.py:8 settings.py:7
+msgid "Document signatures"
+msgstr "Signatures du document"
+
+#: apps.py:92
+msgid "Date"
+msgstr "Date"
+
+#: apps.py:95 models.py:47
+msgid "Key ID"
+msgstr "ID de la clé"
+
+#: apps.py:99 forms.py:64 models.py:51
+msgid "Signature ID"
+msgstr "ID de la signature"
+
+#: apps.py:100 forms.py:76
+msgid "None"
+msgstr "Aucune"
+
+#: apps.py:103
+msgid "Type"
+msgstr "Type"
+
+#: forms.py:21
+msgid "Key"
+msgstr "Clé"
+
+#: forms.py:25
+msgid "Passphrase"
+msgstr "Phrase secrète"
+
+#: forms.py:46
+msgid "Signature is embedded?"
+msgstr "La signature est-elle intégrée?"
+
+#: forms.py:48
+msgid "Signature date"
+msgstr "Date de la signature"
+
+#: forms.py:51
+msgid "Signature key ID"
+msgstr "Identifiant de la clef de signature"
+
+#: forms.py:53
+msgid "Signature key present?"
+msgstr "Clé de signature présente?"
+
+#: forms.py:66
+msgid "Key fingerprint"
+msgstr "Emprunte de la clef"
+
+#: forms.py:70
+msgid "Key creation date"
+msgstr "Date de création de la clé"
+
+#: forms.py:75
+msgid "Key expiration date"
+msgstr "Date d'expiration de la clé"
+
+#: forms.py:80
+msgid "Key length"
+msgstr "Longueur de la clé"
+
+#: forms.py:84
+msgid "Key algorithm"
+msgstr "Algorithme de la clé"
+
+#: forms.py:88
+msgid "Key user ID"
+msgstr "Clé de l'ID utilisateur"
+
+#: forms.py:92
+msgid "Key type"
+msgstr "Type de clé"
+
+#: links.py:32
+msgid "Verify all documents"
+msgstr "Vérifier tous les documents"
+
+#: links.py:39 links.py:57 queues.py:8
+msgid "Signatures"
+msgstr "Signatures"
+
+#: links.py:46
+msgid "Delete"
+msgstr "Supprimer"
+
+#: links.py:51
+msgid "Details"
+msgstr "Détails"
+
+#: links.py:63
+msgid "Download"
+msgstr "Télécharger"
+
+#: links.py:69
+msgid "Upload signature"
+msgstr "Transférer une signature"
+
+#: links.py:75
+msgid "Sign detached"
+msgstr "Signature détachée"
+
+#: links.py:81
+msgid "Sign embedded"
+msgstr "Signature intégrée"
+
+#: models.py:41
+msgid "Document version"
+msgstr "Version du document"
+
+#: models.py:45
+msgid "Date signed"
+msgstr "Date de signature"
+
+#: models.py:55
+msgid "Public key fingerprint"
+msgstr "Emprunte de la clef publique"
+
+#: models.py:61
+msgid "Document version signature"
+msgstr "Signature de la version du document"
+
+#: models.py:62
+msgid "Document version signatures"
+msgstr "Signatures pour la version du document"
+
+#: models.py:81
+msgid "Detached"
+msgstr "Externe"
+
+#: models.py:83
+msgid "Embedded"
+msgstr "Intégré"
+
+#: models.py:98
+msgid "Document version embedded signature"
+msgstr "Signature intégrée de la version du document"
+
+#: models.py:99
+msgid "Document version embedded signatures"
+msgstr "Signatures intégrées de la version du document"
+
+#: models.py:132
+msgid "Signature file"
+msgstr "Fichier de signature"
+
+#: models.py:136
+msgid "Document version detached signature"
+msgstr "Signature externe de la version du document"
+
+#: models.py:137
+msgid "Document version detached signatures"
+msgstr "Signatures externes de la version du document"
+
+#: models.py:140
+msgid "signature"
+msgstr "signature"
+
+#: permissions.py:13
+msgid "Sign documents with detached signatures"
+msgstr "Signer les documents avec des signatures externes"
+
+#: permissions.py:17
+msgid "Sign documents with embedded signatures"
+msgstr "Signer les documents avec des signatures intégrées"
+
+#: permissions.py:21
+msgid "Delete detached signatures"
+msgstr "Suppression des signatures détachées"
+
+#: permissions.py:25
+msgid "Download detached document signatures"
+msgstr "Télécharger les signatures externes du document"
+
+#: permissions.py:29
+msgid "Upload detached document signatures"
+msgstr "Transmettre les signatures externes du document"
+
+#: permissions.py:33
+msgid "Verify document signatures"
+msgstr "Vérifier les signatures du document"
+
+#: permissions.py:37
+msgid "View details of document signatures"
+msgstr "Voir le détails des signatures du document"
+
+#: queues.py:11
+msgid "Verify key signatures"
+msgstr "Vérifier les signatures des clés"
+
+#: queues.py:15
+msgid "Unverify key signatures"
+msgstr "Signature de clé non vérifiée"
+
+#: queues.py:19
+msgid "Verify document version"
+msgstr "Vérifier la version du document"
+
+#: queues.py:24
+msgid "Verify missing embedded signature"
+msgstr "Vérifier la signature incorporée manquante"
+
+#: views.py:61 views.py:154
+msgid "Passphrase is needed to unlock this key."
+msgstr "Une phrase secrète est nécessaire pour déverrouiller cette clé"
+
+#: views.py:71 views.py:164
+msgid "Passphrase is incorrect."
+msgstr "Phrase secrète incorrecte"
+
+#: views.py:92 views.py:184
+msgid "Document version signed successfully."
+msgstr "Signature de la version du document réussie."
+
+#: views.py:116
+#, python-format
+msgid "Sign document version \"%s\" with a detached signature"
+msgstr "Signer la version \"%s\" du document avec une signature externe"
+
+#: views.py:215
+#, python-format
+msgid "Sign document version \"%s\" with a embedded signature"
+msgstr "Signer la version \"%s\" du document avec une signature intégrée"
+
+#: views.py:238
+#, python-format
+msgid "Delete detached signature: %s"
+msgstr "Supprimer la signature détachée: %s"
+
+#: views.py:259
+#, python-format
+msgid "Details for signature: %s"
+msgstr "Détails de la signature: %s"
+
+#: views.py:299
+#, python-format
+msgid "Signatures for document version: %s"
+msgstr "Signatures pour cette version du document: %s"
+
+#: views.py:328
+#, python-format
+msgid "Upload detached signature for document version: %s"
+msgstr "Transférer une signature détachée pour la version du document: %s"
+
+#: views.py:345
+msgid "On large databases this operation may take some time to execute."
+msgstr "Sur de grosses bases de données, cette opération peut prendre un certain temps."
+
+#: views.py:346
+msgid "Verify all document for signatures?"
+msgstr "Vérifier la signature des documents?"
+
+#: views.py:356
+msgid "Signature verification queued successfully."
+msgstr "Vérification de la signature ajoutée à la file d'attente"

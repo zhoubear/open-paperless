@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-04-21 16:26+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Russian (http://www.transifex.com/rosarior/mayan-edms/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: apps.py:34
+msgid "Linking"
+msgstr "Связывание"
+
+#: apps.py:58 models.py:19
+msgid "Label"
+msgstr "Надпись"
+
+#: apps.py:65 models.py:26
+msgid "Dynamic label"
+msgstr ""
+
+#: apps.py:69 apps.py:74 models.py:28 models.py:130
+msgid "Enabled"
+msgstr "Доступно"
+
+#: forms.py:36 models.py:115
+msgid "Foreign document attribute"
+msgstr ""
+
+#: links.py:14
+msgid "Create condition"
+msgstr ""
+
+#: links.py:19 links.py:36
+msgid "Delete"
+msgstr "Удалить"
+
+#: links.py:23 links.py:43
+msgid "Edit"
+msgstr "Редактировать"
+
+#: links.py:27
+msgid "Conditions"
+msgstr ""
+
+#: links.py:32 views.py:169
+msgid "Create new smart link"
+msgstr "Создать новое отношение"
+
+#: links.py:39 models.py:30
+msgid "Document types"
+msgstr "Типы документов"
+
+#: links.py:47
+msgid "Documents"
+msgstr "Документы"
+
+#: links.py:54 links.py:58 links.py:63 models.py:94 permissions.py:7
+#: views.py:132
+msgid "Smart links"
+msgstr "Отношения"
+
+#: literals.py:9
+msgid "and"
+msgstr "и"
+
+#: literals.py:10
+msgid "or"
+msgstr "или"
+
+#: literals.py:14
+msgid "is equal to"
+msgstr "равно"
+
+#: literals.py:15
+msgid "is equal to (case insensitive)"
+msgstr "равно (без учета регистра)"
+
+#: literals.py:16
+msgid "contains"
+msgstr "содержит"
+
+#: literals.py:17
+msgid "contains (case insensitive)"
+msgstr "содержит (без учета регистра)"
+
+#: literals.py:18
+msgid "is in"
+msgstr "находится в"
+
+#: literals.py:19
+msgid "is greater than"
+msgstr "больше"
+
+#: literals.py:20
+msgid "is greater than or equal to"
+msgstr "больше или равно"
+
+#: literals.py:21
+msgid "is less than"
+msgstr "меньше"
+
+#: literals.py:22
+msgid "is less than or equal to"
+msgstr "меньше или равно"
+
+#: literals.py:23
+msgid "starts with"
+msgstr "начинается с"
+
+#: literals.py:24
+msgid "starts with (case insensitive)"
+msgstr "начинается с (без учета регистра)"
+
+#: literals.py:25
+msgid "ends with"
+msgstr "заканчивается на"
+
+#: literals.py:26
+msgid "ends with (case insensitive)"
+msgstr "заканчивается на (без учета регистра)"
+
+#: literals.py:27
+msgid "is in regular expression"
+msgstr "В регулярном выражении"
+
+#: literals.py:28
+msgid "is in regular expression (case insensitive)"
+msgstr "В регулярном выражении (без учета регистра)"
+
+#: models.py:22 models.py:120
+msgid ""
+"Enter a template to render. Use Django's default templating language "
+"(https://docs.djangoproject.com/en/1.7/ref/templates/builtins/). The {{ "
+"document }} context variable is available."
+msgstr ""
+
+#: models.py:46
+#, python-format
+msgid "Error generating dynamic label; %s"
+msgstr ""
+
+#: models.py:57
+msgid "This smart link is not allowed for the selected document's type."
+msgstr ""
+
+#: models.py:93 models.py:106
+msgid "Smart link"
+msgstr ""
+
+#: models.py:110
+msgid "The inclusion is ignored for the first item."
+msgstr "Включение игнорируется для первого элемента."
+
+#: models.py:114
+msgid "This represents the metadata of all other documents."
+msgstr ""
+
+#: models.py:124
+msgid "Expression"
+msgstr ""
+
+#: models.py:127
+msgid "Inverts the logic of the operator."
+msgstr "Инвертирует логику оператора."
+
+#: models.py:128
+msgid "Negated"
+msgstr ""
+
+#: models.py:135
+msgid "not"
+msgstr "не"
+
+#: models.py:140
+msgid "Link condition"
+msgstr ""
+
+#: models.py:141
+msgid "Link conditions"
+msgstr ""
+
+#: permissions.py:10
+msgid "View existing smart links"
+msgstr "Просмотр отношений"
+
+#: permissions.py:13
+msgid "Create new smart links"
+msgstr "Создать отношение"
+
+#: permissions.py:16
+msgid "Delete smart links"
+msgstr "Удалить отношения"
+
+#: permissions.py:19
+msgid "Edit smart links"
+msgstr "Редактировать отношения"
+
+#: serializers.py:115
+msgid ""
+"Comma separated list of document type primary keys to which this smart link "
+"will be attached."
+msgstr ""
+
+#: serializers.py:139
+#, python-format
+msgid "No such document type: %s"
+msgstr ""
+
+#: views.py:60
+#, python-format
+msgid "Smart link query error: %s"
+msgstr "Ошибка запроса в отношении %s"
+
+#: views.py:68
+#, python-format
+msgid "Documents in smart link: %s"
+msgstr ""
+
+#: views.py:71
+#, python-format
+msgid "Documents in smart link \"%(smart_link)s\" as related to \"%(document)s\""
+msgstr ""
+
+#: views.py:90
+msgid "Available document types"
+msgstr "Доступные типы документов"
+
+#: views.py:92
+msgid "Document types enabled"
+msgstr ""
+
+#: views.py:101
+#, python-format
+msgid "Document type for which to enable smart link: %s"
+msgstr ""
+
+#: views.py:161
+#, python-format
+msgid "Smart links for document: %s"
+msgstr ""
+
+#: views.py:184
+#, python-format
+msgid "Edit smart link: %s"
+msgstr "Редактировать отношение %s"
+
+#: views.py:196
+#, python-format
+msgid "Delete smart link: %s"
+msgstr ""
+
+#: views.py:208
+#, python-format
+msgid "Conditions for smart link: %s"
+msgstr ""
+
+#: views.py:235
+#, python-format
+msgid "Add new conditions to smart link: \"%s\""
+msgstr "Добавить новые условия отношения \"%s\""
+
+#: views.py:276
+msgid "Edit smart link condition"
+msgstr "Изменить условие отношения"
+
+#: views.py:306
+#, python-format
+msgid "Delete smart link condition: \"%s\"?"
+msgstr ""

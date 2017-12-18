@@ -1,0 +1,9 @@
+{% extends 'appearance/base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <h3>{{ title }}</h3>
+    <hr>
+    {% include 'appearance/generic_subtemplate.html' %}
+{% endblock %}

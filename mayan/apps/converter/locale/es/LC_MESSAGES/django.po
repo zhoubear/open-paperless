@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Lory977 <helga.carrero@gmail.com>, 2015
+# Roberto Rosario, 2015-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-07-09 07:03+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Spanish (http://www.transifex.com/rosarior/mayan-edms/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:20 permissions.py:7 settings.py:12
+msgid "Converter"
+msgstr "Convertidor"
+
+#: apps.py:27 models.py:40
+msgid "Order"
+msgstr "Orden"
+
+#: apps.py:29 models.py:70
+msgid "Transformation"
+msgstr "Transformación"
+
+#: apps.py:33 models.py:50
+msgid "Arguments"
+msgstr "Argumentos"
+
+#: backends/python.py:181 backends/python.py:187
+#, python-format
+msgid "Exception determining PDF page count; %s"
+msgstr "Excepción determinando el número de páginas del PDF; %s"
+
+#: backends/python.py:201
+#, python-format
+msgid "Exception determining page count using Pillow; %s"
+msgstr "Excepción determinando el número de páginas usando Pillow; %s"
+
+#: classes.py:102
+msgid "Not an office file format."
+msgstr "No es un formato de archivo de la oficina."
+
+#: classes.py:123
+msgid "LibreOffice not installed or not found."
+msgstr "LibreOffice no instalado o no encontrado."
+
+#: classes.py:312
+msgid "Crop"
+msgstr "Recortar"
+
+#: classes.py:325
+msgid "Flip"
+msgstr "Dar la vuelta"
+
+#: classes.py:336
+msgid "Gaussian blur"
+msgstr "Desenfoque gaussiano"
+
+#: classes.py:346
+msgid "Line art"
+msgstr "Arte lineal"
+
+#: classes.py:357
+msgid "Mirror"
+msgstr "Espejo"
+
+#: classes.py:368
+msgid "Resize"
+msgstr "Cambiar el tamaño"
+
+#: classes.py:395
+msgid "Rotate"
+msgstr "Girar"
+
+#: classes.py:414
+msgid "Rotate 90 degrees"
+msgstr "Girar 90 grados"
+
+#: classes.py:425
+msgid "Rotate 180 degrees"
+msgstr "Girar 180 grados"
+
+#: classes.py:436
+msgid "Rotate 270 degrees"
+msgstr "Girar 270 grados"
+
+#: classes.py:446
+msgid "Unsharp masking"
+msgstr "Unsharp masking"
+
+#: classes.py:462
+msgid "Zoom"
+msgstr "Ampliar"
+
+#: links.py:35
+msgid "Create new transformation"
+msgstr "Crear nueva transformación"
+
+#: links.py:39
+msgid "Delete"
+msgstr "Borrar"
+
+#: links.py:43
+msgid "Edit"
+msgstr "Editar"
+
+#: links.py:47 models.py:71
+msgid "Transformations"
+msgstr "Transformaciones"
+
+#: models.py:38
+msgid ""
+"Order in which the transformations will be executed. If left unchanged, an "
+"automatic order value will be assigned."
+msgstr "Orden de ejecución de las transformaciones. Si lo deja en blanco, un valor de orden sera asignado automáticamente. "
+
+#: models.py:44
+msgid "Name"
+msgstr "Nombre"
+
+#: models.py:48
+msgid ""
+"Enter the arguments for the transformation as a YAML dictionary. ie: "
+"{\"degrees\": 180}"
+msgstr "Entre el argumento de la transformación como un diccionario YAML. Ejemplo: {\"degrees\": 180}"
+
+#: permissions.py:10
+msgid "Create new transformations"
+msgstr "Crear nuevas transformaciones"
+
+#: permissions.py:13
+msgid "Delete transformations"
+msgstr "Borrar transformaciones"
+
+#: permissions.py:16
+msgid "Edit transformations"
+msgstr "Editar transformaciones"
+
+#: permissions.py:19
+msgid "View existing transformations"
+msgstr "Ver transformaciones existentes"
+
+#: settings.py:15
+msgid "Graphics conversion backend to use."
+msgstr "Módulo de conversión de gráficos a ser usado."
+
+#: settings.py:34
+msgid "Configuration options for the graphics conversion backend."
+msgstr "Opciones de configuración para el backend de conversión de gráficos."
+
+#: validators.py:22
+msgid "Enter a valid YAML value."
+msgstr "Entre un valor YAML."
+
+#: views.py:64
+#, python-format
+msgid "Delete transformation \"%(transformation)s\" for: %(content_object)s?"
+msgstr "¿Borrar transformación \"%(transformation)s\" para: %(content_object)s?"
+
+#: views.py:116
+#, python-format
+msgid "Create new transformation for: %s"
+msgstr "Crear transformación para :%s"
+
+#: views.py:166
+#, python-format
+msgid "Edit transformation \"%(transformation)s\" for: %(content_object)s"
+msgstr "Editar transformación \"%(transformation)s\" para: %(content_object)s"
+
+#: views.py:213
+#, python-format
+msgid "Transformations for: %s"
+msgstr "Transformaciones para: %s"

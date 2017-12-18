@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Berny <berny@bernhard-marx.de>, 2016
+# Tobias Paepke <tobias.paepke@paepke.net>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2016-05-20 21:31+0000\n"
+"Last-Translator: Tobias Paepke <tobias.paepke@paepke.net>\n"
+"Language-Team: German (Germany) (http://www.transifex.com/rosarior/mayan-edms/language/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:22 links.py:25 permissions.py:7
+msgid "Message of the day"
+msgstr "Nachricht des Tages"
+
+#: apps.py:32 models.py:20
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: apps.py:35 models.py:24
+msgid "Start date time"
+msgstr "Startdatum und Uhrzeit"
+
+#: apps.py:36 apps.py:40
+msgid "None"
+msgstr "Keine"
+
+#: apps.py:39 models.py:29
+msgid "End date time"
+msgstr "Enddatum und Uhrzeit"
+
+#: links.py:13 views.py:29
+msgid "Create message"
+msgstr "Nachricht erstellen"
+
+#: links.py:18
+msgid "Delete"
+msgstr "Löschen"
+
+#: links.py:21
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: models.py:13
+msgid "Short description of this message."
+msgstr "Kurze Beschreibung dieser Nachricht."
+
+#: models.py:14
+msgid "Label"
+msgstr "Bezeichner"
+
+#: models.py:17
+msgid "The actual message to be displayed."
+msgstr "Die anzuzeigende Nachricht."
+
+#: models.py:18 models.py:35
+msgid "Message"
+msgstr "Nachricht"
+
+#: models.py:23
+msgid "Date and time after which this message will be displayed."
+msgstr "Datum und Uhrzeit ab der die Nachricht angezeigt wird."
+
+#: models.py:28
+msgid "Date and time until when this message is to be displayed."
+msgstr "Datum und Uhrzeit bis zu der die Nachricht angezeigt wird."
+
+#: models.py:36 views.py:66
+msgid "Messages"
+msgstr "Nachrichten"
+
+#: permissions.py:10
+msgid "Create messages"
+msgstr "Nachrichten erstellen"
+
+#: permissions.py:13
+msgid "Delete messages"
+msgstr "Nachrichten löschen"
+
+#: permissions.py:16
+msgid "Edit messages"
+msgstr "Nachrichten bearbeiten"
+
+#: permissions.py:19
+msgid "View messages"
+msgstr "Nachrichten anzeigen"
+
+#: templates/motd/messages.html:8
+msgid "Messages of the day"
+msgstr "Nachrichten des Tages"
+
+#: views.py:42
+#, python-format
+msgid "Delete the message: %s?"
+msgstr "Nachricht %s löschen?"
+
+#: views.py:55
+#, python-format
+msgid "Edit message: %s"
+msgstr "Nachricht %s bearbeiten"

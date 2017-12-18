@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Wojtek Warczakowski <w.warczakowski@gmail.com>, 2016
+# Wojtek Warczakowski <w.warczakowski@gmail.com>, 2016-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-07-19 09:19+0000\n"
+"Last-Translator: Wojtek Warczakowski <w.warczakowski@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/rosarior/mayan-edms/language/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: apps.py:17 settings.py:9
+msgid "Authentication"
+msgstr "Uwierzytelnianie"
+
+#: forms.py:18
+msgid "Email"
+msgstr "Email"
+
+#: forms.py:21
+msgid "Password"
+msgstr "Hasło"
+
+#: forms.py:23 forms.py:72
+msgid "Remember me"
+msgstr "Zapamiętaj mnie"
+
+#: forms.py:26
+msgid ""
+"Please enter a correct email and password. Note that the password field is "
+"case-sensitive."
+msgstr "Podaj poprawny email i hasło. Wielkość liter hasła ma znaczenie."
+
+#: forms.py:28
+msgid "This account is inactive."
+msgstr "To konto jest nieaktywne."
+
+#: links.py:13
+msgid "Logout"
+msgstr "Wyloguj"
+
+#: links.py:16
+msgid "Change password"
+msgstr "Zmień hasło"
+
+#: settings.py:13
+msgid ""
+"Controls the mechanism used to authenticated user. Options are: username, "
+"email"
+msgstr "Kontroluje mechanizm uwierzytelniania użytkownika. Opcje: nazwa użytkownika, email"
+
+#: settings.py:20
+msgid ""
+"Maximum time an user clicking the \"Remember me\" checkbox will remain "
+"logged in. Value is time in seconds."
+msgstr "Maksymalny czas zalogowania użytkownika z opcją \"Zapamiętaj mnie\". Wartość czasu w sekundach."
+
+#: views.py:59
+msgid "Current user password change"
+msgstr "Zmiana hasła użytkownika"
+
+#: views.py:73
+msgid "Your password has been successfully changed."
+msgstr "Twoje hasło zostało pomyślnie zmienione."

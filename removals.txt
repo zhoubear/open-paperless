@@ -1,0 +1,4 @@
+# Packages to be remove during upgrades
+django-filetransfers
+pytesseract
+pdfminer

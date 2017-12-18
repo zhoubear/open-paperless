@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Badea Gabriel <gcbadea@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2016-04-27 18:22+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Romanian (Romania) (http://www.transifex.com/rosarior/mayan-edms/language/ro_RO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: apps.py:31
+msgid "Django GPG"
+msgstr ""
+
+#: apps.py:47 apps.py:50 forms.py:17
+msgid "Key ID"
+msgstr "ID cheie"
+
+#: apps.py:48 apps.py:61 forms.py:19 models.py:52
+msgid "User ID"
+msgstr ""
+
+#: apps.py:51 forms.py:34 models.py:55
+msgid "Type"
+msgstr "Tip"
+
+#: apps.py:53 forms.py:23 models.py:36
+msgid "Creation date"
+msgstr ""
+
+#: apps.py:56 forms.py:27 models.py:40
+msgid "Expiration date"
+msgstr ""
+
+#: apps.py:57
+msgid "No expiration"
+msgstr ""
+
+#: apps.py:59 forms.py:32 models.py:47
+msgid "Length"
+msgstr ""
+
+#: forms.py:28
+msgid "None"
+msgstr "Nici unul"
+
+#: forms.py:31 models.py:44
+msgid "Fingerprint"
+msgstr ""
+
+#: forms.py:33 models.py:50
+msgid "Algorithm"
+msgstr ""
+
+#: forms.py:47
+msgid "Term"
+msgstr "Termen"
+
+#: forms.py:48
+msgid "Name, e-mail, key ID or key fingerprint to look for."
+msgstr "Nume, e-mail, ID-ul de cheie sau amprenta cheii pentru a căuta."
+
+#: links.py:13
+msgid "Delete"
+msgstr "Șterge"
+
+#: links.py:17
+msgid "Details"
+msgstr "Detalii"
+
+#: links.py:21
+msgid "Download"
+msgstr "Descarcă"
+
+#: links.py:25 permissions.py:28
+msgid "Query keyservers"
+msgstr "Interogare keyservers"
+
+#: links.py:29
+msgid "Import"
+msgstr ""
+
+#: links.py:34 permissions.py:7
+msgid "Key management"
+msgstr "gestionare chei"
+
+#: links.py:37
+msgid "Upload key"
+msgstr ""
+
+#: links.py:41 views.py:160
+msgid "Private keys"
+msgstr ""
+
+#: links.py:45 views.py:149
+msgid "Public keys"
+msgstr ""
+
+#: literals.py:6 literals.py:14
+msgid "Public"
+msgstr "Public"
+
+#: literals.py:7 literals.py:15
+msgid "Secret"
+msgstr "Secret"
+
+#: literals.py:23 literals.py:28
+msgid "RSA"
+msgstr "RSA"
+
+#: literals.py:24
+msgid "DSA"
+msgstr "DSA"
+
+#: literals.py:29
+msgid "Elgamal"
+msgstr "Elgamal"
+
+#: literals.py:43
+msgid "Bad signature."
+msgstr "Semnătură nereuşită."
+
+#: literals.py:46
+msgid "Document not signed or invalid signature."
+msgstr "Documentul nu e semnat sau semnătură invalidă."
+
+#: literals.py:49
+msgid "Signature error."
+msgstr "Eroare semnătură."
+
+#: literals.py:53
+msgid "Document is signed but no public key is available for verification."
+msgstr "Documentul este semnat, dar nici o cheie publică nu este disponibilă pentru verificare."
+
+#: literals.py:58
+msgid "Document is signed, and signature is good."
+msgstr "Documentul este semnat, iar semnătura este bună."
+
+#: literals.py:61
+msgid "Document is signed with a valid signature."
+msgstr "Documentul este semnat cu o semnătură validă."
+
+#: models.py:32
+msgid "ASCII armored version of the key."
+msgstr ""
+
+#: models.py:33
+msgid "Key data"
+msgstr ""
+
+#: models.py:61
+msgid "Key"
+msgstr ""
+
+#: models.py:62
+msgid "Keys"
+msgstr ""
+
+#: models.py:68
+msgid "Invalid key data"
+msgstr ""
+
+#: models.py:71
+msgid "Key already exists."
+msgstr ""
+
+#: permissions.py:10
+msgid "Delete keys"
+msgstr "Ștergeți cheile"
+
+#: permissions.py:13
+msgid "Download keys"
+msgstr ""
+
+#: permissions.py:16
+msgid "Import keys from keyservers"
+msgstr "Importă cheile din keyservers"
+
+#: permissions.py:19
+msgid "Use keys to sign content"
+msgstr ""
+
+#: permissions.py:22
+msgid "Upload keys"
+msgstr ""
+
+#: permissions.py:25
+msgid "View keys"
+msgstr "Vizualiza cheile"
+
+#: settings.py:10
+msgid "Signatures"
+msgstr ""
+
+#: settings.py:15
+msgid "Home directory used to store keys as well as configuration files."
+msgstr "Cale director utilizată pentru a stoca cheile, precum și fișiere de configurare."
+
+#: settings.py:21
+msgid "Path to the GPG binary."
+msgstr ""
+
+#: settings.py:25
+msgid "Keyserver used to query for keys."
+msgstr ""
+
+#: views.py:38
+#, python-format
+msgid "Delete key: %s"
+msgstr ""
+
+#: views.py:48
+#, python-format
+msgid "Details for key: %s"
+msgstr ""
+
+#: views.py:68
+#, python-format
+msgid "Import key ID: %s?"
+msgstr ""
+
+#: views.py:69
+msgid "Import key"
+msgstr "Import cheie"
+
+#: views.py:78
+#, python-format
+msgid "Unable to import key: %(key_id)s; %(error)s"
+msgstr ""
+
+#: views.py:85
+#, python-format
+msgid "Successfully received key: %(key_id)s"
+msgstr ""
+
+#: views.py:107
+msgid "Search"
+msgstr "Căută"
+
+#: views.py:109
+msgid "Query key server"
+msgstr "Interogare cheie serverul"
+
+#: views.py:119
+msgid "Key query results"
+msgstr ""
+
+#: views.py:138
+msgid "Upload new key"
+msgstr ""

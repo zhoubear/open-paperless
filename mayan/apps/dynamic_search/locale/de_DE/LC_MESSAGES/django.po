@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jesaja Everling <jeverling@gmail.com>, 2017
+# Mathias Behrle <mbehrle@m9s.biz>, 2014
+# tetjarediske <tetja.rediske@googlemail.com>, 2012
+# Tobias Paepke <tobias.paepke@paepke.net>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-04-24 22:45+0000\n"
+"Last-Translator: Jesaja Everling <jeverling@gmail.com>\n"
+"Language-Team: German (Germany) (http://www.transifex.com/rosarior/mayan-edms/language/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:16
+msgid "Dynamic search"
+msgstr "Dynamische Suche"
+
+#: classes.py:27
+msgid "No search model matching the query"
+msgstr "Kein passendes Such-Model gefunden"
+
+#: forms.py:9
+msgid "Match all"
+msgstr "Alle Felder"
+
+#: forms.py:10
+msgid ""
+"When checked, only results that match all fields will be returned. When "
+"unchecked results that match at least one field will be returned."
+msgstr "Wenn aktiviert, werden nur Ergebnisse angezeigt bei denen alle Felder zutreffen. Ohne diese Option werden Ergebnisse mit mindestens einem Feld angezeigt."
+
+#: forms.py:29
+msgid "Search terms"
+msgstr "Suchbegriffe"
+
+#: links.py:8 settings.py:8 views.py:52 views.py:63
+msgid "Search"
+msgstr "Suche"
+
+#: links.py:11 views.py:77
+msgid "Advanced search"
+msgstr "Erweiterte Suche"
+
+#: links.py:15
+msgid "Search again"
+msgstr "Suche wiederholen"
+
+#: settings.py:11
+msgid "Maximum amount search hits to fetch and display."
+msgstr "Maximale Anzahl an Treffern, die angezeigt werden soll"
+
+#: views.py:25
+#, python-format
+msgid "Search results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: views.py:65
+#, python-format
+msgid "Search for: %s"
+msgstr "Suche nach: %s"

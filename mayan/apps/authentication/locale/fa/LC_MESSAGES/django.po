@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Nima Towhidi <nima.towhidi@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-07-15 03:48+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Persian (http://www.transifex.com/rosarior/mayan-edms/language/fa/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:17 settings.py:9
+msgid "Authentication"
+msgstr ""
+
+#: forms.py:18
+msgid "Email"
+msgstr "ایمیل"
+
+#: forms.py:21
+msgid "Password"
+msgstr "کلمه عبور"
+
+#: forms.py:23 forms.py:72
+msgid "Remember me"
+msgstr ""
+
+#: forms.py:26
+msgid ""
+"Please enter a correct email and password. Note that the password field is "
+"case-sensitive."
+msgstr "لطفا یک ایمیل و کلمه عبور معتبر وارد کنید. توجه کنید که کلمه عبور به حروف کوچک و بزرگ حساس است."
+
+#: forms.py:28
+msgid "This account is inactive."
+msgstr "این حساب کاربری غیرفعال است."
+
+#: links.py:13
+msgid "Logout"
+msgstr "خروج"
+
+#: links.py:16
+msgid "Change password"
+msgstr "تغییر کلمه عبور"
+
+#: settings.py:13
+msgid ""
+"Controls the mechanism used to authenticated user. Options are: username, "
+"email"
+msgstr ""
+
+#: settings.py:20
+msgid ""
+"Maximum time an user clicking the \"Remember me\" checkbox will remain "
+"logged in. Value is time in seconds."
+msgstr ""
+
+#: views.py:59
+msgid "Current user password change"
+msgstr "تغییر کلمه عبور کاربر جاری"
+
+#: views.py:73
+msgid "Your password has been successfully changed."
+msgstr "کلمه عبور شما با موفقیت عوض شد."

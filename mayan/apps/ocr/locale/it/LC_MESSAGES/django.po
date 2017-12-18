@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Marco Camplese <marco.camplese.mc@gmail.com>, 2016
+# Pierpaolo Baldan <pierpaolo.baldan@gmail.com>, 2011-2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-08-25 00:50+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Italian (http://www.transifex.com/rosarior/mayan-edms/language/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:66 apps.py:127 apps.py:131 links.py:14 permissions.py:7 queues.py:7
+#: settings.py:7
+msgid "OCR"
+msgstr "OCR"
+
+#: apps.py:102
+msgid "Document"
+msgstr "Documento"
+
+#: apps.py:106
+msgid "Added"
+msgstr "Aggiunto"
+
+#: apps.py:110 models.py:57
+msgid "Result"
+msgstr "Risultato"
+
+#: events.py:9
+msgid "Document version submitted for OCR"
+msgstr ""
+
+#: events.py:13
+msgid "Document version OCR finished"
+msgstr ""
+
+#: forms.py:40
+#, python-format
+msgid "Page %(page_number)d"
+msgstr "Pagina %(page_number)d"
+
+#: forms.py:48
+msgid "Contents"
+msgstr "Contenuti"
+
+#: links.py:18 links.py:21
+msgid "Submit for OCR"
+msgstr "Invia per l'OCR"
+
+#: links.py:24
+msgid "Setup OCR"
+msgstr "Configura OCR"
+
+#: links.py:29
+msgid "OCR documents per type"
+msgstr "OCR per tipo documento"
+
+#: links.py:33 links.py:37 views.py:138
+msgid "OCR errors"
+msgstr "Errori OCR"
+
+#: links.py:42
+msgid "Download OCR text"
+msgstr ""
+
+#: models.py:18
+msgid "Document type"
+msgstr "Tipo documento "
+
+#: models.py:22
+msgid "Automatically queue newly created documents for OCR."
+msgstr "Invia automaticamente i nuovi documenti creati all'OCR."
+
+#: models.py:26
+msgid "Document type settings"
+msgstr "Impostazioni tipo documento"
+
+#: models.py:27
+msgid "Document types settings"
+msgstr "Impostazioni tipi documento"
+
+#: models.py:34
+msgid "Document page"
+msgstr "Pagina del documento"
+
+#: models.py:36
+msgid "Content"
+msgstr "Contenuto "
+
+#: models.py:44
+msgid "Document page OCR content"
+msgstr ""
+
+#: models.py:45
+msgid "Document pages OCR contents"
+msgstr ""
+
+#: models.py:52
+msgid "Document version"
+msgstr "Versione documento"
+
+#: models.py:55
+msgid "Date time submitted"
+msgstr "Data e ora di invio"
+
+#: models.py:64
+msgid "Document version OCR error"
+msgstr ""
+
+#: models.py:65
+msgid "Document version OCR errors"
+msgstr ""
+
+#: permissions.py:10
+msgid "Submit documents for OCR"
+msgstr "Invia documenti all'OCR"
+
+#: permissions.py:14
+msgid "View the transcribed text from document"
+msgstr "Vedi il testo trascritto dal documento"
+
+#: permissions.py:18
+msgid "Change document type OCR settings"
+msgstr "Cambia impostazioni OCR per tipo documento "
+
+#: queues.py:9
+msgid "Document version OCR"
+msgstr ""
+
+#: settings.py:12
+msgid ""
+"File path to poppler's pdftotext program used to extract text from PDF "
+"files."
+msgstr "Percorso del programma poppler pdftotext.usato per estrarre il testo dai file PDF."
+
+#: settings.py:19
+msgid "Full path to the backend to be used to do OCR."
+msgstr "Percorso completo al backend utilizzato per eseguire l'OCR."
+
+#: settings.py:24
+msgid "Set new document types to perform OCR automatically by default."
+msgstr "Imposta i nuovi tipi documento per eseguire automaticamente l'OCR per default."
+
+#: views.py:43
+#, python-format
+msgid "OCR result for document: %s"
+msgstr "Risultati OCR per il documento: %s"
+
+#: views.py:51
+#, python-format
+msgid "Submit \"%s\" to the OCR queue?"
+msgstr "Inviare \"%s\" alla coda OCR?"
+
+#: views.py:72
+#, python-format
+msgid "Document: %(document)s was added to the OCR queue."
+msgstr "Documento: %(document)s è stato aggiunto alla coda OCR.."
+
+#: views.py:86
+msgid "Submit the selected documents to the OCR queue?"
+msgstr "Inviare i documenti selezionati alla coda OCR?"
+
+#: views.py:93
+msgid "Submit all documents of a type for OCR"
+msgstr "Invia tutti i documenti del tipo alla coda OCR"
+
+#: views.py:107
+#, python-format
+msgid "%(count)d documents of type \"%(document_type)s\" added to the OCR queue."
+msgstr "%(count)d documenti di tipo \"%(document_type)s\" aggiunti alla coda OCR."
+
+#: views.py:130
+#, python-format
+msgid "Edit OCR settings for document type: %s"
+msgstr "Modifica le impostazioni OCR per il tipo documento: %s"
+
+#: views.py:156
+#, python-format
+msgid "OCR errors for document: %s"
+msgstr ""

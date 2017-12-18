@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Berny <berny@bernhard-marx.de>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2016-03-21 21:08+0000\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>\n"
+"Language-Team: German (Germany) (http://www.transifex.com/rosarior/mayan-edms/language/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:9 settings.py:7
+msgid "Mirroring"
+msgstr "Spiegelung"
+
+#: settings.py:11
+msgid "Time in seconds to cache the path lookup to a document."
+msgstr "Zeit in Sekunden, die ein Pfad zu einem Dokument zwischengespeichert werden soll."
+
+#: settings.py:15
+msgid "Time in seconds to cache the path lookup to an index node."
+msgstr "Zeit in Sekunden, die ein Pfad zu einem zu einem Indexknotenpunkt zwischengespeichert werden soll."

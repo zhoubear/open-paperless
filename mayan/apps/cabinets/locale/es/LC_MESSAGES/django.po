@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Roberto Rosario <roberto.rosario.gonzalez@gmail.com>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/rosarior/teams/13584/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:36 apps.py:76 apps.py:84 apps.py:87 forms.py:30 links.py:21
+#: menus.py:8 models.py:38 permissions.py:7 views.py:152
+msgid "Cabinets"
+msgstr "Archivadores"
+
+#: links.py:27 links.py:38
+msgid "Remove from cabinets"
+msgstr "Remover de archivador"
+
+#: links.py:31 links.py:35
+msgid "Add to cabinets"
+msgstr "Agregar a archivadores"
+
+#: links.py:55
+msgid "Add new level"
+msgstr "Agregar un nuevo nivel"
+
+#: links.py:60 views.py:38
+msgid "Create cabinet"
+msgstr "Crear archivador"
+
+#: links.py:64
+msgid "Delete"
+msgstr "Borrar"
+
+#: links.py:67
+msgid "Edit"
+msgstr "Editar"
+
+#: links.py:71
+msgid "All"
+msgstr "Todos"
+
+#: links.py:74
+msgid "Details"
+msgstr "Detalles"
+
+#: models.py:26 search.py:16
+msgid "Label"
+msgstr "Etiqueta"
+
+#: models.py:29
+msgid "Documents"
+msgstr "Documentos"
+
+#: models.py:37 models.py:87 serializers.py:139
+msgid "Cabinet"
+msgstr "Archivador"
+
+#: models.py:88 serializers.py:140
+msgid "Parent and Label"
+msgstr "Padre y etiqueta"
+
+#: models.py:95 serializers.py:146
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr "%(model_name)s con este %(field_labels)s ya existe."
+
+#: models.py:107
+msgid "Document cabinet"
+msgstr "Archivador de documento"
+
+#: models.py:108
+msgid "Document cabinets"
+msgstr "Archivadores de documento"
+
+#: permissions.py:12
+msgid "Add documents to cabinets"
+msgstr "Agregar documentos a archivadores"
+
+#: permissions.py:15
+msgid "Create cabinets"
+msgstr "Crear archivadores"
+
+#: permissions.py:18
+msgid "Delete cabinets"
+msgstr "Borrar archivadores"
+
+#: permissions.py:21
+msgid "Edit cabinets"
+msgstr "Editar archivadores"
+
+#: permissions.py:24
+msgid "Remove documents from cabinets"
+msgstr "Remover documentos de archivadores"
+
+#: permissions.py:27
+msgid "View cabinets"
+msgstr "Ver archivadores"
+
+#: serializers.py:20
+msgid "List of children cabinets."
+msgstr "Lista de los gabinetes subsiguientes."
+
+#: serializers.py:23
+msgid "Number of documents on this cabinet level."
+msgstr "Número de documentos en este nivel de archivador."
+
+#: serializers.py:27
+msgid "The name of this cabinet level appended to the names of its ancestors."
+msgstr ""
+"El nombre de este nivel de archivador anejado a de los archivadores que lo "
+"contienen. "
+
+#: serializers.py:33
+msgid ""
+"URL of the API endpoint showing the list documents inside this cabinet."
+msgstr ""
+"URL del servicio de la API que muetra los documentos contenidos en este "
+"archivador. "
+
+#: serializers.py:69 serializers.py:180
+msgid "Comma separated list of document primary keys to add to this cabinet."
+msgstr ""
+"Lista separada por comas de llaves primarias de documentos para agregar a "
+"este archivador."
+
+#: serializers.py:159
+msgid ""
+"API URL pointing to a document in relation to the cabinet storing it. This "
+"URL is different than the canonical document URL."
+msgstr ""
+"URL de la API que apunta a un documento en relación con el gabinete que lo "
+"almacena. Esta URL es diferente de la URL del documento canónico."
+
+#: templates/cabinets/cabinet_details.html:21
+msgid "Navigation:"
+msgstr "Navegación:"
+
+#: views.py:69
+#, python-format
+msgid "Add new level to: %s"
+msgstr "Agregar un nuevo nivel a: %s"
+
+#: views.py:82
+#, python-format
+msgid "Delete the cabinet: %s?"
+msgstr "¿Borrar archivador: %s?"
+
+#: views.py:111
+#, python-format
+msgid "Details of cabinet: %s"
+msgstr "Detalles de archivador: %s"
+
+#: views.py:142
+#, python-format
+msgid "Edit cabinet: %s"
+msgstr "Editar archivador: %s"
+
+#: views.py:176
+#, python-format
+msgid "Cabinets containing document: %s"
+msgstr "Archivadores que contienen el documento: %s"
+
+#: views.py:188
+#, python-format
+msgid "Add to cabinet request performed on %(count)d document"
+msgstr "Solicitud de añadir a gabinete realizada en %(count)d documento"
+
+#: views.py:191
+#, python-format
+msgid "Add to cabinet request performed on %(count)d documents"
+msgstr "Solicitud de añadir a gabinete realizada en %(count)d documentos"
+
+#: views.py:198
+msgid "Add"
+msgstr "Agregar"
+
+#: views.py:213
+#, python-format
+msgid "Add document \"%s\" to cabinets"
+msgstr "Agregar documento \"%s\" a archivadores"
+
+#: views.py:224
+msgid "Cabinets to which the selected documents will be added."
+msgstr "Archivador a los cuales el documento seleccionado va a ser agregado."
+
+#: views.py:252
+#, python-format
+msgid "Document: %(document)s is already in cabinet: %(cabinet)s."
+msgstr "Documento: %(document)s ya está en gabinete: %(cabinet)s."
+
+#: views.py:264
+#, python-format
+msgid "Document: %(document)s added to cabinet: %(cabinet)s successfully."
+msgstr ""
+"Documento: %(document)s añadido al gabinete: %(cabinet)s correctamente."
+
+#: views.py:277
+#, python-format
+msgid "Remove from cabinet request performed on %(count)d document"
+msgstr "Solicitud de retirar del gabinete realizada en el documento %(count)d"
+
+#: views.py:280
+#, python-format
+msgid "Remove from cabinet request performed on %(count)d documents"
+msgstr "Solicitud de retirar del gabinete realizada en el documento %(count)d"
+
+#: views.py:287
+msgid "Remove"
+msgstr "Eliminar"
+
+#: views.py:313
+msgid "Cabinets from which the selected documents will be removed."
+msgstr "Gabinetes de los que se eliminarán los documentos seleccionados."
+
+#: views.py:340
+#, python-format
+msgid "Document: %(document)s is not in cabinet: %(cabinet)s."
+msgstr "Documento: %(document)s no está en el gabinete: %(cabinet)s."
+
+#: views.py:352
+#, python-format
+msgid "Document: %(document)s removed from cabinet: %(cabinet)s."
+msgstr "Documento: %(document)s retirado del gabinete: %(cabinet)s."

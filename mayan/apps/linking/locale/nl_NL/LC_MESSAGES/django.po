@@ -1,0 +1,282 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Evelijn Saaltink <evelijnsaaltink@gmail.com>, 2016
+# Lucas Weel <ljj.weel@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-04-21 16:26+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/rosarior/mayan-edms/language/nl_NL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:34
+msgid "Linking"
+msgstr "Koppeling"
+
+#: apps.py:58 models.py:19
+msgid "Label"
+msgstr "Label"
+
+#: apps.py:65 models.py:26
+msgid "Dynamic label"
+msgstr "Dynamisch label"
+
+#: apps.py:69 apps.py:74 models.py:28 models.py:130
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: forms.py:36 models.py:115
+msgid "Foreign document attribute"
+msgstr ""
+
+#: links.py:14
+msgid "Create condition"
+msgstr "Voorwaarde aanmaken"
+
+#: links.py:19 links.py:36
+msgid "Delete"
+msgstr "Verwijder"
+
+#: links.py:23 links.py:43
+msgid "Edit"
+msgstr "bewerken"
+
+#: links.py:27
+msgid "Conditions"
+msgstr "Conditie"
+
+#: links.py:32 views.py:169
+msgid "Create new smart link"
+msgstr "Nieuwe 'smartlink' aanmaken"
+
+#: links.py:39 models.py:30
+msgid "Document types"
+msgstr "Documentsoorten"
+
+#: links.py:47
+msgid "Documents"
+msgstr "Documenten"
+
+#: links.py:54 links.py:58 links.py:63 models.py:94 permissions.py:7
+#: views.py:132
+msgid "Smart links"
+msgstr "'Smartlinks'"
+
+#: literals.py:9
+msgid "and"
+msgstr "en"
+
+#: literals.py:10
+msgid "or"
+msgstr "of"
+
+#: literals.py:14
+msgid "is equal to"
+msgstr "is geleik aan"
+
+#: literals.py:15
+msgid "is equal to (case insensitive)"
+msgstr "is geleik aan (hoofdletter ongevoelig)"
+
+#: literals.py:16
+msgid "contains"
+msgstr "bevat"
+
+#: literals.py:17
+msgid "contains (case insensitive)"
+msgstr "bevat (hoofdletter ongevoelig)"
+
+#: literals.py:18
+msgid "is in"
+msgstr "is in"
+
+#: literals.py:19
+msgid "is greater than"
+msgstr "is groter dan"
+
+#: literals.py:20
+msgid "is greater than or equal to"
+msgstr "is groter dan of is geleik aan"
+
+#: literals.py:21
+msgid "is less than"
+msgstr "is kleiner dan"
+
+#: literals.py:22
+msgid "is less than or equal to"
+msgstr "is kleiner dan of is geleik aan"
+
+#: literals.py:23
+msgid "starts with"
+msgstr "begint met"
+
+#: literals.py:24
+msgid "starts with (case insensitive)"
+msgstr "begint met (hoofdletter ongevoelig)"
+
+#: literals.py:25
+msgid "ends with"
+msgstr "eindigd met"
+
+#: literals.py:26
+msgid "ends with (case insensitive)"
+msgstr "eindigd met (hoofdletter ongevoelig)"
+
+#: literals.py:27
+msgid "is in regular expression"
+msgstr "komt overeen met 'reguliere expressie'"
+
+#: literals.py:28
+msgid "is in regular expression (case insensitive)"
+msgstr "komt overeen met 'reguliere expressie (hoofdletter ongevoelig)"
+
+#: models.py:22 models.py:120
+msgid ""
+"Enter a template to render. Use Django's default templating language "
+"(https://docs.djangoproject.com/en/1.7/ref/templates/builtins/). The {{ "
+"document }} context variable is available."
+msgstr ""
+
+#: models.py:46
+#, python-format
+msgid "Error generating dynamic label; %s"
+msgstr ""
+
+#: models.py:57
+msgid "This smart link is not allowed for the selected document's type."
+msgstr ""
+
+#: models.py:93 models.py:106
+msgid "Smart link"
+msgstr "Slimme link"
+
+#: models.py:110
+msgid "The inclusion is ignored for the first item."
+msgstr "De berekening is genegeerd voor het eerste item"
+
+#: models.py:114
+msgid "This represents the metadata of all other documents."
+msgstr ""
+
+#: models.py:124
+msgid "Expression"
+msgstr "Uitdrukking"
+
+#: models.py:127
+msgid "Inverts the logic of the operator."
+msgstr "Inverteerd de operatorlogica"
+
+#: models.py:128
+msgid "Negated"
+msgstr ""
+
+#: models.py:135
+msgid "not"
+msgstr "niet"
+
+#: models.py:140
+msgid "Link condition"
+msgstr ""
+
+#: models.py:141
+msgid "Link conditions"
+msgstr ""
+
+#: permissions.py:10
+msgid "View existing smart links"
+msgstr "Bekijk bestaande 'smartlinks'"
+
+#: permissions.py:13
+msgid "Create new smart links"
+msgstr "Aanmaken van een nieuwe 'smartlink'"
+
+#: permissions.py:16
+msgid "Delete smart links"
+msgstr "Verwijderen 'smartlinks'"
+
+#: permissions.py:19
+msgid "Edit smart links"
+msgstr "Verwijderen 'smartlinks'"
+
+#: serializers.py:115
+msgid ""
+"Comma separated list of document type primary keys to which this smart link "
+"will be attached."
+msgstr ""
+
+#: serializers.py:139
+#, python-format
+msgid "No such document type: %s"
+msgstr ""
+
+#: views.py:60
+#, python-format
+msgid "Smart link query error: %s"
+msgstr "'smartlink' zoek fout: %s"
+
+#: views.py:68
+#, python-format
+msgid "Documents in smart link: %s"
+msgstr ""
+
+#: views.py:71
+#, python-format
+msgid "Documents in smart link \"%(smart_link)s\" as related to \"%(document)s\""
+msgstr ""
+
+#: views.py:90
+msgid "Available document types"
+msgstr "Beschikbare documentsoorten"
+
+#: views.py:92
+msgid "Document types enabled"
+msgstr ""
+
+#: views.py:101
+#, python-format
+msgid "Document type for which to enable smart link: %s"
+msgstr ""
+
+#: views.py:161
+#, python-format
+msgid "Smart links for document: %s"
+msgstr ""
+
+#: views.py:184
+#, python-format
+msgid "Edit smart link: %s"
+msgstr "'smartlink': %s bewerken."
+
+#: views.py:196
+#, python-format
+msgid "Delete smart link: %s"
+msgstr ""
+
+#: views.py:208
+#, python-format
+msgid "Conditions for smart link: %s"
+msgstr ""
+
+#: views.py:235
+#, python-format
+msgid "Add new conditions to smart link: \"%s\""
+msgstr "Nieuwe condities aan 'smartlink': \"%s\" toevoegen."
+
+#: views.py:276
+msgid "Edit smart link condition"
+msgstr "Bewerk 'smartlink' conditie."
+
+#: views.py:306
+#, python-format
+msgid "Delete smart link condition: \"%s\"?"
+msgstr ""

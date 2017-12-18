@@ -1,0 +1,29 @@
+{% extends 'appearance/base.html' %}
+
+{% load i18n %}
+
+{% load navigation_tags %}
+
+{% block title %}{% include 'appearance/calculate_form_title.html' with html_title=True %}{% endblock %}
+
+{% block content %}
+    {% if title %}
+        <h3>{{ title }}</h3>
+        <hr>
+    {% endif %}
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+            {{ navigation }}
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
+            {% if list_as_items %}
+                {% include 'appearance/generic_list_items_subtemplate.html' %}
+            {% else %}
+                {% include 'appearance/generic_list_subtemplate.html' %}
+            {% endif %}
+        </div>
+    </div>
+
+{% endblock %}

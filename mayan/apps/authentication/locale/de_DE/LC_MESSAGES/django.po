@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Berny <berny@bernhard-marx.de>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-07-15 03:48+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: German (Germany) (http://www.transifex.com/rosarior/mayan-edms/language/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:17 settings.py:9
+msgid "Authentication"
+msgstr "Authentifizierung"
+
+#: forms.py:18
+msgid "Email"
+msgstr "E-Mail"
+
+#: forms.py:21
+msgid "Password"
+msgstr "Passwort"
+
+#: forms.py:23 forms.py:72
+msgid "Remember me"
+msgstr ""
+
+#: forms.py:26
+msgid ""
+"Please enter a correct email and password. Note that the password field is "
+"case-sensitive."
+msgstr "Bitte geben Sie Ihre E-Mailadresse und ein Passwort an. Beachten Sie, dass das Passwortfeld Groß- und Kleinschreibung unterscheidet."
+
+#: forms.py:28
+msgid "This account is inactive."
+msgstr "Dieses Konto ist inaktiv."
+
+#: links.py:13
+msgid "Logout"
+msgstr "Abmelden"
+
+#: links.py:16
+msgid "Change password"
+msgstr "Passwort ändern"
+
+#: settings.py:13
+msgid ""
+"Controls the mechanism used to authenticated user. Options are: username, "
+"email"
+msgstr "Authentifizierungs-Mechanismus für die Benutzer. Optionen: Benutzername, E-Mail-Adresse"
+
+#: settings.py:20
+msgid ""
+"Maximum time an user clicking the \"Remember me\" checkbox will remain "
+"logged in. Value is time in seconds."
+msgstr ""
+
+#: views.py:59
+msgid "Current user password change"
+msgstr "Passwortänderung für aktuellen Benutzer"
+
+#: views.py:73
+msgid "Your password has been successfully changed."
+msgstr "Das Passwort wurde erfolgreich geändert."

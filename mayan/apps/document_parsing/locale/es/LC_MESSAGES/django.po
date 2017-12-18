@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Roberto Rosario <roberto.rosario.gonzalez@gmail.com>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/rosarior/teams/13584/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:61 permissions.py:7 settings.py:7
+msgid "Document parsing"
+msgstr "Análisis de documentos"
+
+#: apps.py:91
+msgid "Document"
+msgstr "Documento"
+
+#: apps.py:95
+msgid "Added"
+msgstr "Añadido"
+
+#: apps.py:99 models.py:39
+msgid "Result"
+msgstr "Resultado"
+
+#: apps.py:116 apps.py:120 links.py:11 models.py:18
+msgid "Content"
+msgstr "Contenido"
+
+#: events.py:9
+msgid "Document version submitted for parsing"
+msgstr "Versión de documento enviada para análisis"
+
+#: events.py:13
+msgid "Document version parsing finished"
+msgstr "Se terminó el análisis de la versión del documento"
+
+#: forms.py:42
+#, python-format
+msgid "Page %(page_number)d"
+msgstr "Página %(page_number)d"
+
+#: forms.py:50
+msgid "Contents"
+msgstr "Contenido"
+
+#: links.py:16 links.py:38 views.py:149
+msgid "Parsing errors"
+msgstr "Errores de análisis"
+
+#: links.py:21
+msgid "Download content"
+msgstr "Descargar contenido"
+
+#: links.py:25 links.py:30
+msgid "Submit for parsing"
+msgstr "Enviar para analizar"
+
+#: links.py:33
+msgid "Parse documents per type"
+msgstr "Analizar documentos por tipo"
+
+#: models.py:16
+msgid "Document page"
+msgstr "Página del documento"
+
+#: models.py:26
+msgid "Document page content"
+msgstr "Contenido de página de documento"
+
+#: models.py:27
+msgid "Document pages contents"
+msgstr "Contenido de página de documento"
+
+#: models.py:34
+msgid "Document version"
+msgstr "Versión del documento"
+
+#: models.py:37
+msgid "Date time submitted"
+msgstr "Fecha y hora sometido"
+
+#: models.py:46
+msgid "Document version parse error"
+msgstr "Error de análisis de la versión del documento"
+
+#: models.py:47
+msgid "Document version parse errors"
+msgstr "Errores de análisis de la versión del documento"
+
+#: parsers.py:91
+#, python-format
+msgid "Exception parsing page; %s"
+msgstr "Error interpretando página: %s "
+
+#: parsers.py:118
+#, python-format
+msgid "Cannot find pdftotext executable at: %s"
+msgstr "Si no encontró el ejecutable pdftotext en: %s"
+
+#: permissions.py:10
+msgid "View the content of a document"
+msgstr "Ver el contenido de un documento"
+
+#: permissions.py:14
+msgid "Parse the content of a document"
+msgstr "Analizar el contenido de un documento"
+
+#: queues.py:7
+msgid "Parsing"
+msgstr "Análisis"
+
+#: queues.py:10
+msgid "Document version parsing"
+msgstr "Análisis de la versión del documento"
+
+#: settings.py:13
+msgid ""
+"File path to poppler's pdftotext program used to extract text from PDF "
+"files."
+msgstr ""
+"Ruta de acceso al programa de poppler llamado pdftotext utilizado para "
+"extraer texto de archivos PDF."
+
+#: views.py:38
+#, python-format
+msgid "Content for document: %s"
+msgstr "Contenido del documento: %s"
+
+#: views.py:66
+#, python-format
+msgid "Parsing errors for document: %s"
+msgstr "Errores de análisis del documento: %s"
+
+#: views.py:78
+#, python-format
+msgid "%(count)d document added to the parsing queue"
+msgstr "%(count)d documento añadido a la cola de análisis"
+
+#: views.py:81
+#, python-format
+msgid "%(count)d documents added to the parsing queue"
+msgstr "%(count)d documentos añadidos a la cola de análisis"
+
+#: views.py:89
+#, python-format
+msgid "Submit %(count)d document to the parsing queue?"
+msgid_plural "Submit %(count)d documents to the parsing queue"
+msgstr[0] "¿Enviar %(count)d documento a la cola de análisis?"
+msgstr[1] "Enviar %(count)d documentos a la cola de análisis"
+
+#: views.py:102
+#, python-format
+msgid "Submit document \"%s\" to the parsing queue"
+msgstr "Enviar el documento \"%s\" a la cola de análisis"
+
+#: views.py:116
+msgid "Submit all documents of a type for parsing"
+msgstr "Enviar todos los documentos de un tipo para analizar"
+
+#: views.py:135
+#, python-format
+msgid ""
+"%(count)d documents of type \"%(document_type)s\" added to the parsing "
+"queue."
+msgstr ""
+"%(count)d documentos del tipo \"%(document_type)s\" añadidos a la cola de "
+"análisis."

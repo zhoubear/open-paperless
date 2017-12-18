@@ -1,0 +1,31 @@
+{% load i18n %}
+
+{% if as_dropdown %}
+    <div class="dropdown text-center">
+        <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {% trans 'Actions' %}
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+            {% for link in object_navigation_links %}
+                {% with 'true' as as_li %}
+                {% with ' ' as li_class_active %}
+                {% with 'btn-sm' as link_classes %}
+                    {% include 'navigation/generic_subnavigation.html' %}
+                {% endwith %}
+                {% endwith %}
+                {% endwith %}
+            {% endfor %}
+        </ul>
+    </div>
+{% else %}
+    {% if as_group %}
+        <div class="btn-group">
+    {% endif %}
+        {% for link in object_navigation_links %}
+            {% include 'navigation/generic_subnavigation.html' %}
+        {% endfor %}
+    {% if as_group %}
+        </div>
+    {% endif %}
+{% endif %}

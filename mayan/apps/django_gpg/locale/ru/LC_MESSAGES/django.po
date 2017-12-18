@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# lilo.panic, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2016-07-19 20:20+0000\n"
+"Last-Translator: lilo.panic\n"
+"Language-Team: Russian (http://www.transifex.com/rosarior/mayan-edms/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: apps.py:31
+msgid "Django GPG"
+msgstr "Django GPG"
+
+#: apps.py:47 apps.py:50 forms.py:17
+msgid "Key ID"
+msgstr "ID ключа"
+
+#: apps.py:48 apps.py:61 forms.py:19 models.py:52
+msgid "User ID"
+msgstr "Идентификатор пользователя"
+
+#: apps.py:51 forms.py:34 models.py:55
+msgid "Type"
+msgstr "Тип"
+
+#: apps.py:53 forms.py:23 models.py:36
+msgid "Creation date"
+msgstr "Дата создания"
+
+#: apps.py:56 forms.py:27 models.py:40
+msgid "Expiration date"
+msgstr "Дата окончания"
+
+#: apps.py:57
+msgid "No expiration"
+msgstr "Не устаревает"
+
+#: apps.py:59 forms.py:32 models.py:47
+msgid "Length"
+msgstr "Длина"
+
+#: forms.py:28
+msgid "None"
+msgstr "Ни один"
+
+#: forms.py:31 models.py:44
+msgid "Fingerprint"
+msgstr "Отпечаток"
+
+#: forms.py:33 models.py:50
+msgid "Algorithm"
+msgstr "Алгоритм"
+
+#: forms.py:47
+msgid "Term"
+msgstr "Term"
+
+#: forms.py:48
+msgid "Name, e-mail, key ID or key fingerprint to look for."
+msgstr "Имя, e-mail, ID ключа или отпечаток для поиска."
+
+#: links.py:13
+msgid "Delete"
+msgstr "Удалить"
+
+#: links.py:17
+msgid "Details"
+msgstr "Детали"
+
+#: links.py:21
+msgid "Download"
+msgstr "Скачать"
+
+#: links.py:25 permissions.py:28
+msgid "Query keyservers"
+msgstr "Запрос к серверам ключей"
+
+#: links.py:29
+msgid "Import"
+msgstr "Импорт"
+
+#: links.py:34 permissions.py:7
+msgid "Key management"
+msgstr "Управление ключами"
+
+#: links.py:37
+msgid "Upload key"
+msgstr "Загрузить ключ"
+
+#: links.py:41 views.py:160
+msgid "Private keys"
+msgstr "Секретные ключи"
+
+#: links.py:45 views.py:149
+msgid "Public keys"
+msgstr "Открытые ключи"
+
+#: literals.py:6 literals.py:14
+msgid "Public"
+msgstr "Открытый"
+
+#: literals.py:7 literals.py:15
+msgid "Secret"
+msgstr "секретный"
+
+#: literals.py:23 literals.py:28
+msgid "RSA"
+msgstr "RSA"
+
+#: literals.py:24
+msgid "DSA"
+msgstr "DSA"
+
+#: literals.py:29
+msgid "Elgamal"
+msgstr "Elgamal"
+
+#: literals.py:43
+msgid "Bad signature."
+msgstr "Неверная подпись"
+
+#: literals.py:46
+msgid "Document not signed or invalid signature."
+msgstr "Документ не подписан, либо подпись неверна."
+
+#: literals.py:49
+msgid "Signature error."
+msgstr "Ошибка подписи."
+
+#: literals.py:53
+msgid "Document is signed but no public key is available for verification."
+msgstr "Документ подписан, но нет открытого ключа для проверки."
+
+#: literals.py:58
+msgid "Document is signed, and signature is good."
+msgstr "Документ подписан и подпись верна."
+
+#: literals.py:61
+msgid "Document is signed with a valid signature."
+msgstr "Документ подписан допустимой подписью."
+
+#: models.py:32
+msgid "ASCII armored version of the key."
+msgstr ""
+
+#: models.py:33
+msgid "Key data"
+msgstr "Содержимое ключа"
+
+#: models.py:61
+msgid "Key"
+msgstr "Ключ"
+
+#: models.py:62
+msgid "Keys"
+msgstr "Ключи"
+
+#: models.py:68
+msgid "Invalid key data"
+msgstr "Неверные данные ключа"
+
+#: models.py:71
+msgid "Key already exists."
+msgstr "Ключ уже существует."
+
+#: permissions.py:10
+msgid "Delete keys"
+msgstr "Удалить ключи"
+
+#: permissions.py:13
+msgid "Download keys"
+msgstr "Скачать ключи"
+
+#: permissions.py:16
+msgid "Import keys from keyservers"
+msgstr "Импортировать ключи с серверов ключей "
+
+#: permissions.py:19
+msgid "Use keys to sign content"
+msgstr "Использовать ключи для подписи контента"
+
+#: permissions.py:22
+msgid "Upload keys"
+msgstr "Загрузить ключи"
+
+#: permissions.py:25
+msgid "View keys"
+msgstr "Просмотр ключей"
+
+#: settings.py:10
+msgid "Signatures"
+msgstr "Подписи"
+
+#: settings.py:15
+msgid "Home directory used to store keys as well as configuration files."
+msgstr "Домашний каталог, используемый для хранения ключей, а также файлов конфигурации."
+
+#: settings.py:21
+msgid "Path to the GPG binary."
+msgstr "Путь к GPG исходникам."
+
+#: settings.py:25
+msgid "Keyserver used to query for keys."
+msgstr "Сервер ключей используемый для запроса ключей."
+
+#: views.py:38
+#, python-format
+msgid "Delete key: %s"
+msgstr "Удалить ключ: %s"
+
+#: views.py:48
+#, python-format
+msgid "Details for key: %s"
+msgstr "Подробности для ключа: %s"
+
+#: views.py:68
+#, python-format
+msgid "Import key ID: %s?"
+msgstr "Получить ключ ID: %s?"
+
+#: views.py:69
+msgid "Import key"
+msgstr "Получить ключ"
+
+#: views.py:78
+#, python-format
+msgid "Unable to import key: %(key_id)s; %(error)s"
+msgstr "Невозможно импортировать ключ %(key_id)s; %(error)s"
+
+#: views.py:85
+#, python-format
+msgid "Successfully received key: %(key_id)s"
+msgstr "Успешно получен ключ: %(key_id)s"
+
+#: views.py:107
+msgid "Search"
+msgstr "Поиск"
+
+#: views.py:109
+msgid "Query key server"
+msgstr "Запросить сервер ключей"
+
+#: views.py:119
+msgid "Key query results"
+msgstr "Результаты запроса ключа"
+
+#: views.py:138
+msgid "Upload new key"
+msgstr "Загрузить новый ключ"

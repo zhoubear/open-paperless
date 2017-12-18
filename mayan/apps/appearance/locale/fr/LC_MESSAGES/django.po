@@ -1,0 +1,283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2017
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:45-0400\n"
+"PO-Revision-Date: 2017-07-24 19:27+0000\n"
+"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/rosarior/mayan-edms/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:12 settings.py:9
+msgid "Appearance"
+msgstr "Apparence"
+
+#: templates/403.html:5 templates/403.html:9
+msgid "Insufficient permissions"
+msgstr "Droits insuffisants"
+
+#: templates/403.html:11
+msgid "You don't have enough permissions for this operation."
+msgstr "Vous n'avez pas les permissions requises pour cette opération."
+
+#: templates/404.html:5 templates/404.html:9
+msgid "Page not found"
+msgstr "Page non trouvée"
+
+#: templates/404.html:11
+msgid "Sorry, but the requested page could not be found."
+msgstr "Désolé, la page demandée n'a pu être trouvée."
+
+#: templates/500.html:5 templates/500.html:9
+msgid "Server error"
+msgstr "Erreur du serveur"
+
+#: templates/500.html:11
+msgid ""
+"There's been an error. It's been reported to the site administrators via "
+"e-mail and should be fixed shortly. Thanks for your patience."
+msgstr "Une erreur vient de se produire. Elle a été signalée aux administrateurs du site par courriel et devrait être résolue rapidement. Merci de votre patience."
+
+#: templates/500.html:14
+msgid ""
+"If you need assistance, you may reference this error via the following "
+"identifier:"
+msgstr "Si vous avez besoin d'assistance, vous pouvez faire référence à cette erreur grâce à l'identifiant suivant :"
+
+#: templates/appearance/about.html:8 templates/appearance/about.html:57
+msgid "About"
+msgstr "A propos"
+
+#: templates/appearance/about.html:62
+msgid "Version"
+msgstr "Version"
+
+#: templates/appearance/about.html:64
+#, python-format
+msgid "Build number: %(build_number)s"
+msgstr "Numéro de build : %(build_number)s"
+
+#: templates/appearance/about.html:76
+msgid "Released under the Apache 2.0 License"
+msgstr "Publié sous licence Apache 2.0"
+
+#: templates/appearance/about.html:88
+msgid "Copyright &copy; 2011-2015 Roberto Rosario."
+msgstr "Copyright &copy; 2011-2015 Roberto Rosario."
+
+#: templates/appearance/base.html:56
+msgid "Toggle navigation"
+msgstr "Activer la navigation"
+
+#: templates/appearance/base.html:114
+#: templates/navigation/generic_navigation.html:6
+msgid "Actions"
+msgstr "Actions"
+
+#: templates/appearance/base.html:116
+msgid "Toggle Dropdown"
+msgstr "Activer la liste déroulante"
+
+#: templates/appearance/calculate_form_title.html:16
+#, python-format
+msgid "Details for: %(object)s"
+msgstr "Détails de : %(object)s "
+
+#: templates/appearance/calculate_form_title.html:19
+#, python-format
+msgid "Edit: %(object)s"
+msgstr "Modifie r: %(object)s"
+
+#: templates/appearance/calculate_form_title.html:21
+msgid "Create"
+msgstr "Créer"
+
+#: templates/appearance/dashboard_widget.html:25
+msgid "View details"
+msgstr "Voir les détails"
+
+#: templates/appearance/generic_confirm.html:6
+#: templates/appearance/generic_confirm.html:13
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: templates/appearance/generic_confirm.html:11
+msgid "Confirm delete"
+msgstr "Confirmer la suppression"
+
+#: templates/appearance/generic_confirm.html:27
+#, python-format
+msgid "Delete: %(object)s?"
+msgstr "Supprimer : %(object)s?"
+
+#: templates/appearance/generic_confirm.html:48
+msgid "Yes"
+msgstr "Oui"
+
+#: templates/appearance/generic_confirm.html:52
+msgid "No"
+msgstr "Non"
+
+#: templates/appearance/generic_form_instance.html:49
+#: templates/appearance/generic_form_instance.html:55
+#: templates/appearance/generic_form_subtemplate.html:51
+#: templates/appearance/generic_multiform_subtemplate.html:41
+msgid "required"
+msgstr "Requis"
+
+#: templates/appearance/generic_form_subtemplate.html:71
+#: templates/appearance/generic_multiform_subtemplate.html:63
+msgid "Save"
+msgstr "Enregistrer"
+
+#: templates/appearance/generic_form_subtemplate.html:71
+#: templates/appearance/generic_list_items_subtemplate.html:45
+#: templates/appearance/generic_list_subtemplate.html:33
+#: templates/appearance/generic_multiform_subtemplate.html:63
+#: templates/authentication/password_reset_confirm.html:29
+#: templates/authentication/password_reset_form.html:29
+msgid "Submit"
+msgstr "Soumettre"
+
+#: templates/appearance/generic_form_subtemplate.html:74
+#: templates/appearance/generic_multiform_subtemplate.html:67
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/appearance/generic_list_horizontal.html:21
+#: templates/appearance/generic_list_items_subtemplate.html:118
+#: templates/appearance/generic_list_subtemplate.html:112
+msgid "No results"
+msgstr "Pas de résultats"
+
+#: templates/appearance/generic_list_items_subtemplate.html:24
+#: templates/appearance/generic_list_subtemplate.html:12
+#, python-format
+msgid ""
+"Total (%(start)s - %(end)s out of %(total)s) (Page %(page_number)s of "
+"%(total_pages)s)"
+msgstr "Total (%(start)s - %(end)s surof %(total)s) (Page %(page_number)s sur %(total_pages)s)"
+
+#: templates/appearance/generic_list_items_subtemplate.html:26
+#: templates/appearance/generic_list_items_subtemplate.html:29
+#: templates/appearance/generic_list_subtemplate.html:14
+#: templates/appearance/generic_list_subtemplate.html:17
+#, python-format
+msgid "Total: %(total)s"
+msgstr "Total : %(total)s"
+
+#: templates/appearance/generic_list_subtemplate.html:53
+msgid "Identifier"
+msgstr "Identifiant"
+
+#: templates/appearance/home.html:9 templates/appearance/home.html:21
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: templates/appearance/home.html:30
+msgid "Getting started"
+msgstr "Démarrage"
+
+#: templates/appearance/home.html:33
+msgid "Before you can fully use Mayan EDMS you need the following:"
+msgstr "Avant d'utiliser pleinement Mayan EDMS, les éléments suivants sont nécessaires :"
+
+#: templates/appearance/home.html:54
+msgid "Search pages"
+msgstr "Rechercher des pages"
+
+#: templates/appearance/home.html:56 templates/appearance/home.html:66
+msgid "Search"
+msgstr "Recherche"
+
+#: templates/appearance/home.html:57 templates/appearance/home.html:67
+msgid "Advanced"
+msgstr "Avancé"
+
+#: templates/appearance/home.html:64
+msgid "Search documents"
+msgstr "Rechercher des documents"
+
+#: templates/authentication/login.html:10
+msgid "Login"
+msgstr "Connexion"
+
+#: templates/authentication/login.html:21
+msgid "First time login"
+msgstr "Première connexion"
+
+#: templates/authentication/login.html:24
+msgid ""
+"You have just finished installing <strong>Mayan EDMS</strong>, "
+"congratulations!"
+msgstr "Vous venez de finaliser l'installation de <strong>Mayan EDMS</strong>, félicitations!"
+
+#: templates/authentication/login.html:25
+msgid "Login using the following credentials:"
+msgstr "Connectez-vous en utilisant les informations d'identification suivantes :"
+
+#: templates/authentication/login.html:26
+#, python-format
+msgid "Username: <strong>%(account)s</strong>"
+msgstr "Nom d'utilisateur : <strong>%(account)s</strong>"
+
+#: templates/authentication/login.html:27
+#, python-format
+msgid "Email: <strong>%(email)s</strong>"
+msgstr "Courriel : <strong>%(email)s</strong>"
+
+#: templates/authentication/login.html:28
+#, python-format
+msgid "Password: <strong>%(password)s</strong>"
+msgstr "Mot de passe : <strong>%(password)s</strong>"
+
+#: templates/authentication/login.html:29
+msgid ""
+"Be sure to change the password to increase security and to disable this "
+"message."
+msgstr "Assurez-vous de modifier votre mot de passe pour accroître la sécurité et pour ne plus avoir ce message."
+
+#: templates/authentication/login.html:45
+#: templates/authentication/login.html:53
+msgid "Sign in"
+msgstr "Connexion"
+
+#: templates/authentication/login.html:58
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié?"
+
+#: templates/authentication/password_reset_complete.html:8
+#: templates/authentication/password_reset_confirm.html:8
+#: templates/authentication/password_reset_confirm.html:20
+#: templates/authentication/password_reset_done.html:8
+#: templates/authentication/password_reset_form.html:8
+#: templates/authentication/password_reset_form.html:20
+msgid "Password reset"
+msgstr "Réinitialiser le mot de passe"
+
+#: templates/authentication/password_reset_complete.html:15
+msgid "Password reset complete! Click the link below to login."
+msgstr "Réinitialisation du mot de passe terminée Cliquez sur le lien ci-dessous pour vous connecter."
+
+#: templates/authentication/password_reset_complete.html:17
+msgid "Login page"
+msgstr "Page de connexion"
+
+#: templates/authentication/password_reset_done.html:15
+msgid "Password reset email sent!"
+msgstr "Réinitialisation du mot de passe envoyé!"
+
+#: templatetags/appearance_tags.py:16
+msgid "None"
+msgstr "Aucun"

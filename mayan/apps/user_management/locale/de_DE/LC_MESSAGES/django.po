@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Berny <berny@bernhard-marx.de>, 2015-2016
+# Jesaja Everling <jeverling@gmail.com>, 2017
+# Mathias Behrle <mbehrle@m9s.biz>, 2014
+# Stefan Lodders <sl@suchreflex.de>, 2012
+# tetjarediske <tetja.rediske@googlemail.com>, 2012
+# Tobias Paepke <tobias.paepke@paepke.net>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:47-0400\n"
+"PO-Revision-Date: 2017-07-15 03:50+0000\n"
+"Last-Translator: Roberto Rosario\n"
+"Language-Team: German (Germany) (http://www.transifex.com/rosarior/mayan-edms/language/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:43 permissions.py:7
+msgid "User management"
+msgstr "Benutzerverwaltung"
+
+#: apps.py:59
+msgid "All the groups."
+msgstr "Alle Gruppen."
+
+#: apps.py:63
+msgid "All the users."
+msgstr "Alle Benutzer"
+
+#: apps.py:68 links.py:30
+msgid "Members"
+msgstr "Mitglieder"
+
+#: apps.py:72
+msgid "Full name"
+msgstr "Kompletter Name"
+
+#: apps.py:75 search.py:22
+msgid "Email"
+msgstr "E-Mail"
+
+#: apps.py:78
+msgid "Active"
+msgstr "Aktiv"
+
+#: apps.py:84
+msgid "Has usable password?"
+msgstr "Verwendbares Passwort"
+
+#: forms.py:18
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: forms.py:21
+msgid "Confirm password"
+msgstr "Passwort bestätigen"
+
+#: links.py:14 views.py:27
+msgid "Create new group"
+msgstr "Erstellen"
+
+#: links.py:18 links.py:42 links.py:58
+msgid "Delete"
+msgstr "Löschen"
+
+#: links.py:22 links.py:46
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: links.py:26 links.py:34 links.py:50 search.py:25 views.py:50
+msgid "Groups"
+msgstr "Gruppen"
+
+#: links.py:38 views.py:116
+msgid "Create new user"
+msgstr "Erstellen"
+
+#: links.py:54 links.py:70 views.py:240
+msgid "Users"
+msgstr "Benutzer"
+
+#: links.py:62 links.py:66
+msgid "Set password"
+msgstr "Passwort festlegen"
+
+#: permissions.py:10
+msgid "Create new groups"
+msgstr "Gruppen anlegen"
+
+#: permissions.py:13
+msgid "Delete existing groups"
+msgstr "Gruppen löschen"
+
+#: permissions.py:16
+msgid "Edit existing groups"
+msgstr "Gruppen bearbeiten"
+
+#: permissions.py:19
+msgid "View existing groups"
+msgstr "Gruppen anzeigen"
+
+#: permissions.py:22
+msgid "Create new users"
+msgstr "Benutzer anlegen"
+
+#: permissions.py:25
+msgid "Delete existing users"
+msgstr "Benutzer löschen"
+
+#: permissions.py:28
+msgid "Edit existing users"
+msgstr "Benutzer bearbeiten"
+
+#: permissions.py:31
+msgid "View existing users"
+msgstr "Benutzer anzeigen"
+
+#: search.py:19
+msgid "First name"
+msgstr ""
+
+#: search.py:28
+msgid "Last name"
+msgstr ""
+
+#: search.py:31
+msgid "username"
+msgstr ""
+
+#: search.py:41
+msgid "Name"
+msgstr "Name"
+
+#: serializers.py:29
+msgid "Comma separated list of group primary keys to assign this user to."
+msgstr ""
+
+#: serializers.py:51
+msgid "List of group primary keys to which to add the user."
+msgstr ""
+
+#: views.py:43
+#, python-format
+msgid "Edit group: %s"
+msgstr "Gruppe %s bearbeiten"
+
+#: views.py:64
+#, python-format
+msgid "Delete the group: %s?"
+msgstr "Gruppe %s löschen?"
+
+#: views.py:70
+msgid "Available users"
+msgstr "Verfügbare Nutzer"
+
+#: views.py:71
+msgid "Members of groups"
+msgstr "Gruppenmitglieder"
+
+#: views.py:92
+#, python-format
+msgid "Members of group: %s"
+msgstr "Mitglieder von Gruppe %s"
+
+#: views.py:126
+#, python-format
+msgid "User \"%s\" created successfully."
+msgstr "Benutzer \"%s\" erfolgreich angelegt"
+
+#: views.py:135
+#, python-format
+msgid "User delete request performed on %(count)d user"
+msgstr ""
+
+#: views.py:137
+#, python-format
+msgid "User delete request performed on %(count)d users"
+msgstr ""
+
+#: views.py:146
+msgid "Delete user"
+msgid_plural "Delete users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views.py:156
+#, python-format
+msgid "Delete user: %s"
+msgstr "Benutzer löschen: %s"
+
+#: views.py:168
+msgid ""
+"Super user and staff user deleting is not allowed, use the admin interface "
+"for these cases."
+msgstr "Super User und Staff Benutzer löschen ist nicht erlaubt, benutzen Sie die Administratoren-Oberfläche dafür."
+
+#: views.py:176
+#, python-format
+msgid "User \"%s\" deleted successfully."
+msgstr "Benutzer \"%s\" erfolgreich gelöscht"
+
+#: views.py:182
+#, python-format
+msgid "Error deleting user \"%(user)s\": %(error)s"
+msgstr "Fehler beim Löschen des Benutzers \"%(user)s\": %(error)s"
+
+#: views.py:198
+#, python-format
+msgid "Edit user: %s"
+msgstr "Benutzer %s bearbeiten"
+
+#: views.py:204
+msgid "Available groups"
+msgstr "Verfügbare Gruppen"
+
+#: views.py:205
+msgid "Groups joined"
+msgstr "Gruppen vereinigt"
+
+#: views.py:214
+#, python-format
+msgid "Groups of user: %s"
+msgstr "Gruppen von Benutzer %s"
+
+#: views.py:252
+#, python-format
+msgid "Password change request performed on %(count)d user"
+msgstr ""
+
+#: views.py:254
+#, python-format
+msgid "Password change request performed on %(count)d users"
+msgstr ""
+
+#: views.py:262
+msgid "Submit"
+msgstr "Absenden"
+
+#: views.py:264
+msgid "Change user password"
+msgid_plural "Change users passwords"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views.py:274
+#, python-format
+msgid "Change password for user: %s"
+msgstr "Passwort ändern für Benutzer: %s"
+
+#: views.py:294
+msgid ""
+"Super user and staff user password reseting is not allowed, use the admin "
+"interface for these cases."
+msgstr "Super User und Staff Benutzer löschen ist nicht erlaubt, benutzen Sie die Administratoren-Oberfläche dafür."
+
+#: views.py:304
+#, python-format
+msgid "Successfull password reset for user: %s."
+msgstr "Passwort erfolgreich zurückgesetzt für Benutzer %s"
+
+#: views.py:310
+#, python-format
+msgid "Error reseting password for user \"%(user)s\": %(error)s"
+msgstr "Fehler beim Zurücksetzen des Passworts für den Benutzer  \"%(user)s\": %(error)s"

@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Annunnaky <doublemiu@gmail.com>, 2015
+# mic <diveaway12@gmail.com>, 2012
+# mic <winterfall24@gmail.com>, 2012,2015
+# Wojtek Warczakowski <w.warczakowski@gmail.com>, 2016
+# Wojtek Warczakowski <w.warczakowski@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-27 12:46-0400\n"
+"PO-Revision-Date: 2017-07-19 09:06+0000\n"
+"Last-Translator: Wojtek Warczakowski <w.warczakowski@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/rosarior/mayan-edms/language/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: apps.py:16
+msgid "Dynamic search"
+msgstr "Dynamiczne wyszukiwanie"
+
+#: classes.py:27
+msgid "No search model matching the query"
+msgstr ""
+
+#: forms.py:9
+msgid "Match all"
+msgstr "Dopasuj wszystko"
+
+#: forms.py:10
+msgid ""
+"When checked, only results that match all fields will be returned. When "
+"unchecked results that match at least one field will be returned."
+msgstr "Zaznaczone oznacza, że zostaną zwrócone wyniki jedynie w przypadku dopasowania wszystkich pól. Niezaznaczone oznacza, że zostaną zwrócone wyniki jeśli wartość z przynajmniej jednego pola zostanie dopasowane."
+
+#: forms.py:29
+msgid "Search terms"
+msgstr "Słowa do wyszukania"
+
+#: links.py:8 settings.py:8 views.py:52 views.py:63
+msgid "Search"
+msgstr "Szukaj"
+
+#: links.py:11 views.py:77
+msgid "Advanced search"
+msgstr "Zaawansowane wyszukiwanie"
+
+#: links.py:15
+msgid "Search again"
+msgstr "Wyszukać ponownie"
+
+#: settings.py:11
+msgid "Maximum amount search hits to fetch and display."
+msgstr "Maksymalna liczba trafień do wyświetlenia na ekranie."
+
+#: views.py:25
+#, python-format
+msgid "Search results for: %s"
+msgstr "Wyniki wyszukiwania dla: %s"
+
+#: views.py:65
+#, python-format
+msgid "Search for: %s"
+msgstr "Wyszukiwanie: %s"
