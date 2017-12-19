@@ -5,18 +5,17 @@
   <br>
   <br>
   <p>
-    Open Paperless is a document management system. Its main purpose is to store,
-    introspect, and categorize files, with a strong emphasis on preserving the
-    contextual and business information of documents. It can also OCR, preview,
-    label, sign, send, and receive thoses files. Other features of interest
-    are its workflow system, role based access control, and REST API.
+    Mayan EDMS is a wonderful product with a lot of features.
+    However, its sheer number of features and capabilities can be a bit intimidating for the average user.
+    This is where Open Paperless comes in. Open Paperless is a re-think
+    of the user interface and user experience for Mayan EDMS.
+    The goal is to reduce the complexity and make it more suitable for
+    home users. Think of Open Paperless as a lightweight version of Mayan EDMS.
   <p>
 
 <p>
-    Software development is a profession dominated by men. Please help me
-    and other women like me grow in this industry by supporting me via <a href="https://www.patreon.com/zhoubear">Patreon</a>.
-    I pledge to support women myself by sharing part of my donations with
-    initiatives like Django Girl, PyLadies and others.
+    If you find Open Paperless useful please support me via <a href="https://www.patreon.com/zhoubear">Patreon</a>.
+    You can also support Mayan EDMS via their website at <a href="www.mayan-edms.com">www.mayan-edms.com</a>.
 </p>
 
 </div>
@@ -43,3 +42,9 @@
 - cd open-paperless
 - ./setup.sh
 - ./run.sh
+
+<h2 align="center">Special thanks</h2>
+
+- To the Mayan EDMS community for their support and cool helping me refocus Open Paperless.
+- To the super styling Roberto Rosario for his awesome work on Mayan EDMS and for being a great example of a community leader. Many projects and people could learn a lot from him.
+- DjangoGirls for the support during these initial times getting Open Paperless off the ground.
