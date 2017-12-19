@@ -1,0 +1,41 @@
+image: ubuntu:16.10
+services:
+  - mysql:latest
+  - postgres
+before_script:
+  - echo "LC_ALL=\"en_US.UTF-8\"" >> /etc/default/locale
+  - locale-gen en_US.UTF-8
+  - update-locale LANG=en_US.UTF-8
+  - export LC_ALL=en_US.UTF-8
+  - apt-get update -qq
+  - apt-get install -qq curl graphviz python-dev python-pip gcc gnupg1 tesseract-ocr tesseract-ocr-deu ghostscript libjpeg-dev libpng-dev libtiff-dev poppler-utils libreoffice
+variables:
+  POSTGRES_DB: "mayan_edms"
+  POSTGRES_PASSWORD: "postgres"
+  MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+  MYSQL_DATABASE: "mayan_edms"
+test:mysql:
+  script:
+  - apt-get install -qq libmysqlclient-dev
+  - pip install -r requirements/testing.txt
+  - pip install mysql-python
+  - apt-get install -qq mysql-client
+  - mysql -h"$MYSQL_PORT_3306_TCP_ADDR" -P"$MYSQL_PORT_3306_TCP_PORT" -uroot -p"$MYSQL_ENV_MYSQL_ROOT_PASSWORD" -e "set global character_set_server=utf8mb4;"
+  - coverage run manage.py test --mayan-apps --settings=mayan.settings.testing.gitlab-ci.db_mysql --nomigrations
+  - codecov
+  tags:
+    - mysql
+test:postgres:
+  script:
+  - apt-get install -qq libpq-dev
+  - pip install -r requirements/testing.txt
+  - pip install psycopg2
+  - coverage run manage.py test --mayan-apps --settings=mayan.settings.testing.gitlab-ci.db_postgres --nomigrations
+  - codecov
+  tags:
+    - postgres
+test:sqlite:
+  script:
+  - pip install -r requirements/testing.txt
+  - coverage run manage.py test --mayan-apps --settings=mayan.settings.testing.gitlab-ci --nomigrations
+  - codecov

@@ -1,0 +1,36 @@
+dist: trusty
+sudo: required
+language: python
+python:
+  - 2.7
+env:
+  matrix:
+   - DB=mysql
+   - DB=postgres
+   - DB=sqlite
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq python-dev python-pip gcc tesseract-ocr tesseract-ocr-deu ghostscript libjpeg-dev libpng-dev libtiff-dev poppler-utils libreoffice
+install:
+  - "pip install -r requirements/testing.txt"
+  - if [[ $DB == mysql ]]; then pip install -q mysql-python; fi
+  - if [[ $DB == postgres ]]; then pip install -q psycopg2; fi
+before_script:
+  - mysql -e 'create database mayan_edms;'
+  - psql -c 'create database mayan_edms;' -U postgres
+script:
+  - if [[ $DB == mysql ]]; then coverage run manage.py test --mayan-apps --settings=mayan.settings.testing.travis.db_mysql --nomigrations; fi
+  - if [[ $DB == postgres ]]; then coverage run manage.py test --mayan-apps --settings=mayan.settings.testing.travis.db_postgres --nomigrations; fi
+  - if [[ $DB == sqlite ]]; then coverage run manage.py test --mayan-apps --settings=mayan.settings.testing.base --nomigrations; fi
+after_success:
+  - coveralls
+branches:
+  only:
+    - master
+    - development
+notifications:
+  email:
+    recipients:
+    - roberto.rosario@mayan-edms.com
+    on_success: never
+    on_failure: always

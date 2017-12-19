@@ -1,0 +1,21 @@
+language: python
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq python-dev gcc tesseract-ocr tesseract-ocr-deu unpaper ghostscript libjpeg-dev libpng-dev poppler-utils
+install:
+  - pip install -r requirements/testing.txt
+  - pip install -q mysql-python
+  - pip install -q psycopg2
+before_script:
+  - mysql -u root -e 'create database mayan_edms;'
+  - psql -c 'create database mayan_edms;' -U postgres
+script:
+  - export TEST_APPS="acls authentication django_gpg document_indexing document_signatures documents dynamic_search folders lock_manager ocr permissions sources tags"
+  - coverage run manage.py test $TEST_APPS --settings=mayan.settings.testing.base
+  - coverage run manage.py test $TEST_APPS --settings=mayan.settings.magnum.db_mysql
+  - coverage run manage.py test $TEST_APPS --settings=mayan.settings.magnum.db_postgres
+after_script:
+  - coveralls
+services:
+  - mysql
+  - postgresql
