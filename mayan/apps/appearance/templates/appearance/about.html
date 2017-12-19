@@ -9,6 +9,36 @@
 
 {% block stylesheets %}
     <style>
+        @font-face {
+            font-family: 'mayan-edms';
+            src: url("{% static 'appearance/fonts/mayan-edms.ttf' %}") format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        [class^="icon-"], [class*=" icon-"] {
+            font-family: 'mayan-edms';
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .icon-mayan-edms-logo:before {
+            content: "\e600";
+            font-size: 150%;
+        }
+
+        .mayan-edms-logo {
+            font-family: 'IM Fell English SC', serif;
+            font-size: 150%;
+            text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.3);
+        }
+
         @media (min-width: 768px) {
             .mayan-edms-logo {
                 font-size: 300%;
@@ -47,6 +77,8 @@
             </p>
 
             <p class="text-center mayan-edms-logo"><i class="fa fa-leaf text-green"></i> Open Paperless</p>
+            <p class="text-center">{% trans 'Based on Mayan EDMS' %}</p>
+
         </div>
     </div>
 {% endblock %}
@@ -56,7 +88,7 @@
         <div class="col-xs-12">
             <div class="panel panel-default">
                 <div class="panel-body">
-                    {% trans 'Copyright &copy; 2017 Tina Zhou.' %}
+                    {% trans 'Mayan EDMS, Copyright &copy; 2011-2015 Roberto Rosario.' %}
                 </div>
             </div>
         </div>
