@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from __future__ import absolute_import
 import os
 import sys
 
@@ -8,7 +9,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-import mayan
+from . import mayan
 
 PACKAGE_NAME = 'open-paperless'
 PACKAGE_DIR = 'mayan'
@@ -115,6 +116,7 @@ setup(
         'Natural Language :: English',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.6',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
         'Topic :: Communications :: File Sharing',
