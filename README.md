@@ -15,7 +15,7 @@
 
 <p>
     If you find Open Paperless useful please support me via <a href="https://www.patreon.com/zhoubear">Patreon</a>.
-    You can also support Mayan EDMS via their website at <a href="https://www.mayan-edms.com">www.mayan-edms.com</a>.
+    You can also support Mayan EDMS via <a href="https://www.mayan-edms.com/">their website</a>.
 </p>
 
 </div>
