@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import print_function
 import os
 import optparse
 
@@ -38,29 +39,29 @@ BASE_DIR = os.path.abspath(
 
 def process(command, app_list, language_list):
     if command == makemessages:
-        print 'Making messages'
+        print('Making messages')
     elif command == compilemessages:
-        print 'Compiling messages'
+        print('Compiling messages')
     elif command == pull_translations:
-        print 'Pulling translation files'
+        print('Pulling translation files')
     elif command == push_translations:
-        print 'Pushing translation files'
+        print('Pushing translation files')
 
     if command in [compilemessages, makemessages]:
         for app in app_list:
-            print 'Processing app: %s...' % app
+            print('Processing app: %s...' % app)
             app_path = os.path.join(BASE_DIR, 'apps', app)
             os.chdir(app_path)
             for lang in language_list:
-                print 'Doing language: %s' % lang
+                print('Doing language: %s' % lang)
                 command(locale=lang)
     elif command == pull_translations:
         for lang in language_list:
-            print 'Doing language: %s' % lang
+            print('Doing language: %s' % lang)
             command('-f', '-l', lang)
     elif command == push_translations:
         for lang in language_list:
-            print 'Doing language: %s' % lang
+            print('Doing language: %s' % lang)
             command('-s', '-l', lang)
 
 

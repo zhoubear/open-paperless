@@ -11,6 +11,11 @@ from osgeo import osr
 from booleano.parser import Grammar, EvaluableParseManager, SymbolTable, Bind
 from booleano.operations import Variable
 
+try:
+    unicode        # Python 2
+except NameError:
+    unicode = str  # Python 3
+
 
 class JQVMap:
   def __init__(self, name, language):
