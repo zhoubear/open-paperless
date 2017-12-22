@@ -1,0 +1,27 @@
+version: "3"
+services:
+
+  redis:
+    image: redis:alpine
+
+  postgres:
+    image: postgres:alpine
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+  open-paperless:
+    build: .
+    ports:
+      - "8000:8000"
+    links:
+      - "postgres:database"
+      - "redis"
+    environment:
+      DATABASE_NAME: postgres
+      DATABASE_USER: postgres
+      DATABASE_HOST: database
+      DATABASE_PORT: "5432"
+      REDIS_URL: redis://redis:6379/0
+
+volumes:
+  db-data:
