@@ -48,6 +48,14 @@
 - ./setup.sh
 - ./run.sh
 
+<h2 align="center">Future</h2>
+
+- Virtual machine image for Windows and Mac users.
+- Deployment script.
+- Hosting setup (something like Terraform).
+- Mobile app.
+- Anything users suggest.
+
 <h2 align="center">Special thanks</h2>
 
 - To the Mayan EDMS community for their support and cool helping me refocus Open Paperless.
