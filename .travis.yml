@@ -32,6 +32,6 @@ branches:
 notifications:
   email:
     recipients:
-    - roberto.rosario@mayan-edms.com
+    - littlezhoubear@gmail.com
     on_success: never
     on_failure: always

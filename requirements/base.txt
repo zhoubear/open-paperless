@@ -42,3 +42,5 @@ pytz==2016.7
 requests==2.18.4 
 
 sh==1.12.11
+redis==2.10.6
+whitenoise==3.3.1
