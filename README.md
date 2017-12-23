@@ -54,6 +54,8 @@
 - Deployment script.
 - Hosting setup (something like Terraform).
 - Mobile app.
+- Kubernetes setup.
+- SSL by default.
 - Anything users suggest.
 
 <h2 align="center">Special thanks</h2>
