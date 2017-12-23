@@ -14,8 +14,13 @@
   <p>
 
 <p>
-    If you find Open Paperless useful please support me via <a href="https://www.patreon.com/zhoubear">Patreon</a>.
-    You can also support Mayan EDMS via <a href="https://www.mayan-edms.com/">their website</a>.
+    <s>If you find Open Paperless useful please support me via <a href="https://www.patreon.com/zhoubear">Patreon</a>.
+    You can also support Mayan EDMS via <a href="https://www.mayan-edms.com/">their website</a>.</s>
+</p>
+
+<p>
+    I just learned that the creator of Mayan EDMS is having a hard time due to the devastation caused by hurricane Maria.
+    Head over to his <a href="https://www.mayan-edms.com/post/hurricane-maria/">blog</a> for information on how you can give him a hand, thank you.
 </p>
 
 </div>
