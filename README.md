@@ -3,6 +3,8 @@
   <a href="https://openpaperless.com">
     <img width="600" heigth="195" src="https://github.com/zhoubear/open-paperless/raw/master/contrib/openpaperless2.png">
   </a>
+  <br>
+  <p>For more details, check our new website at <a href="https://openpaperless.com">openpaperless.com</a></p>
   <br><br>
   <a href="https://openpaperless.com">
     <img width="600" heigth="195" src="https://github.com/zhoubear/open-paperless/raw/master/contrib/logo.png">
