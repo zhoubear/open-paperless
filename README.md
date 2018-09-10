@@ -1,5 +1,10 @@
 <div align="center">
-  <a href="https://github.com/zhoubear/open-paperless">
+  <big>Something new is coming...</big>
+  <a href="https://openpaperless.com">
+    <img width="600" heigth="195" src="https://github.com/zhoubear/open-paperless/raw/master/contrib/openpaperless2.png">
+  </a>
+
+  <a href="https://openpaperless.com">
     <img width="600" heigth="195" src="https://github.com/zhoubear/open-paperless/raw/master/contrib/logo.png">
   </a>
   <br>
@@ -12,17 +17,6 @@
     The goal is to reduce the complexity and make it more suitable for
     home users. Think of Open Paperless as a lightweight version of Mayan EDMS.
   <p>
-
-<p>
-    <s>If you find Open Paperless useful please support me via <a href="https://www.patreon.com/zhoubear">Patreon</a>.
-    You can also support Mayan EDMS via <a href="https://www.mayan-edms.com/">their website</a>.</s>
-</p>
-
-<p>
-    I just learned that the creator of Mayan EDMS is having a hard time due to the devastation caused by hurricane Maria.
-    Head over to his <a href="https://www.mayan-edms.com/post/hurricane-maria/">blog</a> for information on how you can give him a hand, thank you.
-</p>
-
 </div>
 
 <h2 align="center">Screenshots</h2>
@@ -62,4 +56,3 @@
 
 - To the Mayan EDMS community for their support and cool helping me refocus Open Paperless.
 - To the super styling Roberto Rosario for his awesome work on Mayan EDMS and for being a great example of a community leader. Many projects and people could learn a lot from him.
-- DjangoGirls for the support during these initial times getting Open Paperless off the ground.
