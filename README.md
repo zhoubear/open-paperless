@@ -1,9 +1,9 @@
 <div align="center">
-  <big>Something new is coming...</big>
+  <strong>Something new is coming...</strong><br>
   <a href="https://openpaperless.com">
     <img width="600" heigth="195" src="https://github.com/zhoubear/open-paperless/raw/master/contrib/openpaperless2.png">
   </a>
-
+  <br><br>
   <a href="https://openpaperless.com">
     <img width="600" heigth="195" src="https://github.com/zhoubear/open-paperless/raw/master/contrib/logo.png">
   </a>
