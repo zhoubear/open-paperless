@@ -1,5 +1,7 @@
 <div align="center">
-  <strong>Something new is coming...</strong><br>
+<strong>Open Paperless has been acquired by Mayan EDMS!</strong><br>
+  <a href="https://forum.mayan-edms.com/viewtopic.php?f=2&t=69">Read the official announcement</a><br>
+<strong>Something new is coming...</strong><br>
   <a href="https://openpaperless.com">
     <img width="600" heigth="195" src="https://github.com/zhoubear/open-paperless/raw/master/contrib/openpaperless2.png">
   </a>
